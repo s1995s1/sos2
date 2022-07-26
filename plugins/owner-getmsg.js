@@ -8,6 +8,6 @@ await _m.copyNForward(m.chat, true)
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'get' + v + ' <text>')
 handler.tags = ['database']
-handler.command = /^ver(vn|msg|video|audio|img|sticker)$/
+handler.command = /^ver(vn|msg|video|audio|img|стикер)$/
 handler.rowner = true
 export default handler
