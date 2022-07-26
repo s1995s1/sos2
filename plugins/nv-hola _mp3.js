@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(Привет|Привет|Привет🤖|ola🤖)$/i
+handler.command = /^(Привет|ola|Hola🤖|ola🤖)$/i
 handler.fail = null
 handler.exp = 100
 export default handler
