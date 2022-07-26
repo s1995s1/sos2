@@ -20,8 +20,8 @@ ADVERTENCIA: HEROKU ESTA SUSPENDIENDO CUENTAS POR SOLO USAR EL BOT, POR AHORA NO
 ```
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/IdkJhus/NotJhuz-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/IdkJhus/NotJhuz-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/s1995s1/sos2/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/s1995s1/sos2/blob/master/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾`
 ```bash
@@ -35,8 +35,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/IdkJhus/NotJhuz-MD
-> cd NotJhuz-MD
+> git clone https://github.com/s1995s1/sos2
+> cd sos2
 > yarn install 
 > npm install
 > npm update
@@ -47,7 +47,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd NotJhuz-MD
+> cd sos2
 > npm start
 ```
 
@@ -55,13 +55,13 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd NotJhuz-MD
+> cd sos2
 > rm -rf session.data.json
 > npm start
 ```
 
 ### `—◉ 🔥 ACTIVAR EN BOXMINEHOST 🔥`
-<img src="https://raw.githubusercontent.com/IdkJhus/NotJhuz-MD/master/src/Pre%20Bot%20Publi.png" alt="GIF" width="450" height="240"/>
+<img src="https://raw.githubusercontent.com/IdkJhus/sos2/master/src/Pre%20Bot%20Publi.png" alt="GIF" width="450" height="240"/>
 <p>> Pagina Oficial:
 <a href="https://boxmineworld.com">https://boxmineworld.com</a>
 <p>> Dashboard:
