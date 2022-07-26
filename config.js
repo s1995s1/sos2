@@ -5,9 +5,8 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['79010070455', '👑 Бот Царя 👑', true],
-  ['79010070455', '🤖 Бот Царя 🤖', true],
-  ['79010070455']
+  ['50257681618', '𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×', true],
+  ['50230118401', '𝐍𝐨𝐭𝐉𝐡𝐮𝐳ᙆ  ᷦ', true],
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
@@ -64,12 +63,12 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '(Бот Царя)'
-global.author = '★Бот Царя★'
+global.packname = '𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×'
+global.author = '★ 𝐍𝐨𝐭𝐉𝐡𝐮𝐳ᙆ  ᷦ★'
 
-global.wm = '★Бот Царя★'
-global.igfg = '★Бот Царя★'
-global.wait = '*⌛ _Загрузка..._ ▬▬▬▭*'
+global.wm = '★ 𝐍𝐨𝐭𝐉𝐡𝐮𝐳ᙆ  ᷦ★'
+global.igfg = '★ 𝐍𝐨𝐭𝐉𝐡𝐮𝐳ᙆ  ᷦ★'
+global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
