@@ -163,8 +163,8 @@ let str = `
 
 *<ГРУППЫ/>* 
 
-° ඬ⃟💎 _${usedPrefix}добавить *<numero>*_
-° ඬ⃟💎 _${usedPrefix}удалить *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}добавить *<номер>*_
+° ඬ⃟💎 _${usedPrefix}удалить *<@номер>*_
 ° ඬ⃟💎 _${usedPrefix}группа *<abrir / cerrar>*_
 ° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
@@ -175,7 +175,7 @@ let str = `
 ° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
+° ඬ⃟💎 _${usedPrefix}личныйпривет *<текст>*_
 ° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
 
@@ -365,15 +365,15 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 
 ° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
-° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
-° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
+° ඬ⃟👽 _${usedPrefix}с *<responder a imagen o video>*_
+° ඬ⃟👽 _${usedPrefix}с *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
 ° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
 ° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}slap *<@tag>_
-° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
+° ඬ⃟👽 _${usedPrefix}поцелуй *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}dado_
 ° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
 ° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
@@ -419,7 +419,7 @@ conn.sendHydrated2(m.chat, str, wm, pp, 'ДА ДА ИМЕННО ТЕБЯ Я ХО
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 throw e
 }}
-handler.command = /^(menu|menu3|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|ayuda3|commands3|commandos3)$/i
+handler.command = /^(меню|menu3|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|ayuda3|commands3|commandos3)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
