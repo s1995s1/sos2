@@ -74,8 +74,8 @@ let str = `
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
 ° ඬ ⃟ 💟 _${usedPrefix}infobot_
 ° ඬ ⃟ 💟 _${usedPrefix}grouplist_
-° ඬ ⃟ 💟 _${usedPrefix}owner_
-° ඬ ⃟ 💟 _${usedPrefix}script_
+° ඬ ⃟ 💟 _${usedPrefix}создатель_
+° ඬ ⃟ 💟 _${usedPrefix}царь бота_
 ° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *<ПРИСОЕДИНЕНИЕ БОТА К ГРУППЕ/>*
@@ -111,7 +111,7 @@ let str = `
 
 *<ВКЛЮЧИТЬ ИЛИ ВЫКЛЮЧИТЬ/>*
 
-° ඬ⃟☑️ _${usedPrefix}приветствие*_
+° ඬ⃟☑️ _${usedPrefix}вкл приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
 ° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
 ° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_

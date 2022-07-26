@@ -9,5 +9,5 @@ ptt: true
 })
 }
 handler.customPrefix = /ª|a|A/
-handler.command = /^(a|ª|A?$)/
+handler.command = /^(Привет|ª|A?$)/
 export default handler

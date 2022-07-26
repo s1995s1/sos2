@@ -33,5 +33,5 @@ await conn.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^(owner|creator|creador|propietario)$/i
+handler.command = /^(создатель|creator|creador|propietario)$/i
 export default handler
