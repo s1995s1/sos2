@@ -111,7 +111,7 @@ let str = `
 
 *<ВКЛЮЧИТЬ ИЛИ ВЫКЛЮЧИТЬ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
+° ඬ⃟☑️ _${usedPrefix}приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
 ° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
 ° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
@@ -163,15 +163,15 @@ let str = `
 
 *<ГРУППЫ/>* 
 
-° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+° ඬ⃟💎 _${usedPrefix}добавить *<numero>*_
+° ඬ⃟💎 _${usedPrefix}удалить *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}группа *<abrir / cerrar>*_
 ° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}infogroup_
-° ඬ⃟💎 _${usedPrefix}link_
+° ඬ⃟💎 _${usedPrefix}ссылка_
 ° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_

@@ -59,6 +59,6 @@ conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/+79010070455', 'НОМЕР
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(меню2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
 export default  handler

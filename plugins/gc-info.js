@@ -35,6 +35,6 @@ conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmi
 }
 handler.help = ['infogrup']
 handler.tags = ['group']
-handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc))$/i
+handler.command = /^(группа|gro?upinfo|info(gro?up|gc))$/i
 handler.group = true
 export default handler
