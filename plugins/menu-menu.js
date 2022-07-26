@@ -397,7 +397,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}bc *<texto>*_
+° ඬ⃟👑 _${usedPrefix}обьявление *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}cleartpm_
