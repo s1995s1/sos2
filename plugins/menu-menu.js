@@ -170,7 +170,7 @@ let str = `
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}infogroup_
+° ඬ⃟💎 _${usedPrefix}инфогруппы_
 ° ඬ⃟💎 _${usedPrefix}ссылка_
 ° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
@@ -190,11 +190,11 @@ let str = `
 
 *<ЭФЕКТЫ И ОЗЕРА/>*
 
-° ඬ⃟🖍️ _${usedPrefix}logos *<efecto> <texto>*_
-° ඬ⃟🖍️ _${usedPrefix}simpcard *<@tag>*_
-° ඬ⃟🖍️ _${usedPrefix}hornycard *<@tag>*_
-° ඬ⃟🖍️ _${usedPrefix}lolice *<@tag>*_
-° ඬ⃟🖍️ _${usedPrefix}ytcomment *<texto>*_
+° ඬ⃟🖍️ _${usedPrefix}logos *<efecto> <текст>*_
+° ඬ⃟🖍️ _${usedPrefix}simpcard *<@немер>*_
+° ඬ⃟🖍️ _${usedPrefix}hornycard *<@номер>*_
+° ඬ⃟🖍️ _${usedPrefix}lolice *<@номер>*_
+° ඬ⃟🖍️ _${usedPrefix}ytcomment *<текст>*_
 ° ඬ⃟🖍️ _${usedPrefix}itssostupid_
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
 ° ඬ⃟🖍️ _${usedPrefix}blur_
@@ -267,27 +267,27 @@ let str = `
 
 *<ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆/>*
 
-° ඬ⃟📳 _${usedPrefix}start_
+° ඬ⃟📳 _${usedPrefix}старт_
 ° ඬ⃟📳 _${usedPrefix}next_
 ° ඬ⃟📳 _${usedPrefix}leave_
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
-° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}apkdone *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}apkgoogle *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}apkmody *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}apkshub *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}happymod *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}hostapk *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}revdl *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}toraccino *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}uapkpro *<texto>*_
+° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}animeinfo *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}google *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}letra *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}wikipedia *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}ytsearch *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}apkdone *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}apkgoogle *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}apkmody *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}apkshub *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}happymod *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}hostapk *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}revdl *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}toraccino *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}uapkpro *<текст>*_
 
 *<𝔸𝕌𝔻𝕀𝕆𝕊/>* 
 *- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 ДРУГОЕ𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)* 
