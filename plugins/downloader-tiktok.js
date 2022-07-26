@@ -16,5 +16,5 @@ conn.sendFile(m.chat, json.result.nowatermark, 'error.mp4', `_𝐍𝐨𝐭𝐉�
 }
 handler.help = ['tiktok' , 'tiktokaudio'].map(v => v + ' <link>')
 handler.tags = ['downloader']
-handler.command = ['tiktok', 'tiktokaudio']
+handler.command = ['тикток', 'tiktokaudio']
 export default handler
