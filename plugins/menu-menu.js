@@ -138,7 +138,7 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}тикток *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
@@ -147,7 +147,7 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play *<texto>*_
+° ඬ⃟📥 _${usedPrefix}плай *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
@@ -159,7 +159,7 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}tiktok *<nombre de usuario>*_
 
 *<ГРУППЫ/>* 
 
