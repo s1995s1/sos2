@@ -7,5 +7,5 @@ ${txt}
 }
 handler.help = ['groups', 'grouplist']
 handler.tags = ['info']
-handler.command = /^(группа|grouplist|listadegrupo|gruposlista|listagrupos)$/i
+handler.command = /^(всегруппы|grouplist|listadegrupo|gruposlista|listagrupos)$/i
 export default handler
