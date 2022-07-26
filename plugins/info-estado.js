@@ -9,7 +9,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
 ╭─[ *𝐍𝐨𝐭𝐉𝐡𝐮𝐳ᙆ  ᷦ - MD* ]
-│ *➤ 𝙷𝙾𝙻𝙰 ${name}*
+│ *➤ ПРИВЕТ ${name}*
 │
 │ *ミ🤖 𝙴𝚂𝚃𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 🤖彡*
 │ *=> 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅*
@@ -18,8 +18,8 @@ let estado =`
 ╰───────────────
 `.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/IdkJhus', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13', 'НЕ СМОТРИ', null, null, [
+['ПОЛНОЕ МЕНЮ', '/menu']
 ], m)}
 
 handler.help = ['estado']
