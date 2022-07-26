@@ -369,12 +369,12 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👽 _${usedPrefix}с *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
 ° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
-° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик *<текст>*_
 ° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}slap *<@tag>_
 ° ඬ⃟👽 _${usedPrefix}поцелуй *<@tag>*_
-° ඬ⃟👽 _${usedPrefix}dado_
+° ඬ⃟👽 _${usedPrefix}зарик_
 ° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
 ° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
 ° ඬ⃟👽 _${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_

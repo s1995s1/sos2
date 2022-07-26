@@ -5,5 +5,5 @@ conn.sendFile(m.chat, global.API('xteam', '/attp', { file: '', text: teks }), 'a
 }
 handler.help = ['attp <teks>']
 handler.tags = ['sticker']
-handler.command = /^attp$/i
+handler.command = /^стик$/i
 export default handler
