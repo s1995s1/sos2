@@ -18,7 +18,7 @@ throw `
 await conn.groupSettingUpdate(m.chat, isClose)
 {m.reply('*[ ✔ ] ГРУППА НАСТРОЕНА ПРАВИЛЬНО*')}
 }
-handler.help = ['group open / close', 'grupo abrir / cerrar']
+handler.help = ['группа открыть / close', 'grupo abrir / cerrar']
 handler.tags = ['group']
 handler.command = /^(группа|grupo)$/i
 handler.admin = true
