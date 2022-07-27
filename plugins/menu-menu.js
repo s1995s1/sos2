@@ -206,8 +206,8 @@ let str = `
 ° ඬ⃟ 🔞 _${usedPrefix}парень
 ° ඬ⃟ 🔞 _${usedPrefix}секси
 ° ඬ⃟ 🔞 _${usedPrefix}аниме
-° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
-° ඬ⃟👾 _${usedPrefix}lolivid_
+° ඬ⃟👾 _${usedPrefix}аниме2
+° ඬ⃟👾 _${usedPrefix}член
 ° ඬ⃟👾 _${usedPrefix}loli_
 ° ඬ⃟👾 _${usedPrefix}navidad_
 ° ඬ⃟👾 _${usedPrefix}ppcouple_
