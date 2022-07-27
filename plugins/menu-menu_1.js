@@ -82,13 +82,13 @@ let texto1 = `╭═─═─═─═─═─═╮
 01╠ Bot (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 02╠ admins (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 03╠ ${usedPrefix}grupos
-04╠ ${usedPrefix}estado
-05╠ ${usedPrefix}infobot
-06╠ ${usedPrefix}donar
-07╠ ${usedPrefix}grouplist
+04╠ ${usedPrefix}статус
+05╠ ${usedPrefix}инфобот
+06╠ ${usedPrefix}донат
+07╠ ${usedPrefix}групплист
 08╠ ${usedPrefix}owner
 09╠ ${usedPrefix}script
-10╠ ${usedPrefix}join
+10╠ ${usedPrefix}присоединиться
 11╠ ${usedPrefix}mates
 12╠ ${usedPrefix}ppt 
 13╠ ${usedPrefix}prostituto 
@@ -263,7 +263,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 181╠ ${usedPrefix}next
 182╠ ${usedPrefix}leave
 183╠ ${usedPrefix}animeinfo
-184╠ ${usedPrefix}google
+184╠ ${usedPrefix}гугол
 185╠ ${usedPrefix}letra
 186╠ ${usedPrefix}wikipedia
 187╠ ${usedPrefix}ytsearch
@@ -298,21 +298,20 @@ let texto1 = `╭═─═─═─═─═─═╮
 210╠ ${usedPrefix}transfer
 210╠ ${usedPrefix}verificar
 210╠ ${usedPrefix}unreg
-210╠ ${usedPrefix}sticker
+210╠ ${usedPrefix}стикер
 220╠ ${usedPrefix}emojimix
 221╠ ${usedPrefix}semoji
 222╠ ${usedPrefix}attp
 223╠ ${usedPrefix}ttp
 224╠ ${usedPrefix}pat
 225╠ ${usedPrefix}slap
-226╠ ${usedPrefix}kiss
+226╠ ${usedPrefix}поцелуй
 227╠ ${usedPrefix}dado
 228╠ ${usedPrefix}wm
 229╠ ${usedPrefix}stickermarker
 230╠ ${usedPrefix}stickerfilter
 232╠ ${usedPrefix}menucompleto
 233╠ ${usedPrefix}menuaudios
-234╠ ${usedPrefix}menu2
 235╠ ${usedPrefix}menu3
 236╠ ${usedPrefix}playlist
 237╠ ${usedPrefix}playlist2
@@ -372,7 +371,7 @@ contextInfo: {
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menucompleto|menu3|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|ayuda3|commands3|commandos3)$/i
+handler.command = /^(menucompleto|меню|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|ayuda3|commands3|commandos3)$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)

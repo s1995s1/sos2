@@ -45,7 +45,7 @@ sourceUrl: `ХРЕН ВАМ ХА ХА ХА`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
-handler.command = /^(ping|speed|infobot)$/i
+handler.command = /^(инфобот|speed|infobot)$/i
 export default handler
 
 function clockString(ms) {
