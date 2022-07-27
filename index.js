@@ -17,7 +17,7 @@ say('Бот Царя\загрузка-ожидайте', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Ураа я увидел белый свет своими глазами, Создатель,Ты красафчек`, {
+say(`Ураа я увидел белый свет своими глазами, Создатель, Ты красафчек`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -32,7 +32,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('Ajuste la pantalla para escanear el codigo QR', {
+say('сканируйте код QR', {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
