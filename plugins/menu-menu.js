@@ -204,7 +204,7 @@ let str = `
 ° ඬ⃟ 🔞 _${usedPrefix}девушка
 ° ඬ⃟ 🔞 _${usedPrefix}девушка2
 ° ඬ⃟ 🔞 _${usedPrefix}парень
-° ඬ⃟ 🔞 _${usedPrefix}сексвидео
+° ඬ⃟ 🔞 _${usedPrefix}секси
 ° ඬ⃟👾 _${usedPrefix}blackpink_
 ° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ° ඬ⃟👾 _${usedPrefix}lolivid_
