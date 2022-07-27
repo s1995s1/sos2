@@ -140,14 +140,14 @@ let texto1 = `╭═─═─═─═─═─═╮
 59╠ ${usedPrefix}igstalk
 60╠ ${usedPrefix}igstory
 61╠ ${usedPrefix}tiktokstalk
-62╠ ${usedPrefix}add
-63╠ ${usedPrefix}kick
+62╠ ${usedPrefix}добавить
+63╠ ${usedPrefix}удалить
 64╠ ${usedPrefix}grupo
 65╠ ${usedPrefix}promote
 66╠ ${usedPrefix}demote
 67╠ ${usedPrefix}demote 
 68╠ ${usedPrefix}infogroup
-69╠ ${usedPrefix}link
+69╠ ${usedPrefix}ссылка
 70╠ ${usedPrefix}setname 
 71╠ ${usedPrefix}setdesc
 72╠ ${usedPrefix}invocar

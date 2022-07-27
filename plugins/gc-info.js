@@ -28,7 +28,7 @@ ${listAdmin}
 —◉ Тест: ${detect ? '✅' : '❌'} 
 —◉ Антиссылка: ${antiLink ? '✅' : '❌'} 
 —◉ Аантиссылка 𝟸: ${antiLink2 ? '✅' : '❌'} 
-—◉ 𝙼𝙾𝙳𝙾 𝙷𝙾𝚁𝙽𝚈: ${modohorny ? '✅' : '❌'} 
+—◉ Режим норм: ${modohorny ? '✅' : '❌'} 
 —◉ Авто стикер: ${autosticker ? '✅' : '❌'} 
 —◉ Аудие: ${audios ? '✅' : '❌'} 
 `.trim()
@@ -36,6 +36,6 @@ conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmi
 }
 handler.help = ['infogrup']
 handler.tags = ['group']
-handler.command = /^(infogrupo|gro?upinfo|info(gro?up|gc))$/i
+handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc))$/i
 handler.group = true
 export default handler
