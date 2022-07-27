@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('𝓒𝓐𝓡\『C』『A』『R』', {
+say('【C】【A】【R】\ 【R】【U】【L】【I】【T】', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
