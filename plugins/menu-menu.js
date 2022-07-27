@@ -201,10 +201,10 @@ let str = `
 
 *<СЛУЧАЙНЫЙ/>*
 
-° ඬ⃟👾 _${usedPrefix}cristianoronaldo_
-° ඬ⃟👾 _${usedPrefix}messi_
-° ඬ⃟👾 _${usedPrefix}meme_
-° ඬ⃟👾 _${usedPrefix}itzy_
+° ඬ⃟ 🔞 _${usedPrefix}девушка
+° ඬ⃟ 🔞 _${usedPrefix}messi_
+° ඬ⃟ 🔞 _${usedPrefix}meme_
+° ඬ⃟ 🔞 _${usedPrefix}itzy_
 ° ඬ⃟👾 _${usedPrefix}blackpink_
 ° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ° ඬ⃟👾 _${usedPrefix}lolivid_
