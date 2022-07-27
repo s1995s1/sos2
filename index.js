@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Бот Царя\загрузка-ожидайте', {
+say('𝓒𝓐𝓡\『C』『A』『R』', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -32,7 +32,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('сканируйте код QR', {
+say('♱✞✟ QR', {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
