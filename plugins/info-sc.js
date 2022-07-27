@@ -26,5 +26,5 @@ let buttonMessage= {
 {buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
-handler.command = ['sc','script']
+handler.command = ['дайкишки','scri']
 export default handler

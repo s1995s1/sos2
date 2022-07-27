@@ -71,7 +71,7 @@ let str = `
 
 *<ИНФОРМАЦЫЯ О БОТЕ/>*
 
-° ඬ ⃟ 💟 _${usedPrefix}estado_
+° ඬ ⃟ 💟 _${usedPrefix}статус_
 ° ඬ ⃟ 💟 _${usedPrefix}инфобот_
 ° ඬ ⃟ 💟 _${usedPrefix}всегруппы_
 ° ඬ ⃟ 💟 _${usedPrefix}создатель_
@@ -365,8 +365,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 
 ° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
-° ඬ⃟👽 _${usedPrefix}с *<responder a imagen o video>*_
-° ඬ⃟👽 _${usedPrefix}с *<enlace / link / url>*_
+° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
+° ඬ⃟👽 _${usedPrefix}сстикер *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
 ° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
 ° ඬ⃟👽 _${usedPrefix}стик *<текст>*_
