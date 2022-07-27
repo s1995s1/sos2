@@ -15,12 +15,12 @@ conn.sendHydrated(m.chat, `
 ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
-['АУДИО', `${usedPrefix}yta.2 ${url}`],
-['ВИДЕО', `${usedPrefix}ytv.2 ${url}`]
+['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url}`],
+['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url}`]
 ], m)
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 console.log(e)
 }}
-handler.command = /^play3|playdoc?$/i
+handler.command = /^плей3|playdoc?$/i
 export default handler

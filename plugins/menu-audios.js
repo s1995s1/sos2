@@ -8,10 +8,10 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let name = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 _${name}_ 💖彡*
+*ミ💖 ПРИВЕТ _${name}_ 💖彡*
 
-*<𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒/>*
-*- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
+*<МЕНЮ АУДИО/>*
+*- ВВЕДИТЕ ДРУГОЕУЮЩИЕ СЛОВА ИЛИ ФРАЗЫ БЕЗ КАККИХ-ЛИБО ПРИФЕКСОВ (#, /, *, .)*
 
 ° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ° ඬ⃟🔊 _Te diagnostico con gay_
@@ -53,12 +53,12 @@ let str = `
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'ДА ХУЙ ТЕБЕ ХА ХА ХА', 'ЗАГЛЯНИ', null, null, [
-['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
+conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/+79010070455', 'НОМЕР', null, null, [
+['ОСНОВНОЕ МЕНЮ', '/menu']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(меню2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
 export default  handler

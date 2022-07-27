@@ -26,7 +26,7 @@ mentionedJid: [room.p, room.p2]
 }
 })
     
-if (!room.pilih) this.sendHydrated(room.p, '*𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚄𝙽𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂*', `𝙶𝙰𝙽𝙰𝙳𝙾𝚁 +${room.poin} 𝚇𝙿\n𝙿𝙴𝚁𝙳𝙴𝙳𝙾𝚁 -${room.poin_lose} 𝚇𝙿\n𝙴𝙼𝙿𝙰𝚃𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['PIEDRA 🗿', 'Piedra'], ['PAPEL 📄', 'Papel'], ['TIJERA ✂️', 'Tijera']], m)
+if (!room.pilih) this.sendHydrated(room.p, '*𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚄𝙽𝙰 𝙳𝙴 𝙻𝙰𝚂 ДРУГОЕ𝚂 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂*', `𝙶𝙰𝙽𝙰𝙳𝙾𝚁 +${room.poin} 𝚇𝙿\n𝙿𝙴𝚁𝙳𝙴𝙳𝙾𝚁 -${room.poin_lose} 𝚇𝙿\n𝙴𝙼𝙿𝙰𝚃𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['PIEDRA 🗿', 'Piedra'], ['PAPEL 📄', 'Papel'], ['TIJERA ✂️', 'Tijera']], m)
     
 if (!room.pilih2) this.sendHydrated(room.p2, '*𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚄𝙽𝙰 𝙳𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙾𝙿𝙲𝙸𝙾𝙽𝙴𝚂*', `𝙶𝙰𝙽𝙰𝙳𝙾𝚁 +${room.poin} 𝚇𝙿\n𝙿𝙴𝚁𝙳𝙴𝙳𝙾𝚁 -${room.poin_lose} 𝚇𝙿\n𝙴𝙼𝙿𝙰𝚃𝙴 +${room.poin_bot} 𝚇𝙿`, null, null, null, null, null, [['PIEDRA 🗿', 'Piedra'], ['PAPEL 📄', 'Papel'], ['TIJERA ✂️', 'Tijera']], m)
                                     

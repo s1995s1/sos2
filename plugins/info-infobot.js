@@ -18,34 +18,34 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
-╠═〘 БОТ ИНФО 〙 ═
+╠═〘 ИНФО О БОТЕ 〙 ═
 ╠
-╠➥ [🤴🏻] СОЗДАТЕЛЬ: *ЦАРЬ*
-╠➥ [#️⃣] НОМЕР СОЗДАТЕЛЯ: *+79010070455*
+╠➥ [🤴🏻] СОЗДАТЕЛЬ: *Jhus*
+╠➥ [#️⃣] НЕМЕР СОЗДАТЕЛЯ: *+79010070455*
 ╠➥ [🎳] ПРЕФИКС: *${usedPrefix}*
 ╠➥ [🔐] ПРИВАТНЫЕ ЧАТЫ: *${chats.length - groups.length}*
-╠➥ [🦜] ГРУППОВЫЕ ЧАТЫ: *${groups.length}* 
+╠➥ [🦜] ЧАТЫ ГРУПП: *${groups.length}* 
 ╠➥ [💡] ВСЕГО ЧАТОВ: *${chats.length}* 
 ╠➥ [🚀] АКТИВНОСТЬ: *${uptime}*
 ╠➥ [🎩] ПОЛЬЗОВАТЕЛИ: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
 ╠➥ [👨‍🦯] СКОРОСТЬ: 
 ╠  *${speed}* 
-╠  *Милисекунды*
+╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
 ╠➥ [☑️] АВТОЧИТАНИЕ: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
-╠➥ [❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
+╠➥ [❗] ОГРАНИЧИВАТЬ: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
 ╠
-╠═〘 Бот Царя 〙 ═
+╠═〘 Бот Царяᙆ  ᷦ 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: 'ИНФО БОТ',
-body: 'БОТ ЦАРЯ',         
+title: 'ИНФО О БОТЕ',
+body: 'Бот Царяᙆ  ᷦ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `ХРЕН ВАМ ХА ХА ХА`}}})
+sourceUrl: `http://risovach.ru/upload/2013/10/mem/tvoe-vyrazhenie-lica_31598950_orig_.jpeg`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
-handler.command = /^(инфобот|speed|infobot)$/i
+handler.command = /^(ping|speed|инфобот)$/i
 export default handler
 
 function clockString(ms) {

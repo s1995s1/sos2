@@ -1,4 +1,4 @@
-console.log('ЗАГРУЗКА...')
+console.log('✅ㅤIniciando...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Mystic - Bot\nWhatsApp Bot MD', {
+say('【C】【A】【R】\ 【R】【U】【L】【I】【T】', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por Bruno Sobrino`, {
+say(`Ураа я увидел белый свет своими глазами, Создатель, Ты красафчек`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -32,7 +32,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('Ajuste la pantalla para escanear el codigo QR', {
+say('♱✞✟ QR', {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})

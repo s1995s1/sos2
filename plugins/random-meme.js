@@ -3,7 +3,7 @@ let handler = async (m, {command, conn}) => {
 let res = await axios(pickRandom(meme))
 let json = res.data
 let url = json.url
-conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)
+conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 ДРУГОЕ 🔄', `/${command}`]], m)
 }
 handler.help = ['meme']
 handler.tags = ['random']
