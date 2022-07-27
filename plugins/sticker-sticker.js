@@ -43,8 +43,8 @@ else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙾�
 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
-handler.tags = ['stiker']
-handler.command = /^стикер(sti?ker)?(gif)?(wm)?$/i
+handler.tags = ['sticker']
+handler.command = /^стикер(tic?ker)?(gif)?(wm)?$/i
 export default handler
 
 const isUrl = (text) => {
