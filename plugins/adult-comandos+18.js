@@ -64,7 +64,7 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/lesbians")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}     
-if (command == 'ух') {
+if (command == 'девушки3') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/panties")
 let json = res.data
 let url = json.url
@@ -74,32 +74,32 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/penis")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'ух2') {
+if (command == 'девушка4') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/nsfw")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'ух3') {
+if (command == 'порно') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/porngif")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'randomxxx') {
+if (command == 'ух') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/nsfw")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'pechos') {
+if (command == 'ух2') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/sideboobs")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'yaoi') {
+if (command == 'ух3') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/yaoigif")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'yaoi2') {
+if (command == 'ух4') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/yaoi")
 let json = res.data
 let url = json.url
@@ -116,6 +116,6 @@ let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
 }  
 handler.help = ['nsfwloli', 'аниме', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'pies', 'yuri', 'yuri2', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'porno2', 'randomxxx', 'pechos']
-handler.command = ['аниме2', 'аниме', 'член', 'аниме3', 'аниме4', 'аниме5', 'аниме6', 'аниме7', 'аниме8', 'аниме9', 'сиськи',  'ух', 'ух2', 'ух3', 'аниме10', 'жопа', 'лесбиянки',      ]
+handler.command = ['аниме2', 'аниме', 'член', 'аниме3', 'аниме4', 'аниме5', 'аниме6', 'аниме7', 'аниме8', 'аниме9', 'сиськи',  'ух', 'ух2', 'ух3', 'аниме10', 'жопа', 'лесбиянки', 'девушка', 'девушка2', 'девушка3', 'девушка4', 'порно', 'ух4',        ]
 handler.tags = ['nsfw']
 export default  handler
