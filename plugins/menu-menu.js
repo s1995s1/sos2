@@ -202,8 +202,8 @@ let str = `
 *<СЛУЧАЙНЫЙ/>*
 
 ° ඬ⃟ 🔞 _${usedPrefix}девушка
-° ඬ⃟ 🔞 _${usedPrefix}messi_
-° ඬ⃟ 🔞 _${usedPrefix}meme_
+° ඬ⃟ 🔞 _${usedPrefix}девушка2
+° ඬ⃟ 🔞 _${usedPrefix}девушка3
 ° ඬ⃟ 🔞 _${usedPrefix}itzy_
 ° ඬ⃟👾 _${usedPrefix}blackpink_
 ° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
