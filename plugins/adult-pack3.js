@@ -6,7 +6,7 @@ conn.sendButton(m.chat, `_🥵 Pack 3 🥵_`, author, url, [['🔄 СЛЕД 🔄
 }
 handler.help = ['pack3']
 handler.tags = ['internet']
-handler.command = /^(девушка3)$/i
+handler.command = /^(парень)$/i
 export default handler
 
 global.packmen = [
