@@ -104,7 +104,7 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/yaoi")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'yuri') {
+if (command == 'ух') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/yuri")
 let json = res.data
 let url = json.url
