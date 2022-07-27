@@ -209,16 +209,26 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}аниме2
 ° ඬ⃟👾 _${usedPrefix}аниме3
 ° ඬ⃟👾 _${usedPrefix}аниме4
-° ඬ⃟👾 _${usedPrefix}
-° ඬ⃟👾 _${usedPrefix}
-° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}аниме5
+° ඬ⃟👾 _${usedPrefix}аниме6
+° ඬ⃟👾 _${usedPrefix}аниме7
+° ඬ⃟👾 _${usedPrefix}аниме8
+° ඬ⃟👾 _${usedPrefix}аниме9
+° ඬ⃟👾 _${usedPrefix}аниме10
 ° ඬ⃟👾 _${usedPrefix}член
-° ඬ⃟👾 _${usedPrefix}akira_
-° ඬ⃟👾 _${usedPrefix}akiyama_
-° ඬ⃟👾 _${usedPrefix}anna_
-° ඬ⃟👾 _${usedPrefix}asuna_
-° ඬ⃟👾 _${usedPrefix}ayuzawa_
-° ඬ⃟👾 _${usedPrefix}boruto_
+° ඬ⃟👾 _${usedPrefix}жопа
+° ඬ⃟👾 _${usedPrefix}сиськи
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+
+
+
+
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
