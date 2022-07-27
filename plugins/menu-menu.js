@@ -207,12 +207,12 @@ let str = `
 ° ඬ⃟ 🔞 _${usedPrefix}секси
 ° ඬ⃟ 🔞 _${usedPrefix}аниме
 ° ඬ⃟👾 _${usedPrefix}аниме2
+° ඬ⃟👾 _${usedPrefix}аниме3
+° ඬ⃟👾 _${usedPrefix}аниме4
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}
 ° ඬ⃟👾 _${usedPrefix}член
-° ඬ⃟👾 _${usedPrefix}loli_
-° ඬ⃟👾 _${usedPrefix}navidad_
-° ඬ⃟👾 _${usedPrefix}ppcouple_
-° ඬ⃟👾 _${usedPrefix}neko_
-° ඬ⃟👾 _${usedPrefix}waifu_
 ° ඬ⃟👾 _${usedPrefix}akira_
 ° ඬ⃟👾 _${usedPrefix}akiyama_
 ° ඬ⃟👾 _${usedPrefix}anna_
