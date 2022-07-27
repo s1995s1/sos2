@@ -275,7 +275,7 @@ let str = `
 
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<текст>*_
-° ඬ⃟🔍 _${usedPrefix}google *<текст>*_
+° ඬ⃟🔍 _${usedPrefix}гугогл *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}wikipedia *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}ytsearch *<текст>*_
