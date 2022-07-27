@@ -219,35 +219,6 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}asuna_
 ° ඬ⃟👾 _${usedPrefix}ayuzawa_
 ° ඬ⃟👾 _${usedPrefix}boruto_
-° ඬ⃟👾 _${usedPrefix}chiho_
-° ඬ⃟👾 _${usedPrefix}chitoge_
-° ඬ⃟👾 _${usedPrefix}deidara_
-° ඬ⃟👾 _${usedPrefix}erza_
-° ඬ⃟👾 _${usedPrefix}elaina_
-° ඬ⃟👾 _${usedPrefix}eba_
-° ඬ⃟👾 _${usedPrefix}emilia_
-° ඬ⃟👾 _${usedPrefix}hestia_
-° ඬ⃟👾 _${usedPrefix}hinata_
-° ඬ⃟👾 _${usedPrefix}inori_
-° ඬ⃟👾 _${usedPrefix}isuzu_
-° ඬ⃟👾 _${usedPrefix}itachi_
-° ඬ⃟👾 _${usedPrefix}itori_
-° ඬ⃟👾 _${usedPrefix}kaga_
-° ඬ⃟👾 _${usedPrefix}kagura_
-° ඬ⃟👾 _${usedPrefix}kaori_
-° ඬ⃟👾 _${usedPrefix}keneki_
-° ඬ⃟👾 _${usedPrefix}kotori_
-° ඬ⃟👾 _${usedPrefix}kurumi_
-° ඬ⃟👾 _${usedPrefix}madara_
-° ඬ⃟👾 _${usedPrefix}mikasa_
-° ඬ⃟👾 _${usedPrefix}miku_
-° ඬ⃟👾 _${usedPrefix}minato_
-° ඬ⃟👾 _${usedPrefix}naruto_
-° ඬ⃟👾 _${usedPrefix}nezuko_
-° ඬ⃟👾 _${usedPrefix}sagiri_
-° ඬ⃟👾 _${usedPrefix}sasuke_
-° ඬ⃟👾 _${usedPrefix}sakura_
-° ඬ⃟👾 _${usedPrefix}cosplay_
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
