@@ -218,7 +218,7 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}член
 ° ඬ⃟👾 _${usedPrefix}жопа
 ° ඬ⃟👾 _${usedPrefix}сиськи
-° ඬ⃟👾 _${usedPrefix}
+° ඬ⃟👾 _${usedPrefix}лесбиянки
 ° ඬ⃟👾 _${usedPrefix}
 ° ඬ⃟👾 _${usedPrefix}
 ° ඬ⃟👾 _${usedPrefix}

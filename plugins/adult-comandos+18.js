@@ -49,22 +49,22 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/ecchi")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)} 
-if (command == 'ух') {
+if (command == 'не работает нет') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/Furryporn")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)} 
-if (command == 'ух2') {
+if (command == 'не работает нет') {
 let res = await axios("https://api.waifu.pics/nsfw/trap")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)} 
-if (command == 'ух3') {
+if (command == 'лесбиянки') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/lesbians")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}     
-if (command == 'panties') {
+if (command == 'ух') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/panties")
 let json = res.data
 let url = json.url
@@ -74,12 +74,12 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/penis")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'porno') {
+if (command == 'ух2') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/nsfw")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
-if (command == 'porno2') {
+if (command == 'ух3') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/porngif")
 let json = res.data
 let url = json.url
@@ -116,6 +116,6 @@ let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
 }  
 handler.help = ['nsfwloli', 'аниме', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'nsfwero', 'nsfwfemdom', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'pies', 'yuri', 'yuri2', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'porno2', 'randomxxx', 'pechos']
-handler.command = ['аниме2', 'аниме', 'член', 'аниме3', 'аниме4', 'аниме5', 'аниме6', 'аниме7', 'аниме8', 'аниме9', 'сиськи',  'ух', 'ух2', 'ух3', 'аниме10', 'жопа',       ]
+handler.command = ['аниме2', 'аниме', 'член', 'аниме3', 'аниме4', 'аниме5', 'аниме6', 'аниме7', 'аниме8', 'аниме9', 'сиськи',  'ух', 'ух2', 'ух3', 'аниме10', 'жопа', 'лесбиянки',      ]
 handler.tags = ['nsfw']
 export default  handler
