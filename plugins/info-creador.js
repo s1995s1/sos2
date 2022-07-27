@@ -2,10 +2,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙾𝚆𝙽𝙴𝚁 𝙴𝚂 wa.me/79054731060*
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙾𝚆𝙽𝙴𝚁 𝙴𝚂 wa.me/79010070455*
 `.trim()   
 let buttonMessage= {
-'document': { url: `Wa.me/+79054731060` },
+'document': { url: `Wa.me/+79010070455` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,

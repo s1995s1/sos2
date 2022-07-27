@@ -23,10 +23,10 @@ let donar =`
 *┃ 𝙽𝙴𝙲𝙴𝚂𝙸𝚃𝙰𝚂 𝙼𝙰𝚂*
 *┃ 𝙳𝙰𝚃𝙾𝚂 𝚈 𝙿𝙰𝚁𝙰* 
 *┃ 𝙰𝙶𝚁𝙰𝙳𝙴𝙲𝙴𝚁𝚃𝙴 <𝟹*
-*┃ wa.me/79054731060*
+*┃ wa.me/79010070455*
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'ОБРАТИСЬ К СОЗДАТЕЛЮБОТА Wa.me/+79054731060', 'ОПЛАТИ', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, 'ОБРАТИСЬ К СОЗДАТЕЛЮБОТА Wa.me/+79010070455', 'ОПЛАТИ', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|донат|apoyar$/i

@@ -2,7 +2,7 @@
 
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
 
-<a href="http://wa.me/79054731060" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="http://wa.me/79010070455" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
 ### `—◉ 💰 Донат 💰`
