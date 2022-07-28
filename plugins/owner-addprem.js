@@ -11,7 +11,7 @@ mentionedJid: [who]
 }})}
 handler.help = ['addprem <@user>']
 handler.tags = ['owner']
-handler.command = /^(add|повысить\+)prem$/i
+handler.command = /^(повысить\+)$/i
 handler.group = true
 handler.rowner = true
 export default handler
