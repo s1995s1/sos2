@@ -14,7 +14,7 @@ let donar =`
 ┃ https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13/
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13/', 'НЕ СМОТРИ', null, null, [['ПОЛНОЕ МЕНЮ', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, 'https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13/', 'НЕ СМОТРИ', null, null, [['ПОЛНОЕ МЕНЮ', '/меню']], m)}
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|donar|apoyar$/i
