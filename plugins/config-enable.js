@@ -52,7 +52,7 @@ title: null,
 buttonText: "ВЫБЕРИТЕ ЗДЕСЬ",
 sections }
 
-let isEnable = /true|включить|(turn)?on|1/i.test(command)
+let isEnable = /true|enable|(turn)?on|1/i.test(command)
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[conn.user.jid] || {}
@@ -200,5 +200,5 @@ conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type}
 
 handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(вкл|выкл)ючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^(en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
