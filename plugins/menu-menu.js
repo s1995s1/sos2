@@ -84,10 +84,8 @@ let str = `
 
 *<ИГРЫ/>*
 
-° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}товарищи *<*<нуб / легкий / средний / жесткий / экстремальный /невозможный /невозможный 2>*_
+° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*
 ° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
@@ -224,10 +222,6 @@ let str = `
 ° ඬ⃟ 🔞 _${usedPrefix}жопа
 ° ඬ⃟ 🔞 _${usedPrefix}сиськи
 ° ඬ⃟ 🔞 _${usedPrefix}лесбиянки
-
-
-
-
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 

@@ -57,5 +57,5 @@ throw INTROJUEGO
 }}
 handler.help = ['ppt']
 handler.tags = ['games']
-handler.command = /^(ppt)$/i
+handler.command = /^(игра)$/i
 export default handler
