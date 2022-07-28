@@ -17,7 +17,7 @@ if (Buffer.isBuffer(e)) stiker = e
 if (stiker) conn.sendFile(m.chat, stiker, 'wm.webp', '', m, false, { asSticker: true })
 else throw '*[❗ИНФО❗] ИЗВИНИТЕ ЧТО ТО НЕ ТАК.. УБЕДИТЕСЬ ЧТО ВЫ ОТВЕТИЛИ НА СТИКЕР И ДОБАВИЛИ ИМЯ ПАКЕТА И ИМЯ ПОЛЬЗОВАТЕЛЯ *'
 }}
-handler.help = ['wm <packname>|<author>']
+handler.help = ['переименовать <packname>|<author>']
 handler.tags = ['sticker']
 handler.command = /^wm$/i
 export default handler

@@ -31,5 +31,5 @@ await conn.sendFile(m.chat, apiUrl, 'image.png', null, m)
 }}
 handler.help = ['stickfilter (caption|reply media)']
 handler.tags = ['General']
-handler.command = /^(stickerfilter|stikerfilter|cs2)$/i
+handler.command = /^(стикерфильтер|stikerfilter|cs2)$/i
 export default handler
