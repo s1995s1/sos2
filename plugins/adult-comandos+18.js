@@ -115,7 +115,7 @@ let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}
 }  
-handler.help = ['', 'аниме', 'девушка3', 'девушка4', 'девушка', 'девушка5', 'девушка6', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'pies', 'yuri', 'yuri2', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'porno2', 'randomxxx', 'pechos']
-handler.command = ['девушка3', 'девушка4', 'девушка5', 'девушка6', '',   ]
+handler.help = ['', 'девушка3', 'девушка4', 'девушка5', 'девушка6', 'девушка', 'аниме', 'nsfwfoot', 'nsfwglss', 'nsfworgy', 'pies', 'yuri', 'yuri2', 'yaoi2', 'panties', 'tetas', 'booty', 'ecchi', 'furro', 'hentai', 'trapito', 'imagenlesbians', 'pene', 'porno', 'porno2', 'randomxxx', 'pechos']
+handler.command = ['девушка3', 'девушка4', 'девушка5', 'девушка6', 'девушка', 'аниме',  ]
 handler.tags = ['nsfw']
 export default  handler
