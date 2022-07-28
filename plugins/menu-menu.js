@@ -242,7 +242,6 @@ let str = `
 
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
-° ඬ⃟🛠️ _${usedPrefix}afk *<motivo>*_
 ° ඬ⃟🛠️ _${usedPrefix}acortar *<enlace / link / url>*_
 ° ඬ⃟🛠️ _${usedPrefix}calc *<operacion math>*_
 ° ඬ⃟🛠️ _${usedPrefix}del *<respondre a mensaje del Bot>*_
