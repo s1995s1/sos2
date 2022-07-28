@@ -24,28 +24,28 @@ footer: `
 ┏━━━━━━━━━━━━━┓
 ┣❧ *𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙰 𝚄𝙽𝙰 𝙳𝙴 𝙻𝙰𝚂 𝙾𝙲𝙿𝙸𝙾𝙽𝙴𝚂 𝚀𝚄𝙴 𝚂𝙰𝙻𝙴𝙽 𝙴𝙽 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙻𝙸𝚂𝚃𝙰 𝙾 𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙰𝙻𝙶𝚄𝙽 𝙱𝙾𝚃𝙾𝙽 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *приветствие*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *приветствие*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *общественный*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *общественный*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *антиссылка*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *антиссылка*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *антиссылка2*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *антиссылка2*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *обнаружить*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *обнаружить*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *ограничивать*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *ограничивать*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *толькодляПК*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *толькодляПК*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *толькоgc*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *толькоgc*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *авточтение*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *авточтение*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *аудио*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *аудио*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable  *автостикер*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *автостикер*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *приветствие*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *приветствие*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *общественный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *общественный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *антиссылка*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиссылка*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *антиссылка2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиссылка2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *обнаружить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *обнаружить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *ограничивать*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *ограничивать*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *толькодляПК*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *толькодляПК*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *толькоgc*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *толькоgc*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *авточтение*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *авточтение*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *аудио*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *аудио*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить  *автостикер*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *автостикер*_
 ┗━━━━━━━━━━━━━┛
 ${author}`,
 title: null,
