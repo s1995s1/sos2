@@ -196,9 +196,9 @@ throw false
 }
 conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type} 
 🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧИНА' : 'ОТКЛЮЧИНА'}
-📣 ДЛЯ: ${isAll ? 'ЭТОТ БОТ' : isUser ? '' : 'ЭТОТ ЧАТ'}`, author, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `.выкл ${type}` : `.вкл ${type}`}`],],m)}
+📣 ДЛЯ: ${isAll ? 'ЭТОТ БОТ' : isUser ? '' : 'ЭТОТ ЧАТ'}`, author, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`],],m)}
 
 handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(вкл|выкл)ючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^(вкл|выкл)ючить|)|[01])$/i
 export default handler
