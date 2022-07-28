@@ -9,7 +9,7 @@ conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] @${who.split`@`[0]} 𝙰𝙷𝙾�
 contextInfo: {
 mentionedJid: [who]
 }})}
-handler.help = ['датьпремиум <@user>']
+handler.help = ['addprem <@user>']
 handler.tags = ['owner']
 handler.command = /^(add|\+)prem$/i
 handler.group = true
