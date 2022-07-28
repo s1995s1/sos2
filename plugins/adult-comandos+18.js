@@ -64,7 +64,7 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/lesbians")
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 СЛЕД 🔄', `/${command}`]], m)}     
-if (command == 'девушки3') {
+if (command == 'девушка3') {
 let res = await axios("https://meme-api.herokuapp.com/gimme/panties")
 let json = res.data
 let url = json.url
