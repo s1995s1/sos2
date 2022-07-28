@@ -108,5 +108,5 @@ caption += `
 await conn.reply(m.chat, caption, m)}
 
 }
-handler.command = ['ух', 'apkgoogle', 'apkmody', 'apkshub', 'happymod', 'hostapk', 'revdl', 'toraccino', 'uapkpro']
+handler.command = ['арк', 'apkgoogle', 'apkmody', 'apkshub', 'happymod', 'hostapk', 'revdl', 'toraccino', 'uapkpro']
 export default handler

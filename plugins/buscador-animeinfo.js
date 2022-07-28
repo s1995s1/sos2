@@ -21,5 +21,5 @@ conn.sendFile(m.chat, image_url, '', animeingfo, m)
 }
 handler.help = ['animeinfo <anime>']
 handler.tags = ['internet']
-handler.command = /^(animeinfo)$/i
+handler.command = /^(анимеинфо)$/i
 export default handler
