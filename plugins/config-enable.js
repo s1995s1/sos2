@@ -201,5 +201,5 @@ conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type}
 
 handler.help = ['en', 'вкл', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(включить|вкл)|(выключить|выкл)|[01])$/i
+handler.command = /^(вкл|выкл)ючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
