@@ -197,7 +197,7 @@ throw false
 }
 conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type} 
 🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧИНА' : 'ОТКЛЮЧИНА'}
-📣 ДЛЯ: ${isAll ? 'ЭТОТ БОТ' : isUser ? '' : 'ЭТОТ ЧАТ'}`, author, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`],],m)}
+📣 ДЛЯ: ${isAll ? 'ЭТОТ БОТ' : isUser ? '' : 'ЭТОТ ЧАТ'}`, author, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `.off ${type}` : `.вкл ${type}`}`],],m)}
 
 handler.help = ['en', 'вкл', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
