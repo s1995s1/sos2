@@ -12,10 +12,4 @@ let donar =`
 *┃ 𝙿𝙾𝚁 𝚂𝙸 𝙶𝚄𝚂𝚃𝙰𝚂 𝚂𝙴𝙶𝚄𝙸𝚁𝙼𝙴 :𝟹*
 *┃*
 ┃ https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13/
-*┗ ┅ ━━━━━━━━━ ┅ ━*
-`.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13/', 'НЕ СМОТРИ', ['ПОЛНОЕ МЕНЮ'])
-handler.help = ['donasi']
-handler.tags = ['info']
-handler.command = /^apoyar$/i
-export default handler
+*┗ ┅ ━━━━━━━━━ ┅
