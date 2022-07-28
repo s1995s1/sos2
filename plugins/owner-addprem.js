@@ -11,7 +11,7 @@ mentionedJid: [who]
 }})}
 handler.help = ['addprem <@user>']
 handler.tags = ['owner']
-handler.command = /^(датьпремиум\+)0$/i
+handler.command = /^(дать\+)премиум$/i
 handler.group = true
 handler.rowner = true
 export default handler
