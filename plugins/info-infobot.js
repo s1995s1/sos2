@@ -44,7 +44,7 @@ previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `http://risovach.ru/upload/2013/10/mem/tvoe-vyrazhenie-lica_31598950_orig_.jpeg`}}})
 }
 handler.help = ['infobot', 'speed']
-handler.tags = ['info', 'tools']
+handler.tags = ['info', 'инфобот', 'tools']
 handler.command = /^(ping|speed|инфобот|infobot)$/i
 export default handler
 
