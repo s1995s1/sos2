@@ -139,7 +139,7 @@ throw false
 }}
 chat.audios = isEnable          
 break
-case 'ограничивать':
+case 'ограничить':
 isAll = true
 if (!isOwner) {
 global.dfail('owner', m, conn)
