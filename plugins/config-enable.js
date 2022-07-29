@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
 const sections = [
 {
-title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
+title: `СПИСОК КОМАНД`,
 rows: [
 {title: "✨ | ПРИВЕТСТВИЕ", description: "ВКЛЮЧЕНИЕ И ОТКЛЮЧЕНИЕ ПРИВЕТСТВИЯ В ГРУППЕ", rowId: `${usedPrefix + command} приветствие`},
 {title: "🌎 | ПУБЛИЧНЫЙ", description: ",БОТ СТАНОВИТСЯ ПУБЛИЧНЫМ И/ИЛИ ЧАСТНЫМ ИСПОЛЬЗОВАНИЕМ", rowId: `${usedPrefix + command} публичный`},
@@ -198,7 +198,7 @@ conn.sendButton(m.chat, `🗂️ ВЫБОР: ${type}
 🎚️ КОМАНДА: ${isEnable ? 'ВКЛЮЧИНА' : 'ОТКЛЮЧИНА'}
 📣 ДЛЯ: ${isAll ? 'ЭТОТ БОТ' : isUser ? '' : 'ЭТОТ ЧАТ'}`, author, null, [[`${isEnable ? '✖️ ОТКЛЮЧИТЬ ✖️' : '✔️ ВКЛЮЧИТЬ ✔️'}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`], ['👾 ГЛАВНОЕ МЕНЮ 👾', '.menu']],m)}
 
-handler.help = ['вкл', 'выкл',].map(v => v + 'ючить <option>')
+handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^((вкл|выкл)ючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
