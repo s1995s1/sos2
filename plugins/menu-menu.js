@@ -123,7 +123,7 @@ let str = `
 
 *<СООБЩЕНИЯ ОБ ОШИБКАХ/>*
 
-° ඬ⃟🔰 _${usedPrefix}reporte *<texto>*_
+° ඬ⃟🔰 _${usedPrefix}отчет *<texto>*_
 
 *<ЗАГРУЗКИ/>*
 
@@ -134,10 +134,7 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}тикток *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}
 ° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}
-° ඬ⃟📥 _${usedPrefix}
 ° ඬ⃟📥 _${usedPrefix}плай *<текст или название песни>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
@@ -292,9 +289,9 @@ let str = `
 ° ඬ⃟👑 _${usedPrefix}disable *pconly*_
 ° ඬ⃟👑 _${usedPrefix}enable *gconly*_
 ° ඬ⃟👑 _${usedPrefix}disable *gconly*_
-° ඬ⃟👑 _${usedPrefix}banchat_
-° ඬ⃟👑 _${usedPrefix}unbanchat_
-° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
+° ඬ⃟👑 _${usedPrefix}блокчат_
+° ඬ⃟👑 _${usedPrefix}удальтьблок_
+° ඬ⃟👑 _${usedPrefix}разблокировать *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}обьявление *<texto>*_

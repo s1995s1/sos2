@@ -4,6 +4,6 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙵𝚄�
 }
 handler.help = ['unbanchat']
 handler.tags = ['owner']
-handler.command = /^unbanchat$/i
+handler.command = /^unbanchat|удалитьблок$/i
 handler.rowner = true
 export default handler
