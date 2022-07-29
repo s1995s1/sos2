@@ -71,7 +71,7 @@ throw false
 }
 chat.welcome = isEnable
 break
-case 'обнаружить':
+case 'обнаруживать':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
