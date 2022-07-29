@@ -3,12 +3,12 @@ const sections = [
 {
 title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
 rows: [
-{title: "✨ | ПРИВЕТСТВИЕ", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
-{title: "🌎 | ОБЩЕДОСТУПНЫЙ РЕЖИМ", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
-{title: "🔗 | АНТИССЫЛКА", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} antilink`},   
-{title: "🔗 | АНТИССЫЛКА 2", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},    
-{title: "🔎 | ОБНАРУЖИВАТЬ", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} detect`},      
-{title: "❗   | ОГРАНИЧИВАТЬ", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},    
+{title: "✨ | ПРИВЕТСТВИЕ", description: "ВКЛЮЧЕНИЕ И ОТКЛЮЧЕНИЕ ПРИВЕТСТВИЯ В ГРУППЕ", rowId: `${usedPrefix + command} welcome`},
+{title: "🌎 | ОБЩЕДОСТУПНЫЙ РЕЖИМ", description: ",БОТ СТАНОВИТСЯ ПУБЛИЧНЫМ И/ИЛИ ЧАСТНЫМ ИСПОЛЬЗОВАНИЕМ", rowId: `${usedPrefix + command} public`},
+{title: "🔗 | АНТИССЫЛКА", description: "ВКЛЮЧЕНИЕ ИЛИ ОТКЛЮЧЕНИЕ АНТИССЫЛКА ГРУПП WhatsApp", rowId: `${usedPrefix + command} antilink`},   
+{title: "🔗 | АНТИССЫЛКА 2", description: "ВКЛЮЧЕНИЕ ИЛИ ОТКЛЮЧЕНИЕ АНТИСЫЛКИ НАЧИНАЮЩИХСЯ С HTTPS", rowId: `${usedPrefix + command} antilink2`},    
+{title: "🔎 | ОБНАРУЖИВАТЬ", description: "ВКЛЮЧЕНИЕ И ОТКЛЮЧЕНИЕ УВИДОМЛЕНИЙ О НОВЫХ ИЗМЕНЕНИЯХ В ГРУППЕ", rowId: `${usedPrefix + command} detect`},      
+{title: "❗   | ОГРАНИЧИВАТЬ", description: "ВКЛЮЧЕНИЕ И ОТКЛЮЧЕНИЕ ОГРАНИЧЕНИЙ НА УДАЛЕНИЕ ЛЮДЕЙ ИЗ ГРУПП", rowId: `${usedPrefix + command} restrict`},    
 {title: "☑️ | АВТОЧТЕНИЕ", description: "АВТОМАТИЧЕСКОЕ ПОМЕТКА БЕСЕД КАК ПРОЧИТАННЫХ", rowId: `${usedPrefix + command} autoread`},
 {title: "🔊 | АУДИО", description: "ВКЛЮЧЕНИЕ И ОТКЛЮЧЕНИЕ НЕПРЕДВИДЕННЫХ ЗВУКОВЫХ КОМАНД", rowId: `${usedPrefix + command} audios`},
 {title: "👾 | АВТОСТИКЕР", description: "ВСЕ ОТПРАВЛЕННЫЕ ИЗОБРАЖЕНИЯ, ВИДЕО ИЛИ ССЫЛКИ СТАНОВЯТСЯ НАКЛЕЙКАМИ", rowId: `${usedPrefix + command} autosticker`},
@@ -22,7 +22,7 @@ footer: `
 ║➤ *✨ПРИВЕТ, ${name}!!*
 ▬ ▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬ ▬
 ┏━━━━━━━━━━━━━┓
-┣❧ *𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙰 𝚄𝙽𝙰 𝙳𝙴 𝙻𝙰𝚂 𝙾𝙲𝙿𝙸𝙾𝙽𝙴𝚂 𝚀𝚄𝙴 𝚂𝙰𝙻𝙴𝙽 𝙴𝙽 𝙻𝙰 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙻𝙸𝚂𝚃𝙰 𝙾 𝙳𝙰 𝙲𝙻𝙸𝙲𝙺 𝙴𝙽 𝙰𝙻𝙶𝚄𝙽 𝙱𝙾𝚃𝙾𝙽 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴*
+┣❧ *ВЫБЕРИТЕ ОДНУ ИЗ КОМАНД КОТОРАЯ ВАМ НУЖНА, ИЛИ НАЖМИТЕ НА КНОПКУ В ЭТОМ СООБЩЕНИИ*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟ℹ️ _${usedPrefix}включить  *приветствие*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *приветствие*_
