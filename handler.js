@@ -644,9 +644,9 @@ export async function participantsUpdate({ id, participants, action }) {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user))
                             let apii = await this.getFile(pp)
-                            this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/IdkJhus', '', null, null, [
-                            [(action == 'add' ? '' : ''), 'ura'],    
-                            ['', '/menu']
+                            this.sendHydrated(id, text, groupMetadata.subject, apii.data, '', '', null, null, [
+                            [(action == 'add' ? '' : ''), ''],    
+                            ['', '']
                             ], '', { mentions: [user]})
                            }
                     }
