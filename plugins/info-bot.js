@@ -14,7 +14,7 @@ message: {
 
 if (/^bot$/i.test(m.text)) {
     
-conn.sendButton(m.chat, '*ПРИВЕТ, ¿КАК Я МОГУ ВАМ ПОМОЧЬ?*', wm, [['МЕНЮ КОМАНД', `#menu`]], 'conversation', { sendEphemeral: true, quoted: estilo })
+conn.sendButton(m.chat, '*ПРИВЕТ, ¿КАК Я МОГУ ВАМ ПОМОЧЬ?*', wm, [], 'conversation', { sendEphemeral: true, quoted: estilo })
 conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })   
 }
 return !0

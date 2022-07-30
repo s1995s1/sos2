@@ -7,7 +7,7 @@ conn.sendMessage(chat, {delete: m.quoted.vM.key })
 }
 handler.help = ['уда', 'лить']
 handler.tags = ['tools']
-handler.command = /^удалить)?$/i
+handler.command = /^уда(лить)?$/i
 handler.group = true
 handler.admin = true
 export default handler
