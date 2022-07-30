@@ -106,17 +106,17 @@ let str = `
 
 *<ВКЛЮЧИТЬ ИЛИ ВЫКЛЮЧИТЬ/>*
 
-° ඬ⃟☑️ _${usedPrefix}включить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}включить  *приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}включить  *толькогруппа*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *толькогруппа*_
-° ඬ⃟☑️ _${usedPrefix}включить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}включить  *антиссылка*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка*_
-° ඬ⃟☑️ _${usedPrefix}включить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}включить  *антиссылка2*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка2*_
-° ඬ⃟☑️ _${usedPrefix}включить *обнаруживать*_
+° ඬ⃟☑️ _${usedPrefix}включить  *обнаруживать*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *обнаруживать*_
-° ඬ⃟☑️ _${usedPrefix}включить *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}включить  *автостикер*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *автостикер*_
 
 *<СООБЩЕНИЯ ОБ ОШИБКАХ/>*
@@ -185,7 +185,7 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
 ° ඬ⃟🖍️ _${usedPrefix}blur_
 
-*<СЛУЧАЙНЫЙ/>*
+*<СТРОГО 18+/>*
 
 ° ඬ⃟ 🔞 _${usedPrefix}девушка
 ° ඬ⃟ 🔞 _${usedPrefix}девушка2
@@ -210,7 +210,7 @@ let str = `
 ° ඬ⃟ 🔞 _${usedPrefix}член
 ° ඬ⃟ 🔞 _${usedPrefix}парень
 
-*<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
+*<ПОИСКОВИКИ/>*
 
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}анимеинфо *<текст>*_
@@ -257,14 +257,13 @@ let str = `
 
 *<СТИКЕР/>*
 
-° ඬ⃟👽 _${usedPrefix}стикер1 *<ответить на изображение или видео>*_
-° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
-° ඬ⃟👽 _${usedPrefix}s *<*<ответчик изображение без видео>*_
-° ඬ⃟👽 _${usedPrefix}сстикер *<ссылка / ссылка>*_
+° ඬ⃟👽 _${usedPrefix}стикер *<ответить на изображение или видео>*_
+° ඬ⃟👽 _${usedPrefix}стик *<enlace / link / url>*_
+° ඬ⃟👽 _${usedPrefix}с *<ответить на изображение или видео>*
+° ඬ⃟👽 _${usedPrefix}s *<ответить на изображение или видео>*_
+° ඬ⃟👽 _${usedPrefix}стикер *<ссылка>*_
 ° ඬ⃟👽 _${usedPrefix}эмоджимикс *<эмодзи1>&< эмодзи 2>*_
 ° ඬ⃟👽 _${usedPrefix}эмодзи *<типо> <эмодзи>*_
-° ඬ⃟👽 _${usedPrefix}стик *<текст>*_
-° ඬ⃟👽 _${usedPrefix}стикер2 *<текст>*_
 ° ඬ⃟👽 _${usedPrefix}похлопывать *<@номер>*_
 ° ඬ⃟👽 _${usedPrefix}шлепок *<@номер>_
 ° ඬ⃟👽 _${usedPrefix}поцелуй *<@номер>*_
@@ -275,7 +274,7 @@ let str = `
 
 *<КОМАНДЫ СОЗДАТЕЛЯ И АДМИНА/>*
 
-° ඬ⃟👑 _${usedPrefix}вниманиечаты  *<текст>*_
+° ඬ⃟👑 _${usedPrefix}вниманиечаты *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
 ° ඬ⃟👑 _${usedPrefix}enable *restrict*_
 ° ඬ⃟👑 _${usedPrefix}disable *restrict*_
@@ -290,12 +289,7 @@ let str = `
 ° ඬ⃟👑 _${usedPrefix}блокчат_
 ° ඬ⃟👑 _${usedPrefix}удальтьблок_
 ° ඬ⃟👑 _${usedPrefix}разблокировать *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}обьявление *<texto>*_
-° ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
-° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
-° ඬ⃟👑 _${usedPrefix}cleartpm_
+° ඬ⃟👑 _${usedPrefix}обьявление *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}старт_
 ° ඬ⃟👑 _${usedPrefix}обновить_
 ° ඬ⃟👑 _${usedPrefix}датьпремиум *<@номер>*_
