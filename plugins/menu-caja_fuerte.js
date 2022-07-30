@@ -56,7 +56,7 @@ conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/+79010070455', 'НОМЕР
 }}
 handler.help = ['cajafuerte']
 handler.tags = ['owner']
-handler.command = /^(cajafuerte)$/i
+handler.command = /^(сейф)$/i
 handler.rowner = true
 handler.fail = null
 export default handler
