@@ -12,7 +12,7 @@ mentionedJid: [who]
 }})}
 handler.help = ['remove <@user>']
 handler.tags = ['owner']
-handler.command = /^(понизить|-|del)prem$/i
+handler.command = /^(снять|-|del)prem$/i
 handler.group = true
 handler.rowner = true
 export default handler
