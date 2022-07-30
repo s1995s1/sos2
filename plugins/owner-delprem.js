@@ -10,9 +10,9 @@ conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] @${who.split`@`[0]} 𝙰𝙷𝙾�
 contextInfo: {
 mentionedJid: [who]
 }})}
-handler.help = ['понизить <@user>']
+handler.help = ['remove <@user>']
 handler.tags = ['owner']
-handler.command = /^(remove|-|del)prem$/i
+handler.command = /^(понизить|-|del)prem$/i
 handler.group = true
 handler.rowner = true
 export default handler
