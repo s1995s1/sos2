@@ -106,20 +106,18 @@ let str = `
 
 *<ВКЛЮЧИТЬ ИЛИ ВЫКЛЮЧИТЬ/>*
 
-° ඬ⃟☑️ _${usedPrefix}вкл приветствие*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}включить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}выключить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}включить  *толькогруппа*_
+° ඬ⃟☑️ _${usedPrefix}выключить *толькогруппа*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}включить *обнаруживать*_
+° ඬ⃟☑️ _${usedPrefix}выключить *обнаруживать*_
+° ඬ⃟☑️ _${usedPrefix}включить *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}выключить *автостикер*_
 
 *<СООБЩЕНИЯ ОБ ОШИБКАХ/>*
 
