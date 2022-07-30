@@ -4,8 +4,8 @@ let isClose = { // Switch Case Like :v
 'close': 'announcement',
 'abierto': 'not_announcement',
 'cerrado': 'announcement',
-'abrir': 'not_announcement',
-'cerrar': 'announcement',
+'открыть': 'not_announcement',
+'закрыть': 'announcement',
 }[(args[0] || '')]
 if (isClose === undefined)
 throw `
