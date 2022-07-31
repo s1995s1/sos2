@@ -8,5 +8,5 @@ conn.sendButton(m.chat, `_${command}_`, author, mystic, [['🔄 ДРУГОЕ �
 }
 handler.help = ['itzy','kpopitzy']
 handler.tags = ['internet']
-handler.command = /^(itzy|kpopitzy)$/i
+handler.command = /^(ух|kpopitzy)$/i
 export default handler
