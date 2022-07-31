@@ -297,7 +297,7 @@ let str = `
 ° ඬ⃟👑 _${usedPrefix}снятьпремиум *<@немер>*_
 ° ඬ⃟👑 _${usedPrefix}премиумлист_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, '', '', 'ОПЛАТИТЬ БОТА', 'https://api.whatsapp.com/send?phone=79010070455&texe+%20Хочу%20снять%20вашего%20бота', [
+conn.sendHydrated2(m.chat, str, wm, pp, '', '', 'https://api.whatsapp.com/send?phone=79010070455&texe+%20Хочу%20снять%20вашего%20бота', 'СНЯТЬ БОТА', [
 
 ['🧧 ИНФО БОТ 🧧', '/infobot'],
 ], m,)
