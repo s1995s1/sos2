@@ -22,8 +22,8 @@ let buttonMessage= {
 'caption': texto1,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, 
-{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼'}, type: 1}],
+{buttonId: `${usedPrefix}menu`, buttonText: {displayText: ''}, type: 1}, 
+{buttonId: `${usedPrefix}donar`, buttonText: {displayText: ''}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
 handler.command = ['дайкишки','sc']
