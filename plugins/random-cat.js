@@ -11,8 +11,8 @@ conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 console.log(e)
 throw '*Error!*'
 }}
-handler.help = ['кот']
+handler.help = ['cat']
 handler.tags = ['random']
-handler.command = /^cat$/i
+handler.command = /^кот$/i
 handler.fail = null
 export default handler
