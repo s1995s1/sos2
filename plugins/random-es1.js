@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, command }) => {
-    let yh = global.эрокартинки
+    let yh = ges1l.эрокартинки
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `❤️‍🔥 Ухх ❤️‍🔥`.trim(), author, url, [['🔄 ДРУГОЕ 🔄', `/${command}`]], m)
   }
