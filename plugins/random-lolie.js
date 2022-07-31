@@ -9,5 +9,5 @@ let handler = async (m, { conn, text, command }) => {
   export default handler
   
   global.loli = [
-    "https://youtu.be/6uHHWgJ6dsk",
+    "https://telochki.org/uploads/posts/2021-10/1633546860_70-telochki-info-p-vozbuzhdayushchie-seksi-devushki-erotika-p-74.jpg",
   ]
