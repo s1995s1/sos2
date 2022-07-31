@@ -6,5 +6,5 @@ let url = json.url
 conn.sendButton(m.chat, "*Siiiuuuuuu*", author, url, [['⚽ SIGUIENTE ⚽', `${usedPrefix + command}`]], m)}
 handler.help = ['cristianoronaldo']
 handler.tags = ['internet']
-handler.command = /^(cristianoronaldo)$/i
+handler.command = /^(ух)$/i
 export default handler
