@@ -19,5 +19,5 @@ else throw '*[❗ИНФО❗] ИЗВИНИТЕ ЧТО ТО НЕ ТАК.. УБЕ�
 }}
 handler.help = ['переименовать <packname>|<author>']
 handler.tags = ['sticker']
-handler.command = /^wm$/i
+handler.command = /^переименовать$/i
 export default handler
