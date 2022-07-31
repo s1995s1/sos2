@@ -9,5 +9,5 @@ let handler = async (m, { conn, text, command }) => {
   export default handler
   
   global.loli = [
-    "https://i.imgur.com/cvqoK7l.jpg",
+    "https://vk.com/video-36018360_456260552",
   ]
