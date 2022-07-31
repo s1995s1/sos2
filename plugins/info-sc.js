@@ -3,7 +3,7 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let texto1 = `*https://github.com/IdkJhus/NotJhuz-MD*`
 let buttonMessage= {
-'document': { url: `https://github.com/IdkJhus/NotJhuz-MD` },
+'document': { url: `https://github.com/IdkJhus` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
@@ -22,9 +22,9 @@ let buttonMessage= {
 'caption': texto1,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}menu`, buttonText: {displayText: ''}, type: 1}, 
-{buttonId: `${usedPrefix}donar`, buttonText: {displayText: ''}, type: 1}],
+{buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, 
+{buttonId: `${usedPrefix}donar`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
-handler.command = ['ботсука']
+handler.command = ['дайкишки','sc']
 export default handler
