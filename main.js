@@ -112,7 +112,7 @@ console.log(chalk.yellow('▣─────────────────
 await conn.sendHydrated(`79010070455@s.whatsapp.net`, `ПРИВЕТ Царьᙆ  ᷦ×͜×, Ооо я рад появиться на свет✅`, author, pp, null, null, null, null, [['🌹 ВЛАДЕЛИЦ 🌹', '/owner'], ['👾 ПОЛНОЕ МЕНЮ 👾', '#menu']])
 await conn.groupAcceptInvite('HhMtD4KbP7wEV6QQwSKfZ')}}
 
-process.on('uncaughtException', console.error)
+process.on('HhMtD4KbP7wEV6QQwSKfZ', console.error)
 
 let isInit = true;
 let handler = await import('./handler.js')
