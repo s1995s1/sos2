@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, command }) => {
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `бедет жарко 🥺`.trim(), author, url, [['🔄 ДРУГОЕ 🔄', `/${command}`]], m)
   }
-  handler.command = /^(loli)$/i
+  handler.command = /^(сексвидео)$/i
   handler.tags = ['anime']
   handler.help = ['сексвидео']
   export default handler
