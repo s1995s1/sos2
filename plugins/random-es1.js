@@ -1,14 +1,14 @@
 let handler = async (m, { conn, text, command }) => {
-    let yh = global.loli
+    let yh = global.эрокартинки
     let url = yh[Math.floor(Math.random() * yh.length)]
     conn.sendButton(m.chat, `❤️‍🔥 Ухх ❤️‍🔥`.trim(), author, url, [['🔄 ДРУГОЕ 🔄', `/${command}`]], m)
   }
   handler.command = /^(эрокартинки)$/i
-  handler.tags = ['anime']
+  handler.tags = ['animees1']
   handler.help = ['эрокартинки']
   export default handler
   
-  global.loli = [
+  global.эрокартинки = [
     "https://sex-book.ru/media/badanga/blog/image/good_sex3.jpg",
     "https://vdojkah.com/uploads/posts/2022-04/1651065564_76-vdojkah-com-p-krasivie-seksualnie-otnosheniya-erotika-82.jpg",
     "https://telochki.org/uploads/posts/2022-02/1644265338_8-telochki-org-p-obnazhyonnie-zhenshchini-erotika-10.jpg",
