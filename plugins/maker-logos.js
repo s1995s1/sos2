@@ -28,7 +28,7 @@ var effects = [
     "url": "https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html"
   },
   {
-    "title": "American-flag-3D",
+    "title": "уу11",
     "url": "https://textpro.me/create-american-flag-3d-text-effect-online-1051.html"
   },
   {
