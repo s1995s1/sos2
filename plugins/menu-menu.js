@@ -89,22 +89,15 @@ let str = `
 ° ඬ⃟🎖️ _${usedPrefix}дурак *<@номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}умный *<@номер>*
 ° ඬ⃟🎖️ _${usedPrefix}любит*<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}любит1 *<@номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}дура *<@номер>*_
-° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pregunta *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
-° ඬ⃟🎖️ _${usedPrefix}pvp *<@tag>*_
-° ඬ⃟🎖️ _${usedPrefix}simi *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}topgays_
-° ඬ⃟🎖️ _${usedPrefix}topotakus_
+° ඬ⃟🎖️ _${usedPrefix}какашка *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}правда *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}русский *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}лучший *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}якрасивая *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}хитрый *<@номер>*_
+
 
 *<ВКЛЮЧИТЬ ИЛИ ВЫКЛЮЧИТЬ/>*
 

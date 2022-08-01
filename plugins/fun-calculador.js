@@ -14,60 +14,60 @@ mentions: m.mentionedJid
 } : {})} 
 if (command == 'любит') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ОН ВАС 😍 НА* *${(500).getRandom()}%* *${command.replace('', '').toUpperCase()} ПОДТВЕРЖДЕННО*_
+_*${text.toUpperCase()}* *ОН ВАС 😍 ЛЮБИТ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}   
 if (command == 'дура') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРА🙀НА* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', 'НО НЕ ФАКТ').toUpperCase()}*_
+_*${text.toUpperCase()}* *ДУРА 🙀 НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}     
-if (command == 'puto') {
+if (command == 'любит1') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_
+_*${text.toUpperCase()}* *ОНА ВАС 😍 ЛЮБИТ 😘НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}     
-if (command == 'puta') {
+if (command == 'правда') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_
+_*${text.toUpperCase()}* *ВОТ НА СКОЛЬКО ПРАВДА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}   
-if (command == 'manco') {
+if (command == 'какашка') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_
+_*${text.toUpperCase()}* *НА СТОЛЬКО ТЫ * *${(500).getRandom()}%* *КАКАШКА 💩*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
-if (command == 'manca') {
+if (command == 'русский') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_
+_*${text.toUpperCase()}* *ТЫ РУССКИЙ НА* *${(500).getRandom()}%* *А ОСТАЛЬНОЕ ПОМЕСЬ РУССКИЙ АРМЯН*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}     
-if (command == 'rata') {
+if (command == 'лучший') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_
+_*${text.toUpperCase()}* *НЕТ Я ЛУЧШИ ТЕБЯ 😂😂 НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
-if (command == 'prostituto') {
+if (command == 'якрасивая') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_
+_*${text.toUpperCase()}* *ТЫ АФИГЕННАЯ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
-if (command == 'prostituta') {
+if (command == 'хитры') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ДУРАК* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_
+_*${text.toUpperCase()}* *ТЫ ХИТРЕЙ МЕНЯ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}         
 }
 handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['calculator']
-handler.command = /^дурак|умный|любит|дура|puto|puta|manco|manca|rata|prostituta|prostituto/i
+handler.command = /^дурак|умный|любит|дура|любит1|правда|какашка|русский|лучший|якрасивая|хитры/i
 export default handler
