@@ -8,5 +8,5 @@ m.reply(`${tes}`)
 }
 handler.help = ['simsimi']
 handler.tags = ['General']
-handler.command = ['bot', 'simi', 'simsimi'] 
+handler.command = ['бот', 'simi', 'simsimi'] 
 export default handler
