@@ -4,7 +4,7 @@ conn.sendButton(m.chat, '*🚔🚨 ВАШИ ВЫЕБОНЫ ПРЕНАДЛЕЖА�
 avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
 }), [[]], m)}
 
-handler.help = ['lolice']
+handler.help = ['судья']
 handler.tags = ['maker']
 handler.command = /^(судья)$/i
 export default handler
