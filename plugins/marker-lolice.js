@@ -6,5 +6,5 @@ avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.p
 
 handler.help = ['lolice']
 handler.tags = ['maker']
-handler.command = /^(ух)$/i
+handler.command = /^(судья)$/i
 export default handler
