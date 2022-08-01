@@ -170,8 +170,8 @@ let str = `
 ° ඬ⃟🧧 _${usedPrefix}toimg *<responde a un sticker>*_
 ° ඬ⃟🧧 _${usedPrefix}tomp3 *<responde a un video / nota de voz>*_
 ° ඬ⃟🧧 _${usedPrefix}toptt *<responde a un video / audio>*_
-° ඬ⃟🧧 _${usedPrefix}tovideo *<responde a un audio>*_
-° ඬ⃟🧧 _${usedPrefix}tourl *<responde a un video / imagen / audio>*_
+° ඬ⃟🧧 _${usedPrefix}сим *<@немер>*_
+° ඬ⃟🧧 _${usedPrefix}пиксиль *<@немер>*_
 ° ඬ⃟🧧 _${usedPrefix}радуга *<@немер>*_
 
 *<ЭФЕКТЫ И ОЗЕРА/>*
