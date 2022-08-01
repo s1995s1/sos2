@@ -8,7 +8,7 @@ mentions: m.mentionedJid
 } : {})}
 if (command == 'умный') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *УМНЫЙ🤓НА* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', 'НО НЕ ФАКТ').toUpperCase()}*_
+_*${text.toUpperCase()}* *УМНЫЙ🤓НА* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', '').toUpperCase()}*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})} 
