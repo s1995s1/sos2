@@ -172,29 +172,29 @@ let str = `
 
 *<СТРОГО 18+/>*
 
-° ඬ⃟ 🔞 _${usedPrefix}эрокартинки
-° ඬ⃟ 🔞 _${usedPrefix}девушка
-° ඬ⃟ 🔞 _${usedPrefix}девушка2
-° ඬ⃟ 🔞 _${usedPrefix}дувушка3
-° ඬ⃟ 🔞 _${usedPrefix}девушка4
-° ඬ⃟ 🔞 _${usedPrefix}девушка5
-° ඬ⃟ 🔞 _${usedPrefix}девушка6
-° ඬ⃟ 🔞 _${usedPrefix}аниме
-° ඬ⃟ 🔞 _${usedPrefix}аниме2
-° ඬ⃟ 🔞 _${usedPrefix}аниме3
-° ඬ⃟ 🔞 _${usedPrefix}аниме4
-° ඬ⃟ 🔞 _${usedPrefix}аниме5
-° ඬ⃟ 🔞 _${usedPrefix}аниме6
-° ඬ⃟ 🔞 _${usedPrefix}аниме7
-° ඬ⃟ 🔞 _${usedPrefix}аниме8
-° ඬ⃟ 🔞 _${usedPrefix}аниме9
-° ඬ⃟ 🔞 _${usedPrefix}жопа
-° ඬ⃟ 🔞 _${usedPrefix}секси
-° ඬ⃟ 🔞 _${usedPrefix}сиськи
-° ඬ⃟ 🔞 _${usedPrefix}лесбиянки
-° ඬ⃟ 🔞 _${usedPrefix}порно
-° ඬ⃟ 🔞 _${usedPrefix}член
-° ඬ⃟ 🔞 _${usedPrefix}парень
+° ඬ⃟ 🔞 _${usedPrefix}эрокартинки_
+° ඬ⃟ 🔞 _${usedPrefix}девушка_
+° ඬ⃟ 🔞 _${usedPrefix}девушка2_
+° ඬ⃟ 🔞 _${usedPrefix}дувушка3_
+° ඬ⃟ 🔞 _${usedPrefix}девушка4_
+° ඬ⃟ 🔞 _${usedPrefix}девушка5_
+° ඬ⃟ 🔞 _${usedPrefix}девушка6_
+° ඬ⃟ 🔞 _${usedPrefix}аниме_
+° ඬ⃟ 🔞 _${usedPrefix}аниме2_
+° ඬ⃟ 🔞 _${usedPrefix}аниме3_
+° ඬ⃟ 🔞 _${usedPrefix}аниме4_
+° ඬ⃟ 🔞 _${usedPrefix}аниме5_
+° ඬ⃟ 🔞 _${usedPrefix}аниме6_
+° ඬ⃟ 🔞 _${usedPrefix}аниме7_
+° ඬ⃟ 🔞 _${usedPrefix}аниме8_
+° ඬ⃟ 🔞 _${usedPrefix}аниме9_
+° ඬ⃟ 🔞 _${usedPrefix}жопа_
+° ඬ⃟ 🔞 _${usedPrefix}секси_
+° ඬ⃟ 🔞 _${usedPrefix}сиськи_
+° ඬ⃟ 🔞 _${usedPrefix}лесбиянки_
+° ඬ⃟ 🔞 _${usedPrefix}порно_
+° ඬ⃟ 🔞 _${usedPrefix}член_
+° ඬ⃟ 🔞 _${usedPrefix}парень_
 
 *<ПОИСКОВИКИ/>*
 
@@ -245,7 +245,7 @@ let str = `
 
 ° ඬ⃟👽 _${usedPrefix}стикер *<ответить на изображение или видео>*_
 ° ඬ⃟👽 _${usedPrefix}стик *<пишите команду и следом текст через пробел>*_
-° ඬ⃟👽 _${usedPrefix}с *<ответить на изображение или видео>*
+° ඬ⃟👽 _${usedPrefix}с *<ответить на изображение или видео>*_
 ° ඬ⃟👽 _${usedPrefix}s *<ответить на изображение или видео>*_
 ° ඬ⃟👽 _${usedPrefix}стикер *<ссылка>*_
 ° ඬ⃟👽 _${usedPrefix}эмоджимикс *<эмодзи1>&< эмодзи 2>*_
@@ -273,7 +273,7 @@ let str = `
 ° ඬ⃟👑 _${usedPrefix}включить *толькогруппа*_
 ° ඬ⃟👑 _${usedPrefix}выключить *толькогруппа*_
 ° ඬ⃟👑 _${usedPrefix}блокчат_
-° ඬ⃟👑 _${usedPrefix}сменаприветствие
+° ඬ⃟👑 _${usedPrefix}сменаприветствие_
 ° ඬ⃟👑 _${usedPrefix}удальтьблок_
 ° ඬ⃟👑 _${usedPrefix}разблокировать *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}обьявление *<текст>*_
