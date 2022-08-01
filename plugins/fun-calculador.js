@@ -14,7 +14,7 @@ mentions: m.mentionedJid
 } : {})} 
 if (command == 'любит') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ВЛЮБЛЕННЫЙ😍НА* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', 'НО НЕ ФАКТ').toUpperCase()}*_
+_*${text.toUpperCase()}* *ВЛЮБЛЕННЫЙ😍НА* *${(500).getRandom()}%* *${command.replace('', '').toUpperCase()} ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}   
