@@ -220,7 +220,7 @@ let str = `
 ° ඬ⃟🛠️ _${usedPrefix}решить *<например 150+150>*_
 ° ඬ⃟🛠️ _${usedPrefix}повтор *<текст>*_
 ° ඬ⃟🛠️ _${usedPrefix}шрифт *<текст>*_
-° ඬ⃟🛠️ _${usedPrefix}судья *<>*_
+° ඬ⃟🛠️ _${usedPrefix} *<>*_
 ° ඬ⃟🛠️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
 ° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
