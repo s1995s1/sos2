@@ -12,9 +12,9 @@ await m.reply(`*[❗] 𝙴𝙻 𝚂𝙿𝙰𝙼 𝙳𝙴 𝙼𝙴𝙽𝚂𝙰�
 for (let i = fixedJumlah; i > 1; i--) {
 if (i !== 0) conn.reply(fixedNumber, pesan.trim(), m)
 }}
-handler.help = ['spamwa <number>|<mesage>|<no of messages>']
+handler.help = ['спам <number>|<mesage>|<no of messages>']
 handler.tags = ['General']
-handler.command = /^spam(wa)?$/i
+handler.command = /^спам(ва)?$/i
 handler.group = false
 handler.premium = false
 handler.private = true
