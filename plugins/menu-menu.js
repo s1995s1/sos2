@@ -167,9 +167,9 @@ let str = `
 
 *<КОНВЕРТЕРЫ/>*
 
-° ඬ⃟🧧 _${usedPrefix}toimg *<responde a un sticker>*_
-° ඬ⃟🧧 _${usedPrefix}tomp3 *<responde a un video / nota de voz>*_
-° ඬ⃟🧧 _${usedPrefix}toptt *<responde a un video / audio>*_
+° ඬ⃟🧧 _${usedPrefix}преодразовать *<ответить на стикер>*_
+° ඬ⃟🧧 _${usedPrefix}норни *<@немер>*_
+° ඬ⃟🧧 _${usedPrefix}скрин *<текст>*_
 ° ඬ⃟🧧 _${usedPrefix}сим *<@немер>*_
 ° ඬ⃟🧧 _${usedPrefix}пиксиль *<@немер>*_
 ° ඬ⃟🧧 _${usedPrefix}радуга *<@немер>*_
@@ -179,7 +179,6 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}logos *<efecto> <текст>*_
 ° ඬ⃟🖍️ _${usedPrefix}simpcard *<@немер>*_
 ° ඬ⃟🖍️ _${usedPrefix}hornycard *<@номер>*_
-° ඬ⃟🖍️ _${usedPrefix}lolice *<@номер>*_
 ° ඬ⃟🖍️ _${usedPrefix}ytcomment *<текст>*_
 ° ඬ⃟🖍️ _${usedPrefix}itssostupid_
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
