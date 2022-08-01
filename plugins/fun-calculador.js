@@ -8,13 +8,13 @@ mentions: m.mentionedJid
 } : {})}
 if (command == 'умный') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *УМНЫЙ🤓НА* *${(500).getRandom()}%* *${command.replace('ПОДТВЕРЖДЕННО', '').toUpperCase()}*_
+_*${text.toUpperCase()}* *УМНЫЙ🤓НА* *${(500).getRandom()}%* 
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})} 
 if (command == 'любит') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *ВЛЮБЛЕННЫЙ😍НА* *${(500).getRandom()}%* *${command.replace('', '').toUpperCase()} ПОДТВЕРЖДЕННО*_
+_*${text.toUpperCase()}* *ОН ВАС 😍 НА* *${(500).getRandom()}%* *${command.replace('', '').toUpperCase()} ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}   
