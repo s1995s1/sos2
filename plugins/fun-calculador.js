@@ -8,7 +8,7 @@ mentions: m.mentionedJid
 } : {})}
 if (command == 'умный') {
 conn.reply(m.chat, `
-_*${text.toUpperCase()}* *УМНЫЙ🤓НА* *${(500).getRandom()}%* 
+_*${text.toUpperCase()}* *УМНЫЙ 🤓 НА* *${(500).getRandom()}%* 
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})} 
@@ -60,7 +60,7 @@ _*${text.toUpperCase()}* *ТЫ АФИГЕННАЯ НА* *${(500).getRandom()}%* 
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
-if (command == 'хитры') {
+if (command == 'хитрый') {
 conn.reply(m.chat, `
 _*${text.toUpperCase()}* *ТЫ ХИТРЕЙ МЕНЯ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
 `.trim(), m, m.mentionedJid ? {
@@ -69,5 +69,5 @@ mentions: m.mentionedJid
 }
 handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['calculator']
-handler.command = /^дурак|умный|любит|дура|любит1|правда|какашка|русский|лучший|якрасивая|хитры/i
+handler.command = /^дурак|умный|любит|дура|любит1|правда|какашка|русский|лучший|якрасивая|хитрый/i
 export default handler
