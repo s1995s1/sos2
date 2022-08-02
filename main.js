@@ -110,9 +110,9 @@ if (global.db.data == null) loadDatabase()
 if (connection == 'open') {
 console.log(chalk.yellow('▣─────────────────────────────···\n│\n│❧ ПРАВИЛЬНО ПОДКЛЮЧЕННЫЙ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣─────────────────────────────···'))
 await conn.sendHydrated(`79010070455@s.whatsapp.net`, `ПРИВЕТ Царьᙆ  ᷦ×͜×, Ооо я рад появиться на свет✅`, author, pp, null, null, null, null, [['🌹 ВЛАДЕЛИЦ 🌹', '/owner'], ['👾 ПОЛНОЕ МЕНЮ 👾', '#menu']])
-await conn.groupAcceptInvite('HhMtD4KbP7wEV6QQwSKfZ')}}
+await conn.groupAcceptInvite('CYMyfxPBOp5ii48Zm9zqS')}}
 
-process.on('HhMtD4KbP7wEV6QQwSKfZ', console.error)
+process.on('uncaughtException', console.error)
 
 let isInit = true;
 let handler = await import('./handler.js')
