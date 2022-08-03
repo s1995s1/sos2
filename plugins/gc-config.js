@@ -20,7 +20,7 @@ await conn.groupSettingUpdate(m.chat, isClose)
 }
 handler.help = ['group открыть / закрыть', 'grupo abrir / cerrar']
 handler.tags = ['group']
-handler.command = /^(группу|group|grupo)$/i
+handler.command = /^(группа|group|grupo)$/i
 handler.admin = true
 handler.botAdmin = true
 export default handler
