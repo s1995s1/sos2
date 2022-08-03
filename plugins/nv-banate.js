@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /bañate|Bañate/i
+handler.customPrefix = /ух|Bañate/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
