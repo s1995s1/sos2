@@ -4,7 +4,7 @@ let chatsall = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).ma
 let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
 let teks = text ? text : cc.text
 for (let id of chatsall) { 
-conn.sendButton(id, `*╔══❰ ЗАЯВЛЕНИЕ ❱══╗*\n*║*\n*╠❧* ${text}\n*║*\n*╚══════════════╝*`, 'БЛАГОДАРЮ ЗА ВНИМАНИЕ\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 ВЛАДЕЛЕЦ 🤖', '.owner'],['💎 НЕ СМОТРИ 💎', '.infobot']], false, { 
+conn.sendButton(id, `*╔══❰ ЗАЯВЛЕНИЕ ❱══╗*\n*║*\n*╠❧* ${text}\n*║*\n*╚══════════════╝*`, 'БЛАГОДАРЮ ЗА ВНИМАНИЕ\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 ВЛАДЕЛЕЦ 🤖', '.owner'],['☠️ ГЛАВНОЕ МЕНЮ ☠️', '.Menu']], false, { 
 contextInfo: { externalAdReply: {
 title: 'ОТНЕСИТЕСЬ К ЭТОМУ СЕРЬЕЗНО',
 body: 'ʙʏ Бот Царяᙆ  ᷦ', 
