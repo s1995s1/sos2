@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /стик|gemime|gime|gemime|gemi2/i
+handler.customPrefix = /здраствуйте|gemime|gime|gemime|gemi2/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
