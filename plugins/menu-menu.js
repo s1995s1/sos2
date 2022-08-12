@@ -274,12 +274,8 @@ let str = `
 ° ඬ⃟🔊 _${usedPrefix}Фу_
 ° ඬ⃟🔊 _${usedPrefix}Привет_
 ° ඬ⃟🔊 _${usedPrefix}Новенький_
-° ඬ⃟🔊 _${usedPrefix}
-° ඬ⃟🔊 _${usedPrefix}
-° ඬ⃟🔊 _${usedPrefix}
-° ඬ⃟🔊 _${usedPrefix}
-° ඬ⃟🔊 _${usedPrefix}
-° ඬ⃟🔊 _${usedPrefix}
+° ඬ⃟🔊 _${usedPrefix}Чистка_
+° ඬ⃟🔊 _${usedPrefix}Админы_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, '', '', 'https://api.whatsapp.com/send?phone=79010070455', 'ОПЛАТИТЬ БОТА', [
 
