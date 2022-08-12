@@ -269,10 +269,16 @@ let str = `
 
 *<ГОЛОСОВЫЕ>*
 
-° ඬ⃟🔊 _${usedPrefix}Здравствуйте
-° ඬ⃟🔊 _${usedPrefix}Правила
-° ඬ⃟🔊 _${usedPrefix}Фу
-° ඬ⃟🔊 _${usedPrefix}Привет
+° ඬ⃟🔊 _${usedPrefix}Здравствуйте_
+° ඬ⃟🔊 _${usedPrefix}Правила_
+° ඬ⃟🔊 _${usedPrefix}Фу_
+° ඬ⃟🔊 _${usedPrefix}Привет_
+° ඬ⃟🔊 _${usedPrefix}Новенький_
+° ඬ⃟🔊 _${usedPrefix}
+° ඬ⃟🔊 _${usedPrefix}
+° ඬ⃟🔊 _${usedPrefix}
+° ඬ⃟🔊 _${usedPrefix}
+° ඬ⃟🔊 _${usedPrefix}
 ° ඬ⃟🔊 _${usedPrefix}
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, '', '', 'https://api.whatsapp.com/send?phone=79010070455', 'ОПЛАТИТЬ БОТА', [
