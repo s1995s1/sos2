@@ -24,7 +24,7 @@ let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
 day: 'numeric',
 month: 'long',
 year: 'numeric'
-}).format()
+}).format(d)
 let time = d.toLocaleTimeString(locale, {
 hour: 'numeric',
 minute: 'numeric',
