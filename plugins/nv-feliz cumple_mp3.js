@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /новенький|Новенький|happy birthday/i
+handler.customPrefix = /новенький|Новенький/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100

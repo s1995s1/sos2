@@ -219,7 +219,6 @@ let str = `
 ° ඬ⃟🛠️ _${usedPrefix}решить *<например 150+150>*_
 ° ඬ⃟🛠️ _${usedPrefix}повтор *<текст>*_
 ° ඬ⃟🛠️ _${usedPrefix}шрифт *<текст>*_
-° ඬ⃟🛠️ _${usedPrefix} *<>*_
 ° ඬ⃟🛠️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
 ° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
@@ -267,6 +266,14 @@ let str = `
 ° ඬ⃟👑 _${usedPrefix}вызов *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}прощяние *<@немер>*_
 ° ඬ⃟👑 _${usedPrefix}заблокировать *<@немер>*_
+
+*<ГОЛОСОВЫЕ>*
+
+° ඬ⃟🔊 _${usedPrefix}Здравствуйте
+° ඬ⃟🔊 _${usedPrefix}Правила
+° ඬ⃟🔊 _${usedPrefix}Фу
+° ඬ⃟🔊 _${usedPrefix}Привет
+° ඬ⃟🔊 _${usedPrefix}
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, '', '', 'https://api.whatsapp.com/send?phone=79010070455', 'ОПЛАТИТЬ БОТА', [
 
