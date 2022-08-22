@@ -43,7 +43,7 @@ else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙾�
 
 }}
 handler.help = ['стикер (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
-handler.tags = ['sticker']
+handler.tags = ['стикер']
 handler.command = /^^(стикер|стик1|стикер2|с)s(tic?ker)?(gif)?(wm)?$/i
 export default handler
 
