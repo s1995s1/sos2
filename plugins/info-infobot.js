@@ -48,7 +48,7 @@ sourceUrl: `http://risovach.ru/upload/2013/10/mem/tvoe-vyrazhenie-lica_31598950_
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'инфобот', 'инфо']
-handler.command = /^(ping|speed|инфобот|infobot)$/i
+handler.command = /^(ping|speed|инфобот|infobot|инфо)$/i
 export default handler
 
 function clockString(ms) {
