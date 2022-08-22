@@ -33,7 +33,9 @@ let info = `
 ╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
 ╠➥ [☑️] АВТОЧИТАНИЕ: ${autoread ? '*включить*' : '*выключить*'}
 ╠➥ [❗] ОГРАНИЧИВАТЬ: ${restrict ? '*включить*' : '*выключить*'} 
-╠
+╠➥ [☑️] АРЕНДА БОТА 400 Р. ЗА МЕСЯЦ
+╠➥ [☑️] ОБРАЩАТЬСЯ К СОЗДАТЕЛЮ БОТА
+╠➥ [☑️] МОЙ СОЗДАТЕЛЬ WA.ME/+79010070455
 ╠═〘 Бот Царяᙆ  ᷦ 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
@@ -44,7 +46,7 @@ previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `http://risovach.ru/upload/2013/10/mem/tvoe-vyrazhenie-lica_31598950_orig_.jpeg`}}})
 }
 handler.help = ['infobot', 'speed']
-handler.tags = ['info', 'инфобот', 'tools']
+handler.tags = ['info', 'инфобот', 'инфо']
 handler.command = /^(ping|speed|инфобот|infobot)$/i
 export default handler
 
