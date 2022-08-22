@@ -23,5 +23,5 @@ throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝚂𝙴 𝙴�
 }}
 handler.help = ['tiktokstalk'].map(v => v + ' <username>')
 handler.tags = ['stalk']
-handler.command = /^(tiktokstalk|ttstalk)$/i
+handler.command = /^(tiktokstalk|тикток|ttstalk)$/i
 export default handler

@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /Привет|/i
+handler.customPrefix = /|/i
 handler.command = new RegExp
 export default handler
