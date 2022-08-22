@@ -124,22 +124,14 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}тикток *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}плай *<текст или название песни>*_
-° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
+° ඬ⃟📥 _${usedPrefix}плай *<ссылка или название песни>*_
+° ඬ⃟📥 _${usedPrefix}плай2 *<ссылка или название песни>*_
+° ඬ⃟📥 _${usedPrefix}плай3 *<ссылка или название песни>*
 ° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}pinteret _
 ° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}tiktok *<nombre de usuario>*_
 
 *<ГРУППЫ/>* 
 
@@ -199,7 +191,6 @@ let str = `
 
 ° ඬ⃟🔍 _${usedPrefix}обои *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}обои2 *<текст>*_
-° ඬ⃟🔍 _${usedPrefix}анимеинфо *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}гугол *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}ютуб *<ссылка>*_
@@ -225,7 +216,7 @@ let str = `
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
 
 *<СТИКЕР/>*
-
+° ඬ⃟👽 _${usedPrefix}анимеинфо *<текст>*_
 ° ඬ⃟👽 _${usedPrefix}стикер *<ответить на изображение или видео>*_
 ° ඬ⃟👽 _${usedPrefix}с *<ответить на изображение или видео>*_
 ° ඬ⃟👽 _${usedPrefix}s *<ответить на изображение или видео>*_
