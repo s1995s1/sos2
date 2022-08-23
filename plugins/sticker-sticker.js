@@ -39,7 +39,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
 
-else throw '*[❗ИНФО❗] ИЗВЕНИТЕ ПРОИЗОШЛА ОШИБКА*. *ОТВЕТТИ КОМАНДОЙ* #СТИКЕР *НА ИЗОБРАЖЕНИЕ. И Я ВАМ ЗДЕЛАЮ СТИКЕР*'
+else throw '*[❗ИНФО❗] ИЗВЕНИТЕ ПРОИЗОШЛА ОШИБКА*. *ОТВЕТЬТЕ КОМАНДОЙ* #СТИКЕР *НА ИЗОБРАЖЕНИЕ. И Я ВАМ ЗДЕЛАЮ СТИКЕР*'
 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
