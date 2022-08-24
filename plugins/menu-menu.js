@@ -76,7 +76,7 @@ let str = `
 ° ඬ ⃟ 💟 _${usedPrefix}всегруппы_
 ° ඬ ⃟ 💟 _${usedPrefix}создатель_
 ° ඬ ⃟ 💟 _${usedPrefix}царь бота_
-° ඬ ⃟ 💟 _${usedPrefix}база
+° ඬ ⃟ 💟 _${usedPrefix}аренда
 
 ° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
