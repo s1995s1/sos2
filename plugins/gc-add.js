@@ -41,7 +41,7 @@ try {
         mentions: conn.parseMention(teks)
 })}
 } catch (e) {
-throw m.reply('*[❗ИНФО❗] ')}
+throw m.reply('*[❗ИНФО❗] Я НЕ МОГУ ДОБАВИТЬ ПОЛЬЗОВВАТЕЛЯ ТАК КАК У НЕГО СТОИТ ОГРАНИЧЕНИЕ НА ДОБОВЛЕНИЕ ИЛИ ПОЛЬЗОВАТЕЛЬ НЕДАВНО ПОКИНУЛ ГРУППУ. ОТПРАВТЕ ЕМУ ССЫЛКУ ГРУППЫ В ЛИЧКУ!!*')}
 }
 handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['group']
