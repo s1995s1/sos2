@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
  */
 const { getBinaryNodeChild, getBinaryNodeChildren } = (await import('@adiwajshing/baileys')).default
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
-if (!global.db.data.settings[conn.user.jid].restrict) throw '*[ ⚠️ ] 𝙴𝙻 𝙾𝚆𝙽𝙴𝚁 𝚃𝙸𝙴𝙽𝙴 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾 (𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝 / 𝚍𝚒𝚜𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) 𝙴𝙻 𝚄𝚂𝙾 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*'
+if (!global.db.data.settings[conn.user.jid].restrict) throw '*[ ⚠️ ] ВКЛЮЧИТЕ ОГРАНИЧЕНИЕ ЧТО БЫ ДОБАТЬ (включить ограничения / выключить ограничение)*'
 try {
   let _participants = participants.map(user => user.jid)
   let users = (await Promise.all(
@@ -41,7 +41,7 @@ try {
         mentions: conn.parseMention(teks)
 })}
 } catch (e) {
-throw m.reply('*[❗ИНФО❗] Я НЕ МОГУ ДОБАВИТЬ ПОЛЬЗОВВАТЕЛЯ ТАК КАК У НЕГО СТОИТ ОГРАНИЧЕНИЕ НА ДОБОВЛЕНИЕ ИЛИ ПОЛЬЗОВАТЕЛЬ НЕДАВНО ПОКИНУЛ ГРУППУ. ОТПРАВТЕ ЕМУ ССЫЛКУ ГРУППЫ В ЛИЧКУ!!*')}
+throw m.reply('*[❗ИНФО❗] ')}
 }
 handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['group']
