@@ -5,7 +5,7 @@ conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gro
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: 'ССЫЛКА НА ГРУППУ',
 body: 'Бот Царяᙆ  ᷦ',         
-previewType: 0, thumbnail: fs.readFileSync(",/Menu2.jpg"),
+previewType: 0, thumbnail: fs.readFileSync("/,Menu2.jpg"),
 sourceUrl: `https://github.com/IdkJhus`}}})   
 }
 handler.help = ['linkgroup']
