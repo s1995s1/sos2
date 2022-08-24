@@ -11,10 +11,10 @@ let donar =`
 *┃ 👉🏻 Хочешь снять бота?*
 *┃ Пиши моему создателю*
 *┃*
-*┃Wa.me/+7910070455
+┃Wa.me/+7910070455
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://www.instagram.com/idk_jhuz/', '', null, null, [['ОСНОВНОЕ МЕНЮ', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, '', '', null, null, [['ОСНОВНОЕ МЕНЮ', '/menu']], m)}
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|аренда|apoyar$/i
