@@ -11,9 +11,9 @@ conn.sendHydrated(m.chat, `
 
 📌 *ТИТУЛ:* ${title}
 📇 *ОПИСАНИЕ:* ${description}
-📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
+📆 *ОПУБЛИКОВАНО:* ${publishedTime}
+⌚ *ПРОДОЛЖИТЕЛЬНОСТЬ:* ${durationH}
+👀 *ПРОСМОТРОВ:* ${viewH}
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
 ['АУДИО', `${usedPrefix}yta.2 ${url}`],
 ['ВИДЕО', `${usedPrefix}ytv.2 ${url}`]
@@ -22,5 +22,5 @@ conn.sendHydrated(m.chat, `
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 console.log(e)
 }}
-handler.command = /^play3|playdoc?$/i
+handler.command = /^плей|playdoc?$/i
 export default handler
