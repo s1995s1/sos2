@@ -21,7 +21,7 @@ conn.sendHydrated(m.chat, `
 m.reply('*[❗ИНФО❗] ОШИБКА, ПОЖАЛУСТА ПОВТОРИТЕ ПОПЫТКУ*')
 console.log(e)
 }}
-handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
+handler.help = ['плей', 'плей2'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = /^play?$/i
+handler.command = /^плей?$/i
 export default handler
