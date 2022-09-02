@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /иди нахуй|Иди нахуй/
+handler.customPrefix = /иди нахуй|Иди нахуй|Иди на хуй/
 handler.command = new RegExp
 export default handler
