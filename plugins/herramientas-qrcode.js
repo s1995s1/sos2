@@ -5,5 +5,5 @@ conn.sendFile(m.chat, await toDataURL(text.slice(0, 2048), { scale: 8 }), 'qrcod
 }
 handler.help = ['код', 'code'].map(v => 'qr' + v + ' <teks>')
 handler.tags = ['tools']
-handler.command = /^код)?$/i
+handler.command = /^код?$/i
 export default handler
