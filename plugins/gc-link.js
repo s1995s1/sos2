@@ -5,7 +5,7 @@ conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gro
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: 'ССЫЛКА ГРУППЫ',
 body: 'ᴛʜᴇ ᴍʏsᴛᴄ ﹣ ʙᴏᴛ',         
-previewType: 0, thumbnail: fs.readFileSync("./src/admins.jpg"),
+previewType: 1, thumbnail: fs.readFileSync("./src/admins.jpg"),
 sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})   
 }
 handler.help = ['linkgroup']
