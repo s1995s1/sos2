@@ -1,4 +1,4 @@
-import fs from 'привет'
+import fs from 'fs'
 let handler = async (m, { conn, args }) => {
 let group = m.chat
 conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
