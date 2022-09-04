@@ -5,12 +5,12 @@ conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gro
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾',
 body: 'ᴛʜᴇ ᴍʏsᴛᴄ ﹣ ʙᴏᴛ',         
-previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
+previewType: 0, thumbnail: fs.readFileSync("./do {Menu2.jpg);"),
 sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})   
 }
 handler.help = ['linkgroup']
 handler.tags = ['group']
-handler.command = /^ссылка(gro?up)?$/i
+handler.command = /^ссылк(gro?up)?$/i
 handler.group = true
 handler.botAdmin = true
 export default handler
