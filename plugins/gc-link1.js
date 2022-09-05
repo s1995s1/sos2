@@ -3,7 +3,7 @@ let group = m.chat
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
 //m.reply('https://chat.whatsapp.com/' + await conn.groupInviteCode(group))
   
-conn.sendHydrated(m.chat, ('https://chat.whatsapp.com/' + await conn.groupInviteCode(group)), wm, pp, null, null, null, null, [
+conn.sendHydrated(m.chat, ('https://chat.whatsapp.com /n/n будьте осторожны с сылкой' + await conn.groupInviteCode(group)), wm, pp, null, null, null, null, [
 ['ПОЛНОЕ МЕНЮ ', '/menu']], m)
 }
 handler.help = ['linkgroup']
