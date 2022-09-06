@@ -1,9 +1,10 @@
 let handler = async (m, { conn, participants, groupMetadata }) => {
-const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/info_group.jpg' || './media/день.mp3'
+const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null)|| './src/info_group.jpg'
 const { isBanned, welcome, detect, sWelcome, sBye, sPromote, sDemote, antiLink, antiLink2, modohorny, autosticker, audios, delete: del } = global.db.data.chats[m.chat]
 const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
+let vn = './media/день.mp3'
 let text = `*「 ИНФОРМАЦЫЯ ГРУППЫ 」*\n
 *ИДЕНТИФИКАЦЫЯ ГРУППЫ:* 
 ${groupMetadata.id}

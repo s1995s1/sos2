@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /(инфогруппы)/
+handler.customPrefix = //
 handler.command = new RegExp
 export default handler
