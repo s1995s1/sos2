@@ -34,6 +34,9 @@ ${groupMetadata.id}
 `.trim()
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
+//await conn.sendFile(m.chat, vn, 'день.mp3', null, m, true, {
+//type: 'audioMessage', 
+//ptt: true})
 handler.help = ['infogrup']
 handler.tags = ['group']
 handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc))$/i
