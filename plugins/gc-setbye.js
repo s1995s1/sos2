@@ -6,6 +6,6 @@ m.reply('*[❗] ПРОЩАЛЬНОЕ СООБЩЕНИЕ ЗАПИСАНО ДЛЯ 
 }
 handler.help = ['setbye <text>']
 handler.tags = ['group']
-handler.command = ['прощание'] 
+handler.command = ['прощяние'] 
 handler.admin = true
 export default handler
