@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('【C】【A】【R】\ 【R】【U】【L】【I】【T】', {
+say('Альтрон - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Ураа я увидел белый свет своими глазами, Создатель, Ты красафчек`, {
+say(`Bot creado por Bruno Sobrino`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -32,7 +32,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('♱✞✟ QR', {
+say('Ajuste la pantalla para escanear el codigo QR', {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -55,6 +55,11 @@ break }})
 p.on('exit', (_, code) => {
 isRunning = false
 console.error('❎ㅤOcurrio un error inesperado:', code)
+  
+p.process.kill()
+isRunning = false
+start.apply(this, arguments)
+  
 if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
