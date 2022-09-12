@@ -17,7 +17,7 @@ say('Альтрон - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por Bruno Sobrino`, {
+say(`Bot пренадлижит Царю`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
