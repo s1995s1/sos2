@@ -118,26 +118,26 @@ let str = `
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}enable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}disable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitraba*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}включить *welcome*_
+° ඬ⃟☑️ _${usedPrefix}выключить *welcome*_
+° ඬ⃟☑️ _${usedPrefix}включить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}выключить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}включить *antilink*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antilink*_
+° ඬ⃟☑️ _${usedPrefix}включить *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}включить *detect*_
+° ඬ⃟☑️ _${usedPrefix}выключить *detect*_
+° ඬ⃟☑️ _${usedPrefix}включить *audios*_
+° ඬ⃟☑️ _${usedPrefix}выключить *audios*_
+° ඬ⃟☑️ _${usedPrefix}включить *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}выключить *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}включить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitraba*_
 
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 
@@ -479,20 +479,20 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 => *<funcion>*
 ° ඬ⃟👑 $ *<funcion>*
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
-° ඬ⃟👑 _${usedPrefix}enable *restrict*_
-° ඬ⃟👑 _${usedPrefix}disable *restrict*_
-° ඬ⃟👑 _${usedPrefix}enable *autoread*_
-° ඬ⃟👑 _${usedPrefix}disable *autoread*_
-° ඬ⃟👑 _${usedPrefix}enable *public*_
-° ඬ⃟👑 _${usedPrefix}disable *public*_
-° ඬ⃟👑 _${usedPrefix}enable *pconly*_
-° ඬ⃟👑 _${usedPrefix}disable *pconly*_
-° ඬ⃟👑 _${usedPrefix}enable *gconly*_
-° ඬ⃟👑 _${usedPrefix}disable *gconly*_
-° ඬ⃟👑 _${usedPrefix}enable *anticall*_
-° ඬ⃟👑 _${usedPrefix}disable *anticall*_
-° ඬ⃟👑 _${usedPrefix}enable *antiprivado*_
-° ඬ⃟👑 _${usedPrefix}disable *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}включить *restrict*_
+° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
+° ඬ⃟👑 _${usedPrefix}включить *autoread*_
+° ඬ⃟👑 _${usedPrefix}выключить *autoread*_
+° ඬ⃟👑 _${usedPrefix}включить *public*_
+° ඬ⃟👑 _${usedPrefix}выключить *public*_
+° ඬ⃟👑 _${usedPrefix}включить *pconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *pconly*_
+° ඬ⃟👑 _${usedPrefix}включить *gconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *gconly*_
+° ඬ⃟👑 _${usedPrefix}включить *anticall*_
+° ඬ⃟👑 _${usedPrefix}выключить *anticall*_
+° ඬ⃟👑 _${usedPrefix}включить *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}выключить *antiprivado*_
 ° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
@@ -510,19 +510,19 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
-['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
-['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
+conn.sendHydrated2(m.chat, str, wm, pp, '', '', '', '', [
+['', '/'],
+['🌹 ВЛАДЕЛЕЦ 🌹', '/owner'],
+['', '/']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true})
 } catch (e) {
-conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
+conn.reply(m.chat, '*[❗ИНФО❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 throw e
 }}
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
+handler.command = /^(menu|меню|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
 handler.exp = 50
 handler.fail = null
 export default handler

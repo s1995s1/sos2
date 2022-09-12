@@ -1,4 +1,4 @@
-# `🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮`
+# `🧿 ★Альтрон - 𝙱𝚘𝚝★ 🔮`
 
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
 
@@ -11,9 +11,9 @@
 <a href="http://wa.me/51996089079" target="blank"><img src="https://img.shields.io/badge/GHOST_COLAB.6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/51995386439" target="blank"><img src="https://img.shields.io/badge/NEKOSMIC_MATT_COLAB.7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `—◉ 💰 DONAR 💰`
+### [`—◉ 💰 DONAR 💰`](http://wa.me/51995386439)
 
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
+- [AGRADECE CON UNA DONACION VOLUNTARIA ](http://wa.me/51995386439)[Aqui](https://www.paypal.me/TheShadowBrokers133)
 
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
 
@@ -57,7 +57,7 @@ AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PART
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/s1995s1/sos2
+> git clone https://github.com/s1995s1/sos2.git
 > cd sos2
 > yarn install 
 > npm install
