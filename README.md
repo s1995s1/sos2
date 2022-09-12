@@ -57,8 +57,8 @@ AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PART
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/s1995s1/sos2.git
-> cd sos2
+> git clone https://github.com/s1995s1/sos2-termux.git
+> cd sos2-termux
 > yarn install 
 > npm install
 > npm update
