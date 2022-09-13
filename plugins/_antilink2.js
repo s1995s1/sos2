@@ -1,4 +1,4 @@
-let linkRegex = /https:/i
+let linkRegex = /https:, Привет/i
 export async function before(m, { isAdmin, isBotAdmin, text }) {
 if (m.isBaileys && m.fromMe)
 return !0
@@ -11,7 +11,7 @@ if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 const linkThisGroup2 = `https://www.youtube.com/`
 const linkThisGroup3 = `https://youtu.be/`
-const linkThisGroup4 = `https:`
+const linkThisGroup4 = `Привет`
 if (m.text.includes(linkThisGroup)) return !0
 if (m.text.includes(linkThisGroup2)) return !0
 if (m.text.includes(linkThisGroup3)) return !0
