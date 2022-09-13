@@ -1,4 +1,4 @@
-let linkRegex = /https:, Привет/i
+let linkRegex = /https:/i
 export async function before(m, { isAdmin, isBotAdmin, text }) {
 if (m.isBaileys && m.fromMe)
 return !0
@@ -11,11 +11,9 @@ if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 const linkThisGroup2 = `https://www.youtube.com/`
 const linkThisGroup3 = `https://youtu.be/`
-const linkThisGroup4 = `Привет`
 if (m.text.includes(linkThisGroup)) return !0
 if (m.text.includes(linkThisGroup2)) return !0
 if (m.text.includes(linkThisGroup3)) return !0
-if (m.text.includes(linkThisGroup4)) return !0
 }    
 await conn.sendButton(m.chat, `*「 АНТИССЫЛКА 」*\n*${await this.getName(m.sender)} ДО ВСТРЕЧИ :)*${isBotAdmin ? '' : '\n\n*[❗ИНФО❗] БОТ ДОЛЖЕН БЫТЬ АДМИНОМ*'}`, author, ['ОТКЛЮЧИТЬ АНТИССЫЛКУ', '/выключить антиссылку'], m)    
 if (isBotAdmin && bot.restrict) {
