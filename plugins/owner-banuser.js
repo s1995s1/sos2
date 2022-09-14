@@ -1,15 +1,15 @@
 let handler = async (m, { conn, text}) => {
-if (!text) throw '*[❗ИНФО❗] ВВЕДИТЕ @номер ИЛИ НИК УЧАСТНИКА*'
+if (!text) throw '*[❗ИНФО❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*'
 let who
 if (m.isGroup) who = m.mentionedJid[0]
 else who = m.chat
-if (!who) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*'
+if (!who) throw '*[❗ИНФО❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*'
 let users = global.db.data.users
 users[who].banned = true
-conn.reply(m.chat, `*[❗ИНФО❗] ПОЛЬЗОВАТЕЛЬ УСПЕШНО ЗАБЛОКИРОВАН*\n*—◉ ПОЛЬЗОВАТЕЛЬ НЕ СМОЖЕТ ПОЛЬЗОВАТЬСЯ БОЛЬШЕ БОТОМ*`, m)
+conn.reply(m.chat, `*[❗ИНФО❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙵𝚄𝙴 𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙽𝙾 𝙿𝙾𝙳𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃 𝙷𝙰𝚂𝚃𝙰 𝚀𝚄𝙴 𝚂𝙴𝙰 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾*`, m)
 }
 handler.help = ['banuser']
 handler.tags = ['owner']
-handler.command = /^заблокировать$/i
+handler.command = /^banuser$/i
 handler.rowner = true
 export default handler

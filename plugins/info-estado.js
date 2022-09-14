@@ -8,23 +8,23 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
-╭─[ *Бот Царяᙆ  ᷦ* ]
-│ *➤ ПРИВЕТ ${name}*
+╭─[ *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* ]
+│ *➤ 𝙷𝙾𝙻𝙰 ${name}*
 │
-│ *ミ🤖 СТАТУС БОТА 🤖彡*
-│ *=> БОТ АКТИВНЫЙ ✅*
-│ *=> БОТ ОБЩЕГО ПОЛЬЗОВАНИЯ ✅*
-│ *=> АКТИВНОЕ ВРЕМЯ: ${uptime}*
+│ *ミ🤖 𝙴𝚂𝚃𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 🤖彡*
+│ *=> 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅*
+│ *=> 𝙱𝙾𝚃 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 ✅*
+│ *=> 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
 ╰───────────────
 `.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://avatars.mds.yandex.net/i?id=3a29ae911242302e5855a4f65978e0bb-4961046-images-thumbs&n=13', 'НЕ СМОТРИ', null, null, [
-['ПОЛНОЕ МЕНЮ', '/menu']
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)}
 
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(статус|status|estate|state|stado|stats)$/i
+handler.command = /^(estado|status|estate|state|stado|stats)$/i
 export default handler
 
 function clockString(ms) {
