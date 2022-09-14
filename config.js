@@ -8,9 +8,8 @@ global.owner = [
   ['34642467703', '👑 Mystic - Collaborator 1 👑', true],
   ['50499698072', '👑 Mystic - Collaborator 2 👑', true],
   ['51940617554', '👑 Mystic - Collaborator 3 👑', true],
-  ['593991398786', '👑 Mystic - Collaborator 4 👑', true],
-  ['51996089079', '👑 Mystic - Collaborator 5 👑', true],
-  ['573225236629', '👑 Mystic - Collaborator 6 👑', true],
+  ['51996089079', '👑 Mystic - Collaborator 4 👑', true],
+  ['573225236629', '👑 Mystic - Collaborator 5 👑', true],
   ['593968585283'],
   ['5219992095479'],
   ['5219991402134'],
@@ -95,12 +94,10 @@ string = string.toLowerCase()
 let emot = {
 level: '🏆',
 limit: '💎',
-exp: '🕹️'
-}
+exp: '🕹️'}
 let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
 if (!results.length) return ''
-else return emot[results[0][0]]
-}}
+else return emot[results[0][0]]}}
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
 unwatchFile(file)
