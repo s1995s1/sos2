@@ -26,7 +26,7 @@ let text = `
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/BrunoSobrino/Mystic-termux
+> git clone https://github.com/s1995s1/sos2-termux
 > cd Mystic-termux
 > yarn install 
 > npm install

@@ -11,9 +11,9 @@
 <a href="http://wa.me/51996089079" target="blank"><img src="https://img.shields.io/badge/GHOST_COLAB.6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="http://wa.me/51995386439" target="blank"><img src="https://img.shields.io/badge/NEKOSMIC_MATT_COLAB.7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `—◉ 💰 DONAR 💰`
+### [`—◉ 💰 DONAR 💰`](http://wa.me/51995386439)
 
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
+- [AGRADECE CON UNA DONACION VOLUNTARIA ](http://wa.me/51995386439)[Aqui](https://www.paypal.me/TheShadowBrokers133)
 
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
 
