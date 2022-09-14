@@ -29,12 +29,12 @@
 
 ### `—◉ ✨ ACTIVAR EN HEROKU ✨`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/s1995s1/sos2)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
 
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/s1995s1/sos2/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/s1995s1/sos2/blob/master/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾`
 
