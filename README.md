@@ -1,93 +1,66 @@
-# `𝑁𝑜𝑡 𝐽ℎ𝑢𝑧-𝑀𝐷 `
+<P align="center">
+<img src="https://giffiles.alphacoders.com/152/15268.gif" width="400" height="230"/>
+</p>
+<P align="center">
+<br>
+<p align="center">
+<a href="#"><img title="WhatsApp-Bot-MD" src="https://img.shields.io/badge/-WHATSAPP--BOT--MD-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://tinyurl.com/2p9kb7yd"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt_M-orange?style=for-the-badge&logo=github"></a>
+</p>
+</details>
+</p>
 
-### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-<a href="http://wa.me/79010070455" target="blank"><img src="https://img.shields.io/badge/JHUSZ-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-> NO BOT
+## Características del bot 
+|  Funciones y comandos  |                                           Sip |
+| :---------------------------------------------: | :-----------: |
+| Crea stickers|✔️|
+| Bienvenida automática|✔️|
+| Anti-Link|✔️|
+| Anti-Fakes|✔️|
+| Anti-Estranjeros|✔️|
+| Modo Publico/Privado|✔️|
+| Descarga de música/videos|✔️|
+| Más funciones en adelante|♻️|
 
-### `—◉ 🖍 LETRA DEL BOT 🖍`
-- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
-
-### `—◉ ✨ ACTIVAR EN HEROKU ✨`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+## Instalacion
+Para nuevos desde cero en termux:
 ```bash
-[❗] FALLAS POR EL MOMENTO EN HEROKU, SE TRABAJA EN SOLUCIONAR ERRORES.
-AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PARTE:
-> heroku/nodejs
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-> https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
-ADVERTENCIA: HEROKU ESTA SUSPENDIENDO CUENTAS POR SOLO USAR EL BOT, POR AHORA NO ES RECOMENDABLE USAR EL BOT EN HEROKU!
-```
-
-### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/s1995s1/sos2/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/s1995s1/sos2/blob/master/config.js)
-
-### `—◉ 👾 ACTIVAR EN TERMUX 👾`
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd
 > termux-setup-storage
-> apt update 
-> pkg upgrade 
-> pkg install git -y
-> pkg install nodejs -y
+(Dan permiso a su almacenamiento)
+> termux-change-repo
+(Seleccionan todas las opciones que les aparescan en la primera ventana || En la segunda ventana seleccionan la opcion que contenga las palabras 'termux.mentality.rip' )
+> apt update -y && apt upgrade -y
+> pkg install git
+> pkg install nodejs
+> pkg install libwebp -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/s1995s1/sos2
-> cd sos2
-> yarn install 
-> npm install
-> npm update
-> npm start
-```
 
-### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE ✔️`
+```
+## Despues de tener todos los packs instalados en termux solo usen estos comandos para comenzar
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd sos2
+> git clone [URL_DEL_REPOSITORIO_ACTUAL] 
+> cd NK-BOT-MD
+> yarn
 > npm start
+
+Para detener al bot en termux:
+> Ctrl+c
 ```
 
-### `—◉ 👽 OBTENER OTRO CODIGO QR 👽`
+## Comentarios ó sugerencias :3
+
+<a href="https://wa.me/51995386439"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd sos2
-> rm -rf session.data.json
-> npm start
+> Si encuentran algun error me comentan ;)
 ```
 
-### `—◉ 🔥 ACTIVAR EN BOXMINEHOST 🔥`
-<img src="https://raw.githubusercontent.com/IdkJhus/sos2/master/src/Pre%20Bot%20Publi.png" alt="GIF" width="450" height="240"/>
-<p>> Pagina Oficial:
-<a href="https://boxmineworld.com">https://boxmineworld.com</a>
-<p>> Dashboard:
-<a href="https://dash.boxmineworld.com/home">https://dash.boxmineworld.com/home</a>
-<p>> Panel:
-<a href="https://panel.boxmineworld.com">https://panel.boxmineworld.com</a>
-<p>> Dudas UNICAMENTE SOBRE EL HOST:
-<a href="https://discord.gg/84qsr4v">https://discord.gg/84qsr4v</a> (Preguntar por Vicemi)
+## Agradecido con el de arriba y a estos cracks :3
+
+* <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+* <a href="https://github.com/BochilGaming"><img alt="GitHub" src="https://img.shields.io/badge/BochilGaming%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 </p>
-
-### `—◉ 📝 NOTAS 📝`
-```bash
-- ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
-- ES RECOMENDABLE LEER TODO EL MENU Y VER EL FUNCIONAMIENTO DE CADA UNO DE LOS COMANDOS
-- REPORTA CUALQUIER FALLO CON EL COMANDO DE REPORTE 
-- PARA PODER ESCANEAR EL CODIGO QR DEBES SER PARTICIPANTE DE LA VERSION MULTI-DEVICE (BETA) DE WHATSAPP
-- NO MODIFIQUES NADA QUE NO SEPAS PARA QUE ES, PARA EVITAR PROBLEMAS O ERRORES
-- SI VAS A EDITAR POR COMPLETO DEJA LOS CREDITOS DEL BOT 
-- EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
-- ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
-- EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE 
-- EL BOT FUNCIONA AUNQUE EL WHATSAPP NO TENGA CONEXION 
-- SE RECOMIENDA REESCANEAR EL CODIGO QR CADA 2 DIAS, PARA EVITAR PROBLEMAS O ERRORES
-```
-
-## `EDITOR Y PROPIETARIO DEL BOT` 
-`𝑁𝑜𝑡 𝐽ℎ𝑢𝑧-𝑀𝐷 __________ By Jhusz?`
-
-

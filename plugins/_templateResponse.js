@@ -1,3 +1,4 @@
+import { plugins } from '../lib/plugins.js'
 const {
     proto,
     generateWAMessage,
@@ -14,8 +15,8 @@ export async function all(m, chatUpdate) {
     let id = m.message.buttonsResponseMessage?.selectedButtonId || m.message.templateButtonReplyMessage?.selectedId || m.message.listResponseMessage?.singleSelectReply?.selectedRowId
     let text = m.message.buttonsResponseMessage?.selectedDisplayText || m.message.templateButtonReplyMessage?.selectedDisplayText || m.message.listResponseMessage?.title
     let isIdMessage = false, usedPrefix
-    for (let name in global.plugins) {
-        let plugin = global.plugins[name]
+    for (let name in plugins) {
+        let plugin = plugins[name]
         if (!plugin)
             continue
         if (plugin.disabled)
@@ -60,7 +61,8 @@ export async function all(m, chatUpdate) {
                 continue
             isIdMessage = true
         }
-}
+
+    }
     let messages = await generateWAMessage(m.chat, { text: isIdMessage ? id : text, mentions: m.mentionedJid }, {
         userJid: this.user.id,
         quoted: m.quoted && m.quoted.fakeObj
@@ -72,7 +74,7 @@ export async function all(m, chatUpdate) {
         messages.key.participant = messages.participant = m.sender
     let msg = {
         ...chatUpdate,
-        messages: [proto.WebMessageInfo.fromObject(messages)].map(v => (v.conn = this, v)),
+        messages: [proto.WebMessageInfo.fromObject(messages)].map(this.serializeM),
         type: 'append'
     }
     this.ev.emit('messages.upsert', msg)
