@@ -1,20 +1,10 @@
-/**
-[ By @NeKosmic || https://github.com/NeKosmic/ ]
-**/
-import db from '../lib/database.js'
-
-let handler = async (m, { text, conn }) => {
-    let user = db.data.users[m.sender]
-    if (!text) return m.reply(`Por favor diga su motivo para irse AFK\nEjemplo de uso : \n${Prefijo}afk iré al baño :v`)
-    if (text.length < 10) return m.reply(`[ ! ] El motivo es muy corto`)
-    user.afk = + new Date
-    user.afkReason = text
-    await conn.sendMessage(m.chat, { text: `*Se activo la función AFK exitosamente*\n\n➸ *Usuario*: ${conn.getName(m.sender)}\n➸ *Razon*: ${text}`}, {quoted: m }) 
-    reacMoji(m.chat, conn, '💤', m)
-}
-
-handler.help = ['afk [razon]']
-handler.tags = ['utilidad']
+let handler = async (m, { text }) => {
+let user = global.db.data.users[m.sender]
+user.afk = + new Date
+user.afkReason = text
+m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 ${conn.getName(m.sender)} 𝙴𝚂𝚃𝙰𝚁𝙰 𝙸𝙽𝙰𝙲𝚃𝙸𝚅𝙾 (𝙰𝙵𝙺), 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙽𝙾 𝙻𝙾 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴𝙽*\n\n*—◉ 𝙼𝙾𝚃𝙸𝚅𝙾 𝙳𝙴 𝙻𝙰 𝙸𝙽𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳 (𝙰𝙵𝙺)${text ? ': ' + text : ''}*
+`)}
+handler.help = ['afk [alasan]']
+handler.tags = ['main']
 handler.command = /^afk$/i
-
 export default handler
