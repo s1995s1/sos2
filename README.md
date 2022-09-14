@@ -25,11 +25,11 @@
 
 ### `—◉ 🌌 ACTIVAR EN REPLIT 🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD)
+[![Run on Repl.it](https://repl.it/badge/github/s1995s1/sos2)](https://repl.it/github/s1995s1/sos2)
 
 ### `—◉ ✨ ACTIVAR EN HEROKU ✨`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/s1995s1/sos2)
 
 ```bash
 AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PARTE:
@@ -40,8 +40,8 @@ AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PART
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
 
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/s1995s1/sos2/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/s1995s1/sos2/blob/master/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾`
 
@@ -89,7 +89,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### `—◉ 🔥 ACTIVAR EN BOXMINEHOST 🔥`
 
-`<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/>``</a>`
+`<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/s1995s1/sos2/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/>``</a>`
 
 - Pagina Oficial: [https://boxmineworld.com](https://boxmineworld.com)
 - Dashboard: [https://dash.boxmineworld.com](https://dash.boxmineworld.com)
