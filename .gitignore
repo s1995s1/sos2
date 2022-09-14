@@ -1,7 +1,9 @@
-#| Foldes |#
+#| Folders |#
 
+.github
 node_modules
 MysticSession
+tmp
 
 #| Files |#
 
