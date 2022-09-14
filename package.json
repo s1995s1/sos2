@@ -16,18 +16,18 @@
     },
     "homepage": "https://github.com/s1995s1/sos2",
     "author": {
-        "name": "s1995s1"
+        "name": "BrunoSobrino"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/s1995s1/sos2/issues"
+        "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "github:s1995s1/baileys",
+        "@adiwajshing/baileys": "github:BrunoSobrino/baileys",
         "@bochilteam/scraper": "^3.0.0",
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^2.68.0",
