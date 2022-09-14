@@ -6,8 +6,6 @@ import fs from 'fs'
 global.owner = [
   ['+79010070455', '👑 Создатель Альтрона 👑', true],
 ] 
-global.suittag = ['+79010070455'] 
-global.prems = ['+79010070455'] 
 
 global.packname = '(☞Альтрон)☞'
 global.author = '★Альтрон - 𝙱𝚘𝚝★'
