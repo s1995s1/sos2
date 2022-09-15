@@ -16,7 +16,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
+*ミ💖 ПРИВЕТ ✨${taguser}✨, ЗДЕЛЬ ВСЕ КОМАНДЫ БОТА-АЛЬТРОНА 💖彡*
 
 *📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 *📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
@@ -71,20 +71,20 @@ ${readMore}
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
-° ඬ⃟☑️ _${usedPrefix}включить *welcome*_
-° ඬ⃟☑️ _${usedPrefix}выключить *welcome*_
+° ඬ⃟☑️ _${usedPrefix}включить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}выключить *приветствие*_
 ° ඬ⃟☑️ _${usedPrefix}включить *modohorny*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}включить *antilink*_
-° ඬ⃟☑️ _${usedPrefix}выключить *antilink*_
-° ඬ⃟☑️ _${usedPrefix}включить *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}выключить *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка2*_
 ° ඬ⃟☑️ _${usedPrefix}включить *detect*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *detect*_
-° ඬ⃟☑️ _${usedPrefix}включить *audios*_
-° ඬ⃟☑️ _${usedPrefix}выключить *audios*_
-° ඬ⃟☑️ _${usedPrefix}включить *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}выключить *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}включить *аудио*_
+° ඬ⃟☑️ _${usedPrefix}выключить *аудио*_
+° ඬ⃟☑️ _${usedPrefix}включить *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}выключить *автостикер*_
 ° ඬ⃟☑️ _${usedPrefix}включить *antiviewonce*_
 ° ඬ⃟☑️ _${usedPrefix}выключить *antiviewonce*_
 ° ඬ⃟☑️ _${usedPrefix}включить *antitoxic*_
@@ -185,72 +185,8 @@ ${readMore}
 *<ℝ𝔸ℕ𝔻𝕆𝕄/>*
 
 ° ඬ⃟👾 _${usedPrefix}cristianoronaldo_
-° ඬ⃟👾 _${usedPrefix}messi_
-° ඬ⃟👾 _${usedPrefix}meme_
-° ඬ⃟👾 _${usedPrefix}itzy_
-° ඬ⃟👾 _${usedPrefix}blackpink_
-° ඬ⃟👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
-° ඬ⃟👾 _${usedPrefix}lolivid_
-° ඬ⃟👾 _${usedPrefix}loli_
-° ඬ⃟👾 _${usedPrefix}navidad_
-° ඬ⃟👾 _${usedPrefix}ppcouple_
-° ඬ⃟👾 _${usedPrefix}wpmontaña_
-° ඬ⃟👾 _${usedPrefix}pubg_
-° ඬ⃟👾 _${usedPrefix}wpgaming_
-° ඬ⃟👾 _${usedPrefix}wpaesthetic_
-° ඬ⃟👾 _${usedPrefix}wpaesthetic2_
-° ඬ⃟👾 _${usedPrefix}wprandom_
-° ඬ⃟👾 _${usedPrefix}wallhp_
-° ඬ⃟👾 _${usedPrefix}wpvehiculo_
-° ඬ⃟👾 _${usedPrefix}wpmoto_
-° ඬ⃟👾 _${usedPrefix}coffee_
-° ඬ⃟👾 _${usedPrefix}pentol_
-° ඬ⃟👾 _${usedPrefix}caricatura_
-° ඬ⃟👾 _${usedPrefix}ciberespacio_
-° ඬ⃟👾 _${usedPrefix}technology_
-° ඬ⃟👾 _${usedPrefix}doraemon_
-° ඬ⃟👾 _${usedPrefix}hacker_
-° ඬ⃟👾 _${usedPrefix}planeta_
-° ඬ⃟👾 _${usedPrefix}randomprofile_
-° ඬ⃟👾 _${usedPrefix}neko_
-° ඬ⃟👾 _${usedPrefix}waifu_
-° ඬ⃟👾 _${usedPrefix}akira_
-° ඬ⃟👾 _${usedPrefix}akiyama_
-° ඬ⃟👾 _${usedPrefix}anna_
-° ඬ⃟👾 _${usedPrefix}asuna_
-° ඬ⃟👾 _${usedPrefix}ayuzawa_
-° ඬ⃟👾 _${usedPrefix}boruto_
-° ඬ⃟👾 _${usedPrefix}chiho_
-° ඬ⃟👾 _${usedPrefix}chitoge_
-° ඬ⃟👾 _${usedPrefix}deidara_
-° ඬ⃟👾 _${usedPrefix}erza_
-° ඬ⃟👾 _${usedPrefix}elaina_
-° ඬ⃟👾 _${usedPrefix}eba_
-° ඬ⃟👾 _${usedPrefix}emilia_
-° ඬ⃟👾 _${usedPrefix}hestia_
-° ඬ⃟👾 _${usedPrefix}hinata_
-° ඬ⃟👾 _${usedPrefix}inori_
-° ඬ⃟👾 _${usedPrefix}isuzu_
-° ඬ⃟👾 _${usedPrefix}itachi_
-° ඬ⃟👾 _${usedPrefix}itori_
-° ඬ⃟👾 _${usedPrefix}kaga_
-° ඬ⃟👾 _${usedPrefix}kagura_
-° ඬ⃟👾 _${usedPrefix}kaori_
-° ඬ⃟👾 _${usedPrefix}keneki_
-° ඬ⃟👾 _${usedPrefix}kotori_
-° ඬ⃟👾 _${usedPrefix}kurumi_
-° ඬ⃟👾 _${usedPrefix}madara_
-° ඬ⃟👾 _${usedPrefix}mikasa_
-° ඬ⃟👾 _${usedPrefix}miku_
-° ඬ⃟👾 _${usedPrefix}minato_
-° ඬ⃟👾 _${usedPrefix}naruto_
-° ඬ⃟👾 _${usedPrefix}nezuko_
-° ඬ⃟👾 _${usedPrefix}sagiri_
-° ඬ⃟👾 _${usedPrefix}sasuke_
-° ඬ⃟👾 _${usedPrefix}sakura_
-° ඬ⃟👾 _${usedPrefix}cosplay_
 
-*<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
+*<НЕ ДЛЯ ДЕТЕЙ КОМАНДЫ +18/>*
 
 ° ඬ⃟🔞 _${usedPrefix}pack_
 ° ඬ⃟🔞 _${usedPrefix}pack2_
@@ -311,7 +247,7 @@ ${readMore}
 ° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
+° ඬ⃟🔍 _${usedPrefix}гугл *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
@@ -325,51 +261,49 @@ ${readMore}
 ° ඬ⃟🔍 _${usedPrefix}toraccino *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}uapkpro *<texto>*_
 
-*<𝔸𝕌𝔻𝕀𝕆𝕊/>* 
-*- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)* 
-_(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
+*<АУДИО/>* 
 
-° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-° ඬ⃟🔊 _Te diagnostico con gay_
-° ඬ⃟🔊 _A nadie le importa_
-° ඬ⃟🔊 _Fiesta del admin_
-° ඬ⃟🔊 _Fiesta del administrador_ 
-° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Feliz cumpleaños_
-° ඬ⃟🔊 _Noche de paz_
-° ඬ⃟🔊 _Buenos dias_
-° ඬ⃟🔊 _Buenos tardes_
-° ඬ⃟🔊 _Buenos noches_
-° ඬ⃟🔊 _Audio hentai_
-° ඬ⃟🔊 _Chica lgante_
-° ඬ⃟🔊 _Feliz navidad_
-° ඬ⃟🔊 _Vete a la vrg_
-° ඬ⃟🔊 _Pasa pack Bot_
-° ඬ⃟🔊 _Atencion grupo_
-° ඬ⃟🔊 _Marica quien_
-° ඬ⃟🔊 _Murio el grupo_
-° ඬ⃟🔊 _Oh me vengo_
-° ඬ⃟🔊 _tio que rico_
-° ඬ⃟🔊 _Viernes_
-° ඬ⃟🔊 _Baneado_
-° ඬ⃟🔊 _Sexo_
-° ඬ⃟🔊 _Hola_
-° ඬ⃟🔊 _Un pato_
-° ඬ⃟🔊 _Nyanpasu_
-° ඬ⃟🔊 _Te amo_
-° ඬ⃟🔊 _Yamete_
-° ඬ⃟🔊 _Bañate_
-° ඬ⃟🔊 _Es puto_
-° ඬ⃟🔊 _La biblia_
-° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Mierda de Bot_
-° ඬ⃟🔊 _Siuuu_
-° ඬ⃟🔊 _Epico_
-° ඬ⃟🔊 _Shitpost_
-° ඬ⃟🔊 _Rawr_
+° ඬ⃟🔊 _
+° ඬ⃟🔊 _T_
+° ඬ⃟🔊 _A_
+° ඬ⃟🔊 _F_
+° ඬ⃟🔊 _F_ 
+° ඬ⃟🔊 _V_
+° ඬ⃟🔊 _F_
+° ඬ⃟🔊 _N_
+° ඬ⃟🔊 _B_
+° ඬ⃟🔊 _B_
+° ඬ⃟🔊 _B_
+° ඬ⃟🔊 _A_
+° ඬ⃟🔊 _С_
+° ඬ⃟🔊 _F_
+° ඬ⃟🔊 _V_
+° ඬ⃟🔊 _P_
+° ඬ⃟🔊 _A_
+° ඬ⃟🔊 _M_
+° ඬ⃟🔊 _M_
+° ඬ⃟🔊 _O_
+° ඬ⃟🔊 _t_
+° ඬ⃟🔊 _V_
+° ඬ⃟🔊 _B_
+° ඬ⃟🔊 _S_
+° ඬ⃟🔊 _H_
+° ඬ⃟🔊 _U_
+° ඬ⃟🔊 _N_
+° ඬ⃟🔊 _T_
+° ඬ⃟🔊 _Y_
+° ඬ⃟🔊 _Г_
+° ඬ⃟🔊 _E_
+° ඬ⃟🔊 _L_
+° ඬ⃟🔊 _O_
+° ඬ⃟🔊 _Л_
+° ඬ⃟🔊 _S_
+° ඬ⃟🔊 _E_
+° ඬ⃟🔊 _S_
+° ඬ⃟🔊 _R_
 ° ඬ⃟🔊 _UwU_
-° ඬ⃟🔊 _:c_
-° ඬ⃟🔊 _a_
+° ඬ⃟🔊 _П_
+° ඬ⃟🔊 _А_
 
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
@@ -402,28 +336,24 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟💵 _${usedPrefix}verificar_
 ° ඬ⃟💵 _${usedPrefix}unreg *<numero de serie>*_
 
-*<𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊/>*
-
-° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
-° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
-° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
-° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
+*<СТИКЕРЫ/>*
+° ඬ⃟👽 _${usedPrefix}стикер *<enlace>*_
 ° ඬ⃟👽 _${usedPrefix}sfull *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
 ° ඬ⃟👽 _${usedPrefix}scircle *<responder a imagen>*_
 ° ඬ⃟👽 _${usedPrefix}sremovebg *<responder a imagen>*_
 ° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
-° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
-° ඬ⃟👽 _${usedPrefix}attp2 *<texto>*_
-° ඬ⃟👽 _${usedPrefix}attp3 *<texto>*_
-° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
-° ඬ⃟👽 _${usedPrefix}ttp2 *<texto>*_
-° ඬ⃟👽 _${usedPrefix}ttp3 *<texto>*_
-° ඬ⃟👽 _${usedPrefix}ttp4 *<texto>*_
-° ඬ⃟👽 _${usedPrefix}ttp5 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик1 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик2 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик3 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик4 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик5 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик6 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}стик7 *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}slap *<@tag>*_
-° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
+° ඬ⃟👽 _${usedPrefix}поцелуй *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}dado_
 ° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
 ° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
@@ -436,8 +366,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 $ *<funcion>*
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
 ° ඬ⃟👑 _${usedPrefix}blocklist_
-° ඬ⃟👑 _${usedPrefix}включить *restrict*_
-° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
+° ඬ⃟👑 _${usedPrefix}включить *ограничить*_
+° ඬ⃟👑 _${usedPrefix}выключить *ограничить*_
 ° ඬ⃟👑 _${usedPrefix}включить *autoread*_
 ° ඬ⃟👑 _${usedPrefix}выключить *autoread*_
 ° ඬ⃟👑 _${usedPrefix}включить *public*_
@@ -461,7 +391,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}cleartpm_
 ° ඬ⃟👑 _${usedPrefix}restart_
-° ඬ⃟👑 _${usedPrefix}update_
+° ඬ⃟👑 _${usedPrefix}обновить_
 ° ඬ⃟👑 _${usedPrefix}traba1_ 
 ° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
@@ -471,9 +401,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
 let buttons = [
-{ buttonId: '#donar', buttonText: { displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮' }, type: 1 },
-{ buttonId: '#owner', buttonText: { displayText: '🌹 𝙾𝚆𝙽𝙴𝚁 🌹' }, type: 1 },
-{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
+{ buttonId: '', buttonText: { displayText: '' }, type: 1 },
+{ buttonId: '#owner', buttonText: { displayText: ' СОЗДАТЕЛЬ ' }, type: 1 },
+{ buttonId: '', buttonText: { displayText: '' }, type: 1 }]
 let buttonMessage = {
 image: imagen1,
 caption: str.trim(),
@@ -487,7 +417,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '👑 АЛЬТРОН - 𝐁𝐎𝐓 👑',
 body: null,
 thumbnail: img,
 sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
@@ -497,7 +427,7 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 }}
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
+handler.command = /^(меню|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
