@@ -157,7 +157,7 @@ break
 case 'autosticker':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
-global.dfail('owner', m, conn)
+global.dfail('owner' , m, conn)
 throw false
 }}
 chat.autosticker = isEnable          
