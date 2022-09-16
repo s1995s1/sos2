@@ -38,7 +38,7 @@ let str = `
 ° ඬ⃟🔊 _Я худею_
 ° ඬ⃟🔊 _Ага_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, '', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, '', 'Это что', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
