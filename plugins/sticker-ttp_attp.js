@@ -2,7 +2,7 @@ let handler = async(m, { conn, text, args, usedPrefix, command }) => {
 if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Mystic-Bot*`
 let teks = encodeURI(text)
 
-if (command == 'attp') {
+if (command == 'стик') {
 let teksb = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
 conn.sendFile(m.chat, global.API('xteam', '/стик', { file: '', text: teksb }), 'sticker.webp', '', m, false, { asSticker: true })}
 
