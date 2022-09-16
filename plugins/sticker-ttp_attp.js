@@ -1,5 +1,5 @@
 let handler = async(m, { conn, text, args, usedPrefix, command }) => {
-if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Mystic-Bot*`
+if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Альтрон-Bot*`
 let teks = encodeURI(text)
 
 if (command == 'стик') {
@@ -28,6 +28,6 @@ if (command == 'стик7') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 }
-handler.command = handler.help = ['стик1', 'стик2', 'стик3', 'стик4', 'стик5', 'стик6', 'стик7', 'стик']
+handler.command = handler.help = ['стик1', 'стик2', 'стик3', 'стик4', 'стик5', 'стик6', 'стик7',]
 handler.tags = ['sticker']
 export default handler
