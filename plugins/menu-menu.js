@@ -359,7 +359,7 @@ ${readMore}
 let buttons = [
 { buttonId: 'меню2', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
 { buttonId: '#owner', buttonText: { displayText: ' СОЗДАТЕЛЬ ' }, type: 1 },
-{ buttonId: '', buttonText: { displayText: '' }, type: 1 }]
+{ buttonId: 'инфобот', buttonText: { displayText: 'ИНФО БОТ' }, type: 1 }]
 let buttonMessage = {
 image: imagen1,
 caption: str.trim(),
