@@ -357,9 +357,9 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
 let buttons = [
-{ buttonId: 'р', buttonText: { displayText: 'р' }, type: 1 },
+{ buttonId: 'р', buttonText: { displayText: '' }, type: 1 },
 { buttonId: '#owner', buttonText: { displayText: ' СОЗДАТЕЛЬ ' }, type: 1 },
-{ buttonId: 'р', buttonText: { displayText: 'р' }, type: 1 }]
+{ buttonId: 'р', buttonText: { displayText: '' }, type: 1 }]
 let buttonMessage = {
 image: imagen1,
 caption: str.trim(),
