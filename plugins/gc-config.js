@@ -9,18 +9,18 @@ let isClose = { // Switch Case Like :v
 }[(args[0] || '')]
 if (isClose === undefined)
 throw `
-*[❗] ТОЛЬКО АДМИН ГРУППЫ!!*
+*[❗] ВЫБЕРИТЕ КОМАНДУ!!*
 
-*┏━━━❲ ✨КОМАНДЫ✨ ❳━━━┓* 
+*┏━━━❲ ✨НАПРИМЕР✨ ❳━━━┓* 
 *┠┉↯ ${usedPrefix + command} открыть*
 *┠┉↯ ${usedPrefix + command} закрыть*
 `.trim()
 await conn.groupSettingUpdate(m.chat, isClose)
 {m.reply('*[ ✔ ] КОМАНДА ВЫПОЛНЕНА*')}
 }
-handler.help = ['group open / close', 'grupo abrir / cerrar']
+handler.help = ['group открыть / закрыть', 'grupo abrir / cerrar']
 handler.tags = ['group']
-handler.command = /^(группу|grupo)$/i
+handler.command = /^(группа|group|grupo)$/i
 handler.admin = true
 handler.botAdmin = true
 export default handler
