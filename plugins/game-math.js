@@ -4,7 +4,7 @@ let mat =`
 *[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙻𝙰 𝙳𝙸𝙵𝙸𝙲𝚄𝙻𝚃𝙰𝙳𝙾 𝙲𝙾𝙽 𝙻𝙰 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙰 𝙹𝚄𝙶𝙰𝚁*
 
 *𝙳𝙸𝙵𝙸𝙲𝚄𝙻𝚃𝙰𝙳𝙴𝚂 𝙳𝙸𝚂𝙿𝙾𝙽𝙸𝙱𝙻𝙴𝚂: ${Object.keys(modes).join(' | ')}*
-*𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾: ${usedPrefix}mates medium*
+*𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾: ${usedPrefix}товарищи medium*
 `.trim()
 if (args.length < 1) return conn.sendHydrated(m.chat, mat, author, null, null, null, null, null, [
 ['𝙼𝙰𝚃𝙴𝚂 𝙴𝙰𝚂𝚈', `${usedPrefix + command} easy`], 
@@ -28,7 +28,7 @@ delete global.math[id]
 ]}
 handler.help = ['math <mode>']
 handler.tags = ['game']
-handler.command = /^math|mates|matemáticas/i
+handler.command = /^math|товарищи|matemáticas/i
 export default handler
 
 let modes = {
