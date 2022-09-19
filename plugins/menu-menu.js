@@ -468,7 +468,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
 let buttons = [
-{ buttonId: '#donar', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
+{ buttonId: '', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
 { buttonId: '#owner', buttonText: { displayText: 'СОЗДАТЕЛЬ' }, type: 1 },
 { buttonId: '#infobot', buttonText: { displayText: 'ИНФОБОТА' }, type: 1 }]
 let buttonMessage = {
