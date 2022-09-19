@@ -100,10 +100,10 @@ throw false
 }
 chat.detect = isEnable
 break
-case 'удалить':
+case 'удаление':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+global.dfail('rowner', m, conn)
 throw false
 }}
 chat.delete = isEnable
