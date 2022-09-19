@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = './Menu2.jpg'
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+let img = await(await fetch('https://thumbs.dreamstime.com/b/бе-ый-робот-36690901.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -16,7 +16,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
+*ミ💖 ПРИВЕТ✨${taguser}✨, ЗДЕСЬ ВСЕ КОМАНДЫ БОТА АЛЬТРОНА 💖彡*
 
 *📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 *📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
@@ -26,11 +26,8 @@ ${readMore}
 
 ° ඬ ⃟ 💟 _${usedPrefix}grupos_
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
-° ඬ ⃟ 💟 _${usedPrefix}infobot_
-° ඬ ⃟ 💟 _${usedPrefix}donar_
 ° ඬ ⃟ 💟 _${usedPrefix}grouplist_
-° ඬ ⃟ 💟 _${usedPrefix}owner_
-° ඬ ⃟ 💟 _${usedPrefix}script_
+° ඬ ⃟ 💟 _${usedPrefix}создатель_
 ° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
@@ -71,28 +68,28 @@ ${readMore}
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}enable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}disable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitraba*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitraba*_
-° ඬ⃟☑️ _${usedPrefix}enable *antiarabes*_
-° ඬ⃟☑️ _${usedPrefix}disable *antiarabes*_
+° ඬ⃟☑️ _${usedPrefix}включить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}выключить *приветствие*_
+° ඬ⃟☑️ _${usedPrefix}включить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}выключить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка*_
+° ඬ⃟☑️ _${usedPrefix}включить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}выключить *антиссылка2*_
+° ඬ⃟☑️ _${usedPrefix}включить *detect*_
+° ඬ⃟☑️ _${usedPrefix}выключить *detect*_
+° ඬ⃟☑️ _${usedPrefix}включить *аудио*_
+° ඬ⃟☑️ _${usedPrefix}выключить *аудио*_
+° ඬ⃟☑️ _${usedPrefix}включить *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}выключить *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}включить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}включить *antiarabes*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antiarabes*_
 
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 
@@ -116,7 +113,7 @@ ${readMore}
 ° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play *<texto>*_
+° ඬ⃟📥 _${usedPrefix}плей *<название песни>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
@@ -134,15 +131,15 @@ ${readMore}
 
 *<𝔾ℝ𝕌ℙ𝕆𝕊/>* 
 
-° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}добавить *<номер>*_
+° ඬ⃟💎 _${usedPrefix}снести *<@ноиер>*_
+° ඬ⃟💎 _${usedPrefix}внимание_
+° ඬ⃟💎 _${usedPrefix}promote *<@номер>*_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}infogroup_
-° ඬ⃟💎 _${usedPrefix}link_
+° ඬ⃟💎 _${usedPrefix}инфогруппы_
+° ඬ⃟💎 _${usedPrefix}ссылка_
 ° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
@@ -436,20 +433,20 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 $ *<funcion>*
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
 ° ඬ⃟👑 _${usedPrefix}blocklist_
-° ඬ⃟👑 _${usedPrefix}enable *restrict*_
-° ඬ⃟👑 _${usedPrefix}disable *restrict*_
-° ඬ⃟👑 _${usedPrefix}enable *autoread*_
-° ඬ⃟👑 _${usedPrefix}disable *autoread*_
-° ඬ⃟👑 _${usedPrefix}enable *public*_
-° ඬ⃟👑 _${usedPrefix}disable *public*_
-° ඬ⃟👑 _${usedPrefix}enable *pconly*_
-° ඬ⃟👑 _${usedPrefix}disable *pconly*_
-° ඬ⃟👑 _${usedPrefix}enable *gconly*_
-° ඬ⃟👑 _${usedPrefix}disable *gconly*_
-° ඬ⃟👑 _${usedPrefix}enable *anticall*_
-° ඬ⃟👑 _${usedPrefix}disable *anticall*_
-° ඬ⃟👑 _${usedPrefix}enable *antiprivado*_
-° ඬ⃟👑 _${usedPrefix}disable *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}включить *restrict*_
+° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
+° ඬ⃟👑 _${usedPrefix}включить *autoread*_
+° ඬ⃟👑 _${usedPrefix}выключить *autoread*_
+° ඬ⃟👑 _${usedPrefix}включить *public*_
+° ඬ⃟👑 _${usedPrefix}выключить *public*_
+° ඬ⃟👑 _${usedPrefix}включить *pconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *pconly*_
+° ඬ⃟👑 _${usedPrefix}включить *gconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *gconly*_
+° ඬ⃟👑 _${usedPrefix}включить *anticall*_
+° ඬ⃟👑 _${usedPrefix}выключить *anticall*_
+° ඬ⃟👑 _${usedPrefix}включить *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}выключить *antiprivado*_
 ° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
@@ -461,7 +458,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}cleartpm_
 ° ඬ⃟👑 _${usedPrefix}restart_
-° ඬ⃟👑 _${usedPrefix}update_
+° ඬ⃟👑 _${usedPrefix}обновить_
 ° ඬ⃟👑 _${usedPrefix}traba1_ 
 ° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
@@ -471,9 +468,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
 let buttons = [
-{ buttonId: '#donar', buttonText: { displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮' }, type: 1 },
-{ buttonId: '#owner', buttonText: { displayText: '🌹 𝙾𝚆𝙽𝙴𝚁 🌹' }, type: 1 },
-{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
+{ buttonId: 'меню2', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
+{ buttonId: '#owner', buttonText: { displayText: 'СОЗДАТЕЛЬ' }, type: 1 },
+{ buttonId: '#infobot', buttonText: { displayText: 'ИНФОБОТА' }, type: 1 }]
 let buttonMessage = {
 image: imagen1,
 caption: str.trim(),
@@ -487,17 +484,17 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '👑АЛЬТРОН - 𝐁𝐎𝐓 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
+sourceUrl: `https://www.paypal.me`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 } catch {
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 }}
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
+handler.command = /^(меню|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
@@ -629,28 +626,28 @@ ${masss}
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}enable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}disable *antiviewonce*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitoxic*_
-° ඬ⃟☑️ _${usedPrefix}enable *antitraba*_
-° ඬ⃟☑️ _${usedPrefix}disable *antitraba*_
-° ඬ⃟☑️ _${usedPrefix}enable *antiarabes*_
-° ඬ⃟☑️ _${usedPrefix}disable *antiarabes*_
+° ඬ⃟☑️ _${usedPrefix}включить *welcome*_
+° ඬ⃟☑️ _${usedPrefix}выключить *welcome*_
+° ඬ⃟☑️ _${usedPrefix}включить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}выключить *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}включить *antilink*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antilink*_
+° ඬ⃟☑️ _${usedPrefix}включить *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}включить *detect*_
+° ඬ⃟☑️ _${usedPrefix}выключить *detect*_
+° ඬ⃟☑️ _${usedPrefix}включить *audios*_
+° ඬ⃟☑️ _${usedPrefix}выключить *audios*_
+° ඬ⃟☑️ _${usedPrefix}включить *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}выключить *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}включить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitoxic*_
+° ඬ⃟☑️ _${usedPrefix}включить *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antitraba*_
+° ඬ⃟☑️ _${usedPrefix}включить *antiarabes*_
+° ඬ⃟☑️ _${usedPrefix}выключить *antiarabes*_
 
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 
@@ -994,20 +991,20 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 $ *<funcion>*
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
 ° ඬ⃟👑 _${usedPrefix}blocklist_
-° ඬ⃟👑 _${usedPrefix}enable *restrict*_
-° ඬ⃟👑 _${usedPrefix}disable *restrict*_
-° ඬ⃟👑 _${usedPrefix}enable *autoread*_
-° ඬ⃟👑 _${usedPrefix}disable *autoread*_
-° ඬ⃟👑 _${usedPrefix}enable *public*_
-° ඬ⃟👑 _${usedPrefix}disable *public*_
-° ඬ⃟👑 _${usedPrefix}enable *pconly*_
-° ඬ⃟👑 _${usedPrefix}disable *pconly*_
-° ඬ⃟👑 _${usedPrefix}enable *gconly*_
-° ඬ⃟👑 _${usedPrefix}disable *gconly*_
-° ඬ⃟👑 _${usedPrefix}enable *anticall*_
-° ඬ⃟👑 _${usedPrefix}disable *anticall*_
-° ඬ⃟👑 _${usedPrefix}enable *antiprivado*_
-° ඬ⃟👑 _${usedPrefix}disable *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}включить *restrict*_
+° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
+° ඬ⃟👑 _${usedPrefix}включить *autoread*_
+° ඬ⃟👑 _${usedPrefix}выключить *autoread*_
+° ඬ⃟👑 _${usedPrefix}включить *public*_
+° ඬ⃟👑 _${usedPrefix}выключить *public*_
+° ඬ⃟👑 _${usedPrefix}включить *pconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *pconly*_
+° ඬ⃟👑 _${usedPrefix}включить *gconly*_
+° ඬ⃟👑 _${usedPrefix}выключить *gconly*_
+° ඬ⃟👑 _${usedPrefix}включить *anticall*_
+° ඬ⃟👑 _${usedPrefix}выключить *anticall*_
+° ඬ⃟👑 _${usedPrefix}включить *antiprivado*_
+° ඬ⃟👑 _${usedPrefix}выключить *antiprivado*_
 ° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
