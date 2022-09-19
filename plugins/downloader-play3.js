@@ -7,20 +7,20 @@ try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
 conn.sendHydrated(m.chat, `
-*◉— КАК ЗАГРУЗИТЬ  —◉*
+*◉— 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 —◉*
 
-📌 *ТИТУЛ:* ${title}
-📇 *ОПИСАНИЕ:* ${description}
-📆 *ОПУБЛИКОВАНО:* ${publishedTime}
-⌚ *ПРОДОЛЖИТЕЛЬНОСТЬ:* ${durationH}
-👀 *ПРОСМОТРОВ:* ${viewH}
+📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
+📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
+📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
+⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
+👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
-['АУДИО', `${usedPrefix}yta.2 ${url}`],
-['ВИДЕО', `${usedPrefix}ytv.2 ${url}`]
+['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url}`],
+['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url}`]
 ], m)
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 console.log(e)
 }}
-handler.command = /^плей|playdoc?$/i
+handler.command = /^play3|playdoc?$/i
 export default handler
