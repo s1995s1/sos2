@@ -12,16 +12,16 @@ let listSerch3 = []
 let listSerch4 = []
 let teskd = `𝐌𝐮𝐬𝐢𝐜𝐚 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐚 𝐜𝐨𝐧: ${args.join(" ")}`
 const sections = [{
-title: `|－－－－－{ ＡＵＤＩＯ }－－－－－|`,
+title: `|－－－－－{ АУДИО }－－－－－|`,
 rows: listSerch },
 {              
-title: `|－－－－－{ ＶＩＤＥＯ }－－－－－|`,
+title: `|－－－－－{ ВИДЕО }－－－－－|`,
 rows: listSerch2 },
 {              
-title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ３ }－－|`,
+title: `|－－{ СКАЧАТЬ  ＭＰ３ }－－|`,
 rows: listSerch3 },
 {              
-title: `|－－{ ＤＯＣＵＭＥＮＴＯ  ＭＰ４ }－－|`,
+title: `|－－{ СКАЧАТЬ  ＭＰ４ }－－|`,
 rows: listSerch4 }]
 const listMessage = {
 text: teskd,
