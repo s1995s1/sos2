@@ -52,9 +52,9 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}suitpvp *<@tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
 ° ඬ⃟🎖️ _${usedPrefix}ttt *<nombre sala>*_
-° ඬ⃟🎖️ _${usedPrefix}delttt_
-° ඬ⃟🎖️ _${usedPrefix}simi *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}top *<texto>*_
+° ඬ⃟🎖️ _${usedPrefix}свадьба_
+° ඬ⃟🎖️ _${usedPrefix}радуга *<@номер>*_
+° ඬ⃟🎖️ _${usedPrefix}любовь *<@номер*_
 ° ඬ⃟🎖️ _${usedPrefix}topgays_
 ° ඬ⃟🎖️ _${usedPrefix}topotakus_
 ° ඬ⃟🎖️ _${usedPrefix}formarpareja_
