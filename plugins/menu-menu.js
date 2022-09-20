@@ -22,11 +22,8 @@ let str = `
 *📈 АКТИВНОЕ ВРЕМЯ: ${uptime}*
 *📊 ПОЛЬЗОВАТЕЛИ: ${rtotalreg}*
 ${readMore}
-*<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
-° ඬ ⃟ 💟 _${usedPrefix}grupos_
-° ඬ ⃟ 💟 _${usedPrefix}estado_
-° ඬ ⃟ 💟 _${usedPrefix}grouplist_
+
 ° ඬ ⃟ 💟 _${usedPrefix}создатель_
 ° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
@@ -129,14 +126,13 @@ ${readMore}
 ° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
 
-*<𝔾ℝ𝕌ℙ𝕆𝕊/>* 
+*<КОМАНДЫ ДЛЯ АДМИНА>* 
 
 ° ඬ⃟💎 _${usedPrefix}добавить *<номер>*_
 ° ඬ⃟💎 _${usedPrefix}снести *<@ноиер>*_
 ° ඬ⃟💎 _${usedPrefix}внимание_
-° ඬ⃟💎 _${usedPrefix}promote *<@номер>*_
-° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+° ඬ⃟💎 _${usedPrefix}админы_
+° ඬ⃟💎 _${usedPrefix}группа открыть/закрыть_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}инфогруппы_
 ° ඬ⃟💎 _${usedPrefix}ссылка_
@@ -308,7 +304,7 @@ ${readMore}
 ° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
+° ඬ⃟🔍 _${usedPrefix}гугл *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
@@ -355,7 +351,7 @@ ${readMore}
 
 *<𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊/>*
 
-° ඬ⃟👽 _${usedPrefix}sticker *<responder a imagen o video>*_
+° ඬ⃟👽 _${usedPrefix}стикер *<гифка / картинка / видео>*_
 ° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
@@ -385,8 +381,8 @@ ${readMore}
 ° ඬ⃟👑 > *<funcion>*
 ° ඬ⃟👑 => *<funcion>*
 ° ඬ⃟👑 $ *<funcion>*
-° ඬ⃟👑 _${usedPrefix}cajafuerte_
-° ඬ⃟👑 _${usedPrefix}blocklist_
+° ඬ⃟👑 _${usedPrefix}призраки_
+° ඬ⃟👑 _${usedPrefix}удалить_
 ° ඬ⃟👑 _${usedPrefix}включить *restrict*_
 ° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
 ° ඬ⃟👑 _${usedPrefix}включить *autoread*_
@@ -409,7 +405,7 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}bc *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
-° ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
+° ඬ⃟👑 _${usedPrefix}объявление *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}cleartpm_
 ° ඬ⃟👑 _${usedPrefix}restart_
 ° ඬ⃟👑 _${usedPrefix}обновить_
