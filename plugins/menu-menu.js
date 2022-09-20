@@ -422,7 +422,7 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
 let buttons = [
-{ buttonId: 'меню2', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
+{ buttonId: 'memu2', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
 { buttonId: '#owner', buttonText: { displayText: 'СОЗДАТЕЛЬ' }, type: 1 },
 { buttonId: '#infobot', buttonText: { displayText: 'ИНФОБОТА' }, type: 1 }]
 let buttonMessage = {
