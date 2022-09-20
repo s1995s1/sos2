@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 
 global.owner = [
-  ['+79010070455', '👑 Mystic - Creador 👑', true],
+  ['79010070455', '👑 Альтрон - Царя 👑', true],
 ]
 
 global.packname = '(☞Альтронﾟ)☞'
