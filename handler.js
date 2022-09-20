@@ -480,7 +480,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         
 let ftroli = { key: { fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us" }, "message": { orderMessage: { itemCount: 6546464643, status: 200, thumbnail: imagen1, surface: 200, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' }}, contextInfo: { "forwardingScore": 999, "isForwarded": true}, sendEphemeral: true}   
 
-this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action ==  'add' ? 'ПРИВЕТ' : '☠'), (action == 'add' ? '#welcomegc' : '#byegc')], ['МЕНЮ', `memu`]], ftroli, {mentions: this.parseMention(text)})
+this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? '💫 ДОБРО ПОЖАЛАВАТЬ 💫' : '☠ ДОСВИДОС ☠'), (action == 'add' ? '#welcomegc' : '#byegc')], ['МЕНЮ', `#menu`]], ftroli, {mentions: this.parseMention(text)})
                 
 /* this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) */
                    }
@@ -551,14 +551,13 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return
         await this.reply(msg.chat, `
-━━━━⬣  АНТИ УДАЛЕНИЯ  ⬣━━━━
-*■ Привет:* @${participant.split`@`[0]}
-*■ Вы удалили из группы..*
-*■ Из группы нельзя не чего удалять:*
-*■ Но вы можете еще мне скинуть я не кому не скажу:*
-*—◉ #выключить удаление*
-*—◉ #включить удаление*
-━━━━⬣  АНТИ УДАЛЕНИЕ  ⬣━━━━
+━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
+*■ Nombre:* @${participant.split`@`[0]}
+*■ Enviando el mensaje..*
+*■ Para desactivar esta función escriba el comando:*
+*—◉ #disable antidelete*
+*—◉ #enable delete*
+━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
 `.trim(), msg, {
             mentions: [participant]
         })
