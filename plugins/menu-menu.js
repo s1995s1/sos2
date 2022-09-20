@@ -55,7 +55,7 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}свадьба_
 ° ඬ⃟🎖️ _${usedPrefix}радуга *<@номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}любовь *<@номер*_
-° ඬ⃟🎖️ _${usedPrefix}topgays_
+° ඬ⃟🎖️ _${usedPrefix}жилания_
 ° ඬ⃟🎖️ _${usedPrefix}topotakus_
 ° ඬ⃟🎖️ _${usedPrefix}formarpareja_
 ° ඬ⃟🎖️ _${usedPrefix}verdad_
