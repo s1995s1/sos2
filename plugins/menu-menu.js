@@ -304,9 +304,9 @@ ${readMore}
 ° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}гугл *<texto>*_
+° ඬ⃟🔍 _${usedPrefix}гугл *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
-° ඬ⃟🔍 _${usedPrefix}wikipedia *<texto>*_
+° ඬ⃟🔍 _${usedPrefix}википедия *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}ytsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}apkdone *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}apkgoogle *<texto>*_
