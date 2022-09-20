@@ -15,7 +15,7 @@ conn.sendHydrated(m.chat, `
 `.trim(), author, thumbnail, `${url}`, 'ССЫЛКА', null, null, [
 ['АУДИО', `${usedPrefix}yta ${url}`],
 ['ВИДЕО', `${usedPrefix}ytv ${url}`],
-['𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒', `${usedPrefix}playlist ${text}`]  
+['ПОХОЖИЕ', `${usedPrefix}playlist ${text}`]  
 ], m)
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
