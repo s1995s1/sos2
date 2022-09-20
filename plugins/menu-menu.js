@@ -352,7 +352,7 @@ ${readMore}
 *<𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊/>*
 
 ° ඬ⃟👽 _${usedPrefix}стикер *<гифка / картинка / видео>*_
-° ඬ⃟👽 _${usedPrefix}sticker *<enlace / link / url>*_
+° ඬ⃟👽 _${usedPrefix}преоброзовать *<стикер>*_
 ° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}sfull *<responder a imagen o video>*_
