@@ -35,7 +35,7 @@ let str = `
 ° ඬ⃟🔊 _Ага_
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'wa.me/+79010070455', 'СОЗДАТЕЛЬ', null, null, [
-['МЕНЮ', '/menu']
+['МЕНЮ', '#menu']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
