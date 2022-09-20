@@ -320,7 +320,7 @@ ${readMore}
 
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
-° ඬ⃟🛠️ _${usedPrefix}afk *<motivo>*_
+° ඬ⃟🛠️ _${usedPrefix}ссылкамедия *<видео/изображение>*_
 ° ඬ⃟🛠️ _${usedPrefix}ocr *<responde a imagen>*_
 ° ඬ⃟🛠️ _${usedPrefix}acortar *<enlace / link / url>*_
 ° ඬ⃟🛠️ _${usedPrefix}calc *<operacion math>*_
