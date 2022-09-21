@@ -400,8 +400,8 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
-° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
+° ඬ⃟👑 _${usedPrefix}датьадмина *<@номер>*_
+° ඬ⃟👑 _${usedPrefix}снятьадмина *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}bc *<texto>*_
 ° ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
