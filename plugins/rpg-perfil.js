@@ -22,7 +22,7 @@ let str = `*ИМЯ:* ${username} ${registered ? '(' + name + ') ': ''}
 *ПРЕМИУМ:* ${prem ? 'ДА' : 'НЕТ'}
 *СЕРИЙНЫЙ НОМЕР:* 
 ${sn}`
-conn.sendButton(m.chat, str, author, pp, [['МЕНЮ', '/menu']], m)}}
+conn.sendButton(m.chat, str, author, pp, [['МЕНЮ', '/#меню']], m)}}
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
 handler.command = /^профиль|profile?$/i
