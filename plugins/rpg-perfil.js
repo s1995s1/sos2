@@ -14,16 +14,16 @@ let { name, limit, lastclaim, registered, regTime, age } = global.db.data.users[
 let username = conn.getName(who)
 let prem = global.prems.includes(who.split`@`[0])
 let sn = createHash('md5').update(who).digest('hex')
-let str = `*𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
-*𝙽𝚄𝙼𝙴𝚁𝙾:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-*𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
-*𝙻𝙸𝙼𝙸𝚃𝙴:* ${limit} 𝚄𝚂𝙾𝚂
-*𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
-*𝙿𝚁𝙴𝙼𝙸𝚄𝙼:* ${prem ? 'Si' : 'No'}
-*𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+let str = `*ИМЯ:* ${username} ${registered ? '(' + name + ') ': ''}
+*НОМЕР:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+*ССЫЛКА:* wa.me/${who.split`@`[0]}${registered ? '\n*ВОЗРОСТ:* ' + age + ' Лет' : ''}
+*ЛИМИТ:* ${limit} ИСПОЛЬЗОВАНИЙ
+*ЗАРЕГИСТРИРОВАНО:* ${registered ? 'ДА': 'НЕТ'}
+*ПРЕМИУМ:* ${prem ? 'ДА' : 'НЕТ'}
+*СЕРИЙНЫЙ НОМЕР:* 
 ${sn}`
-conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}}
+conn.sendButton(m.chat, str, author, pp, [['МЕНЮ', '/menu']], m)}}
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
-handler.command = /^perfil|profile?$/i
+handler.command = /^профиль|profile?$/i
 export default handler
