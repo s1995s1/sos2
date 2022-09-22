@@ -412,9 +412,9 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}restart_
 ° ඬ⃟👑 _${usedPrefix}обновить_
 ° ඬ⃟👑 _${usedPrefix}traba1_ 
-° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
-° ඬ⃟👑 _${usedPrefix}listprem_
+° ඬ⃟👑 _${usedPrefix}датьпремиум *<@номер>*_
+° ඬ⃟👑 _${usedPrefix}убратьпремиум *<@номер>*_
+° ඬ⃟👑 _${usedPrefix}листпремиум_
 ° ඬ⃟👑 _${usedPrefix}listcmd_
 ° ඬ⃟👑 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_

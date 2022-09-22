@@ -11,7 +11,7 @@ m.reply(textdelprem, null, { mentions: conn.parseMention(textdelprem) })
 }
 handler.help = ['delprem <@user>']
 handler.tags = ['owner']
-handler.command = /^(remove|-|del)prem$/i
+handler.command = /^(убратьпремиум|-|del)prem$/i
 handler.group = true
 handler.rowner = true
 export default handler
