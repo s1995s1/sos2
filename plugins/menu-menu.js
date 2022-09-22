@@ -421,7 +421,7 @@ ${readMore}
 `.trim()
 let buttons = [
 { buttonId: '#memu2', buttonText: { displayText: 'МЕНЮ2' }, type: 1 },
-{ buttonId: '#owner', buttonText: { displayText: 'СОЗДАТЕЛЬ' }, type: 1 },
+{ buttonId: '#создатель', buttonText: { displayText: 'СОЗДАТЕЛЬ' }, type: 1 },
 { buttonId: '#infobot', buttonText: { displayText: 'ИНФОБОТА' }, type: 1 }]
 let buttonMessage = {
 image: imagen1,
