@@ -45,7 +45,7 @@ function _0x29f5(){const _0x566d80=['chat','10zQulaE','1128940ganLMA','relayMess
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
-handler.command = /^(ping|speed|infobot)$/i
+handler.command = /^(ping|speed|инфобот|infobot)$/i
 export default handler
 
 function clockString(ms) {
