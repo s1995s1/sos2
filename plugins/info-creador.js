@@ -24,7 +24,7 @@ let buttonMessage= {
 'caption': text,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}#menu`, buttonText: {displayText: 'МЕНЮ'}, type: 1}, 
+{buttonId: `${usedPrefix}#меню`, buttonText: {displayText: 'МЕНЮ'}, type: 1}, 
 {buttonId: `${usedPrefix}donar`, buttonText: {displayText: 'ОПЛАТА БОТА'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
