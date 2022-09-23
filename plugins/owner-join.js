@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, isMods, isOwner, isPrems }) => {
 let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
 let [_, code] = link.match(linkRegex) || []
 
-if (!code) throw '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] ОШИБОЧНОЕ ИЛИ ОТСУТСТВУЮЩЕЕ ЗВЕННО*'
+if (!code) throw '*[ ⚠️ ПРЕДУПРЕЖДЕНИЕ ⚠️ ] ОШИБОЧНОЕ ИЛИ ОТСУТСТВУЮЩЕЕ ЗВЕННО*'
 
 if ( isPrems || isMods || isOwner || m.fromMe) {
 let res = await conn.groupAcceptInvite(code)
