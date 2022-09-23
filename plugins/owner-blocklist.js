@@ -12,6 +12,6 @@ console.log(err);
 throw 'No hay números bloqueados'})}
 handler.help = ['blocklist']
 handler.tags = ['main']
-handler.command = ['blocklist', 'listblock'] 
+handler.command = ['блоклист', 'listblock'] 
 handler.rowner = true
 export default handler
