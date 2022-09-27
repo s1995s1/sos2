@@ -23,5 +23,5 @@ conn.sendMessage(m.chat, listMessage, { quoted: m })
 } catch (e) {
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 }}
-handler.command = /^porhubsearch|xvideossearch|xnxxsearch$/i
+handler.command = /^поиск18|xvideossearch|xnxxsearch$/i
 export default handler

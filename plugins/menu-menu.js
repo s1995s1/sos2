@@ -247,9 +247,9 @@ ${readMore}
 
 *<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
 
-° ඬ⃟🔞 _${usedPrefix}pack_
-° ඬ⃟🔞 _${usedPrefix}pack2_
-° ඬ⃟🔞 _${usedPrefix}pack3_
+° ඬ⃟🔞 _${usedPrefix}перень_
+° ඬ⃟🔞 _${usedPrefix}девушка_
+° ඬ⃟🔞 _${usedPrefix}девушка2_
 ° ඬ⃟🔞 _${usedPrefix}videoxxx_
 ° ඬ⃟🔞 _${usedPrefix}tiktokxxx_
 ° ඬ⃟🔞 _${usedPrefix}tetas_
