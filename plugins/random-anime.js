@@ -1,6 +1,6 @@
 import axios from "axios"
 let handler = async (m, {command, conn}) => {
-if (command == 'akira') {
+if (command == 'акира') {
 let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/akira?apikey=APIKEY`)
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
 if (command == 'akiyama') {
