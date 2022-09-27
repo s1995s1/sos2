@@ -250,7 +250,7 @@ ${readMore}
 ° ඬ⃟🔞 _${usedPrefix}перень_
 ° ඬ⃟🔞 _${usedPrefix}девушка_
 ° ඬ⃟🔞 _${usedPrefix}девушка2_
-° ඬ⃟🔞 _${usedPrefix}порностудентов_
+° ඬ⃟🔞 _${usedPrefix}по_
 ° ඬ⃟🔞 _${usedPrefix}tiktokxxx_
 ° ඬ⃟🔞 _${usedPrefix}tetas_
 ° ඬ⃟🔞 _${usedPrefix}booty_
