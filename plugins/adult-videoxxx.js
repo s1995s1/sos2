@@ -4,7 +4,7 @@ let res = pickRandom(asupan)
 conn.sendHydrated(m.chat, null, null, res, null, null, null, null, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
 handler.help = ['videoxxx']
 handler.tags = ['random']
-handler.command = /^порновидео|vídeoxxx$/i
+handler.command = /^порностудентов|vídeoxxx$/i
 export default handler
 
 function pickRandom(list) {
@@ -30,27 +30,26 @@ const asupan = [
 "https://store-3.getw6.live/g/euiYr5G0JK8mXTDRH1X8gMuSy4o0K6P2OKuA1PYGViHmH93h8NSbfHLcb%252FmwyXufPzQJRf3wGY1FhNcgfIbGwrByEOqki0Do33S724lscLSAj%252FBVQRz5Mb97G8eo5dVAndlt7Tv5%252FeoVyFfIoQLnONnNNroMwF%252Bx5Rhm0BbXxUw%253D.mp4",    
 "https://c-4.getw6.live/g2/pmFO39Ps9roYXDcMLQdFBe1qbkTKTbsUKSPt1K9t9WOTYAbJ4R%252BK19lKCh5IW0vhEr8obCeGdrzJVW91dFE%252B2k2uaiDR4Dp1oo%252FNNKzLAdJLGUyJg7tddWjYEsyZSDWzo6WwTXuqBHiRYRAk5weid1TlK8P%252FKpWrtZ5vYkOjaz8%253D.mp4",
 "https://c-5.getw6.live/g4/NLOJY3%252FnIs38jTOrgfbWE1HPeDNXx4E6jny6qac83zKu9YyR%252B1BcJAvaAmwoEzRQavRbH9Fov3XgMoDMD1oBBQHpNqoVKCGfAh74RSW1w6pGENKBvhOQwcueA0VnoyLO6wmjRQ%252Blm7dbh2hbJU5HrouD1At4VAUhcOoqe9xG0bc%253D.mp4",
-"https://g.top4top.io/m_22357cmft4.mp4", 
-"https://i.top4top.io/m_2235mcizm6.mp4",
-"https://j.top4top.io/m_2235gwsn17.mp4",
-"https://k.top4top.io/m_2235gzzjc8.mp4",
-"https://a.top4top.io/m_2235l9y1310.mp4",  
-"https://l.top4top.io/m_2235r1opz1.mp4",    
-"https://a.top4top.io/m_22358cuuu2.mp4",
-"https://b.top4top.io/m_22350c9br3.mp4",
-"https://c.top4top.io/m_22355p2js4.mp4",  
-"https://d.top4top.io/m_2235lv7415.mp4",
-"https://e.top4top.io/m_2235q8z3f6.mp4",     
-"https://b.top4top.io/m_22358oas31.mp4",
-"https://c.top4top.io/m_2235xg7o62.mp4",
-"https://d.top4top.io/m_2235ut91p3.mp4",
-"https://e.top4top.io/m_22352ktoj4.mp4",
-"https://f.top4top.io/m_2235hcqj65.mp4",
-"https://g.top4top.io/m_2235j81s76.mp4", 
-"https://d.top4top.io/m_2235993nu1.mp4",
-"https://c.top4top.io/m_22352lrsd1.mp4",
-"https://g.top4top.io/m_2235pi8791.mp4",
-"https://g.top4top.io/m_22428pnh01.mp4",
-"https://i.top4top.io/m_2242jpc3c1.mp4",
-"https://f.top4top.io/m_2235sxi5y1.mp4"
+"https://c-4.getw6.live/g2/GmwHBxMg7P9WTpRJeLQ7QYTofxOX9OcIlQB0EbFCsqJqdPppI9CojsUatnMRfHjy0iIbtvTygO0iJ1P2YItB3lARuVl1eilxZvIdOTB9Vp1CL%252BQamilNfNH0grMULeuO1Y9lEXfOacczXIqtd1%252FRjxGNRo4ICzVNdggd2WFJtUI%253D.mp4", 
+"https://store-3.getw6.live/g/CITxhTiJQfapQk0Km5BGZ7dnMGjzUqGudQQ97KDsCIqbkGFH4DZOJzw6HeUN15Y7Q0wrmlPx%252Bo47QAZi0G3cjVtwl5y7zTJ%252Bg3AqIlxiGiPihJTtuBjfx2DIrvxIwhr6ioe%252BGM0zTRiDajNOowgPLT9bC230S5xm1p8T1N4SobM%253D.mp4",
+"https://store-3.getw6.live/g/yke%252FDvCEBO1YJwBoanBVlmfkUA7H0kiziz%252BXp6X13NkgrecUMyWDmy%252F04AyhOWgyzdcKVF8pIUWtJJEBCjSD3J%252BZ7Hc%252BI139Zu1vRF%252BOWnYmfPmf9glOLN%252Ff%252BFmlim1U5UpSpD5kYHoweTZRmvv63%252FqUxPDDfqpB66BhifHhA0c%253D.mp4",
+"https://store-3.getw6.live/g/Ta6Iozad7hqq3XJ1b9iKv3XMXNYDrZp%252FeVmnW4D9gXD%252F1fwJND%252FROWIarH1XkbvE3Q8oOtL6G%252BgysDgQ5qLqs%252Fi6U85Ej9bm97gmimwrn7sDGfuih8IY%252Fu%252BLH%252FYS0Fln4BM6%252BdQdztrEUXqAuj3gtsMxt8FA5ode8mf2YFAUbuM%253D.mp4",  
+"https://store-3.getw6.live/g/cd%252FFIIgxSMHbnX64qjYYEsaMFAsEuooLQ%252Bvo7hfPYZPXEBUso9%252BHiPB6%252FQlw8W2zjQte9c%252Fw4gH2hLaBpHFpEb5hdCmfdOpT84dUnr1cGfVwCZzo3gllSXMcNTq93wy328hNt%252B7Q%252BYUEaeTmbzBkVdSh89BErE3tfBH9cl34kpE%253D.mp4",    
+"https://c-4.getw6.live/g2/EUJdFxjuT6Y6Ms5ENpy75W9ATE3ncbpMWkLn8tbgsseD0zJuB7eTiXcoPf8Qn8VABhkFlgWLdSg3XxFblmQgQi0JBdncP8hHGVfhpACil6drTXa0O2GKi80noLjSyVk6RihttQnkYnKityv7SEYSePa1ZnvkfMF03ihk5xH5V7o%253D.mp4",
+"https://c-4.getw6.live/g2/MEX9ax3iaYt0UOQnb4MrK6DixEA3v4MO2kxSb0mdmh7MCFSpuJ7acFL5nbPGd3ByBAmLkvuj5veIjNRKC2zrU7IPaT0LDUlaYPYUfunUcVt%252B0cUNeNJxPN1H5KBqcWRbbsGHbdR8PZrLARUwEqo%252F3ZW%252BX0J0RUbuMmJ%252FtS9PoEQ%253D.mp4",
+"https://c-4.getw6.live/g2/GGby62E%252Fvhnar8qUx2168KPfP9E4D5Na1OPARbTc%252BKemLO93Iv%252BD4YG%252BVfafruxFP2M58kZy41O%252B5YC2Y%252FRmDvh7TqcIGPVZA9CYuJSUxTsGjOD7EKZgIOylanWbzBcDUjeC9QUQ3dBCmQ6go%252Fx370DX7Gp49Gc7ULxVLXFdzbU%253D.mp4",  
+"https://store-3.getw6.live/g/rIy%252FM9iJSWGEACO%252BAAXL1wakUuzufidXSdSUBGdJMcCedigDbYxmrtRhdDXnPw57Uu64%252FLERt8CQtQaAbVPO%252F%252BlffLIUBneiKlnQzrYFtglKD%252BGHdKgxEbdIq0mKl18BfB1U8a0bq881oAtt6NOC09BBbTTd7QGFBrz6Wmh2ViQ%253D.mp4",
+"https://c-4.getw6.live/g2/pMSPvrTswzdi8zi7U2InmQM72dBR3IBGKI0MDKOxwtPFaSC5bbuubAXeMAzlEh5Y8Ua9pPtMvbAguus7TVQiAbFUUd15w4zHuS7ZVZK2Jn9LUwZSYVlcFlQURK%252BQv428JjYbr3g%252FU3nCL6RjH42mL9bw%252BncfHnirNBJ3LV8RLro%253D.mp4",     
+"https://c-4.getw6.live/g2/ZqWBxBWH1ATYxrqjjVsCdqwz8bNQEdbIHmUmlWFxz4hw2JNQEoRD17lirC9Gff6pMwaGBIB9ARfzu0b4OYL3ZdxA%252FzxVTSns89hSR82OESHNlkyuzpqNgbdZnxbkVl6Gwlor%252BxNtFn7vwcNN0clMNNBOnMftrpbwNAAqHviM43s%253D.mp4",
+"https://c-4.getw6.live/g2/aaY72sKixEPVOiOo7QmvIuLLRM8XYUekQHeK0I%252FPzxCVAx6XMuUKLU1MeW6MM1oAOZrXD8bgz3DyqlVSSwtGlPGnqekImvrxAk4JOmNZOdBK5DaB3XGiMJX7%252FW2xC%252FiRuuzLmVlwRS%252FKrwloysMNB1B4PbiH31XgNsNark3PcSg%253D.mp4",
+"https://store-3.getw6.live/g/h%252FlUUeWf5NmCA%252BfIUEGQ23IrgxF2TdYQaNLhlgTfEg8tpleI1IzFA8fh7RP1DZS04GTSOYo%252B%252B6A8OUOWCt1E0pUrCj%252Bcib3U0sG%252BYDc5%252FfNMIc5ya49%252FwrV%252F6caNL9vX7rAcJ6CuJ6urY1gLE4uLfU%252FlApsB1blNxA0%252F3P1M79Q%253D.mp4",
+"https://c-4.getw6.live/g2/fGemLKBVGoXTiduTqkIzLZXOBNdxZ2WeIpJ0kwl3MG8fbdb2m38sFBbn%252BqLWgLrutxzKlPTUhGSgAjjlkG7sofLsOYGAMPUOSCj0jz1%252FSd5ZmH6%252F%252BGeE1loVIxdqjsKrv2zDine10AqmwiTwdPkGnOLqRW%252BUd6Hcd1b2zvUxmWQ%253D.mp4",
+"https://c-4.getw6.live/g2/X4o8uiMUG6%252BCRFwHuk7evk%252BPy1vL4S2lVvGfuX7nmwYUWiZYZobuPtzjvfhftApvJnXWYnPx3czhJjaQai2lQ%252BY6Ox%252F8Fx34uHifldB2wPqkFGnY28WKSz66Eo5sW2VAWnxS9hbZKr3XoElP25tvkDW23tNnGJVLlNqxiQPKQ%252FM%253D.mp4",
+"https://c-5.getw6.live/g4/RNS7YivtDbM7BUZCCf%252FNPUyO%252BSEYkoiGvh%252F0JyBaI8BMqpkeASDyG7ZEjN%252BxswYrXuYSwQ41d%252BnKXJts22oPh4yMLCkLDgE%252BrWFJMAR5mqzJnK2njE7%252FZT9TG0TfZ2ewZdNWMRR5vdWOcg%252BESuRJpcz1nymiil%252FeY3xtqzqe3oI%253D.mp4", 
+"https://store-3.getw6.live/g/hg5j4cLbpqLkLXoI%252Fm%252B05VL8HM0eMQoigVNBzfqoZycG%252Fm9QyKbzUakdwbR%252FJpKaxitQUxKd%252BiuayKtQFuh6rC7ti6HuH4btdREK7bBcljjwYJAGEiZd8uHuLsHyFvjYTVq3vqPP81y2zWtgc8kfmtjEsEn0cnTwlGXBUuJEU0M%253D.mp4",
+"https://c-4.getw6.live/g2/O7hr8BUw5Zo9BA%252FMnC0ubwa1nrJiDgpZC%252B6W3j3MrPxTv8XMBEdAyLUKs79oMKJ4z2Fw2LuQmvI7q5KZ4G76mGLkCmYvuJSj1YHoeXvGEeOWrFW8a7GQAlH86Vhf%252B6ofXsiUgF2%252FN8Pli73Q69OdRWnBITKfThhV6yqSPSVgjw4%253D.mp4",
+"https://store-3.getw6.live/g/Zb1aYfEh3cFSAfdVJoMEqLXhsPEi%252BqlVS1qp7HQ%252F26wnIRytAJzZ2psn15Pu3CU4DUtm6sD9VSKBbpzZYt19hQDPaKSvTlBdmtzHnQb1slueHpSkmhcUwfs1i%252BcaL8wi2%252BvbpjDw62cRhu0nqvYbwW0qsKdnkwqHVRjHNtDM%252FoU%253D.mp4",
+"https://store-3.getw6.live/g/bryz%252FmEpPckIRJ3C9QMlmRVfGDLpoV2lKwZGg6W%252B2vhq%252BEybmgJxyYRCUcD7TndHDrUkJq0t5cdFHleBhD3W0cng4jFYSnDECJqt6HVhJlmykpyOFg06iaRs1MZGHjv%252FXwQG%252B30d4%252BR%252BT2kskA5SiIhUZ9kJwnx%252FNU08eLgm%252Brw%253D.mp4",
+"https://store-3.getw6.live/g/gTubn5xZZzRAo9EbGkpkWBHMm52qXpg6wfEVaItOTBk7%252BL%252F3CRg0AjA6EMP9m64yGeHUXEnxHoKzixVd4JjgaENif2eRrWlFTjlo0fHAj7oAI3A8SodJQXFW4tMTHq8GgucKoR8vqMpdDIIkLtOHKRok6uHV6MBhTh1I2wc01Zc%253D.mp4",
+"https://store-3.getw6.live/g/mlgYnEKJuB2bAZ73QjHrsB%252B%252BFSp%252FX5l1xyMy1KiB842MpJjaf9ptdso%252BSR5BNpDP76p5hCYpNt5JUuvhfMaNk9En%252BBraFvotPwLJKC91cMWXnX6in%252F1J4KWLP31jijyl4TKjQUEMYgw%252BbYJMXa1xgBRk5GjxjjGtSD%252FA1P63fTs%253D.mp4"
 ]

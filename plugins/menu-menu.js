@@ -250,7 +250,7 @@ ${readMore}
 ° ඬ⃟🔞 _${usedPrefix}перень_
 ° ඬ⃟🔞 _${usedPrefix}девушка_
 ° ඬ⃟🔞 _${usedPrefix}девушка2_
-° ඬ⃟🔞 _${usedPrefix}videoxxx_
+° ඬ⃟🔞 _${usedPrefix}порностудентов_
 ° ඬ⃟🔞 _${usedPrefix}tiktokxxx_
 ° ඬ⃟🔞 _${usedPrefix}tetas_
 ° ඬ⃟🔞 _${usedPrefix}booty_
@@ -400,8 +400,9 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}включить *antiprivado*_
 ° ඬ⃟👑 _${usedPrefix}выключить *antiprivado*_
 ° ඬ⃟👑 _${usedPrefix}msg *<texto>*_
-° ඬ⃟👑 _${usedPrefix}banchat_
-° ඬ⃟👑 _${usedPrefix}unbanchat_
+° ඬ⃟👑 _${usedPrefix}бан_
+° ඬ⃟👑 _${usedPrefix}банчат_
+° ඬ⃟👑 _${usedPrefix}чатактив_
 ° ඬ⃟👑 _${usedPrefix}датьадмина *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}снятьадмина *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
