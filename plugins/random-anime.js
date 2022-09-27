@@ -1,15 +1,6 @@
 import axios from "axios"
 let handler = async (m, {command, conn}) => {
 if (command == 'акира') {
-let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/akira?apikey=APIKEY`)
-conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
-if (command == 'akiyama') {
-let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/akiyama?apikey=APIKEY`)
-conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
-if (command == 'anna') {
-let haha = await conn.getFile(`https://api.sekha.tech/api/wallpaper/ana?apikey=apirey`)
-conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
-if (command == 'asuna') {
 let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/asuna?apikey=apirey`)
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], m)}
 if (command == 'ayuzawa') {
