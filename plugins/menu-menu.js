@@ -103,15 +103,9 @@ ${readMore}
 ° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}тикток *<ссылка>*_
 ° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}плей *<название песни>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_

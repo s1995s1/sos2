@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽 𝙴𝙽𝙻𝙰𝙲𝙴/𝙻𝙸𝙽𝙺 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
+if (!text) throw `*[❗инфо❗] ОТСУТСТВУЕТ ССЫЛКА ТИКТОКА, ПОЖАЛУСТА ВВЕДИТЕ ЛЮБУЮ ССЫЛКУ НА ВИДЕО ТИКТОКА*\n\n*—◉ ПРИМЕР:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽 𝙴𝙽𝙻𝙰𝙲𝙴/𝙻𝙸𝙽𝙺 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 let url = (await fetch(text)).url
 let res = await (await fetch(`https://api2.musical.ly/aweme/v1/aweme/detail/?aweme_id=${url.split('?')[0].split('/')[5]}`)).json()
@@ -14,7 +14,7 @@ conn.sendMessage(m.chat, { video: { url: data[data.length - 1] }, caption: '_ᴛ
 handler.help = ['tiktok']
 handler.tags = ['downloader']
 handler.alias = ['tiktok', 'tikdl', 'tiktokdl', 'tiktoknowm']
-handler.command = /^(tt|tiktok)(dl|nowm)?$/i
+handler.command = /^(tt|тикток)(dl|nowm)?$/i
 export default handler
 
 async function getInfo(url) {
