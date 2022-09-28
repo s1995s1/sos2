@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗инфо❗] ОТСУТСТВУЕТ ССЫЛКА ТИКТОКА, ПОЖАЛУСТА ВВЕДИТЕ ЛЮБУЮ ССЫЛКУ НА ВИДЕО ТИКТОКА*\n\n*—◉ ПРИМЕР:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
+if (!text) throw `*[❗ИНФО❗] ОТСУТСТВУЕТ ССЫЛКА ТИКТОКА, ПОЖАЛУСТА ВВЕДИТЕ ЛЮБУЮ ССЫЛКУ НА ВИДЕО ТИКТОКА*\n\n*—◉ ПРИМЕР:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽 𝙴𝙽𝙻𝙰𝙲𝙴/𝙻𝙸𝙽𝙺 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 let url = (await fetch(text)).url
 let res = await (await fetch(`https://api2.musical.ly/aweme/v1/aweme/detail/?aweme_id=${url.split('?')[0].split('/')[5]}`)).json()
