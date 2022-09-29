@@ -6,12 +6,12 @@
 
 import axios from "axios"
 let handler = async (m, {command, conn}) => {
-let fgif = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`️u`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮`, 'jpegThumbnail': false }}}
+let fgif = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`️u`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `🧿 Альтрон - 𝙱𝚘𝚝 🔮`, 'jpegThumbnail': false }}}
 let apikey = keysxxx
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let user = global.db.data.users[who]
 let name = await conn.getName[who]
-if (command == 'wpmontaña') {
+if (command == 'ухх') {
 let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/mountain?apikey=APIKEY`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
@@ -33,7 +33,7 @@ await conn.reply(m.chat, global.wait, m)
 let json = res.data
 let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, url, [['Gracias💖', `/bot gracias`]], fgif, { mentions: [who] })}
-if (command == 'coffee') {
+if (command == 'кофе') {
 let haha = await conn.getFile(`https://coffee.alexflipnote.dev/random`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
