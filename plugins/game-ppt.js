@@ -15,7 +15,7 @@ astro = 'бумага'
 }
 if (text == astro) {
 global.db.data.users[m.sender].exp += 500
-m.reply(`🔰 Empate!\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🔰 Не чия!\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else if (text == 'бумага') {
 if (astro == 'камень') {
 global.db.data.users[m.sender].exp += 1000
