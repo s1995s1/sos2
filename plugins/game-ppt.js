@@ -19,42 +19,42 @@ m.reply(`🔰 Empate!\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
 } else if (text == 'papel') {
 if (astro == 'piedra') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🥳 Победа за Вами! 🎉\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 }
 } else if (text == 'tijera') {
 if (astro == 'papel') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🥳 Победа за Вами! 🎉\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 }
 } else if (text == 'tijera') {
 if (astro == 'papel') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🥳 Победа за Вами! 🎉\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 }
 } else if (text == 'papel') {
 if (astro == 'piedra') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🥳 Победа за Вами! 🎉\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 }
 } else if (text == 'piedra') {
 if (astro == 'tijera') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`🥳 Победа за Вами! 🎉\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Вы: ${text}\n👉🏻 Бот: ${astro}*`)
 }
 }}
 handler.help = ['игра']
