@@ -382,7 +382,7 @@ ${readMore}
 ° ඬ⃟👑 _${usedPrefix}датьпремиум *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}убратьпремиум *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}листпремиум_
-° ඬ⃟👑 _${usedPrefix}listcmd_
+° ඬ⃟👑 _${usedPrefix}груп *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
 ° ඬ⃟👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
 `.trim()
