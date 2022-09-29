@@ -39,7 +39,7 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
 ° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}рога_
 ° ඬ⃟🎖️ _${usedPrefix}дурак *<имя / @номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}умный *<имя / @номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}любит *<имя / @номер>*_
@@ -133,12 +133,12 @@ ${readMore}
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}инфогруппы_
 ° ඬ⃟💎 _${usedPrefix}ссылка_
-° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
+° ඬ⃟💎 _${usedPrefix}описание_ *<текст>*_
+° ඬ⃟💎 _${usedPrefix}название *<текст>*_
 ° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
-° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
+° ඬ⃟💎 _${usedPrefix}приветствие *<текст>*__
+° ඬ⃟💎 _${usedPrefix}прощание *<текст>*_
 ° ඬ⃟💎 _${usedPrefix}fantasmas_
 ° ඬ⃟💎 _${usedPrefix}destraba_
 
@@ -310,11 +310,6 @@ ${readMore}
 
 *<ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸/>*
 
-° ඬ⃟💵 _${usedPrefix}описание_
-° ඬ⃟💵 _${usedPrefix}прощание *<текст>*_
-° ඬ⃟💵 _${usedPrefix}админы *<текст>*_
-° ඬ⃟💵 _${usedPrefix}название *<текст>*_
-° ඬ⃟💵 _${usedPrefix}приветствие *<текст>*_
 ° ඬ⃟💵 _${usedPrefix}perfil_
 ° ඬ⃟💵 _${usedPrefix}work_
 ° ඬ⃟💵 _${usedPrefix}minar_
