@@ -97,12 +97,12 @@ ${readMore}
 
 *<𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊/>*
 
-° ඬ⃟📥 _${usedPrefix}обои *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}обои2 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}мотоцыклы *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}машины *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}кофе *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}рофили *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}обои_
+° ඬ⃟📥 _${usedPrefix}обои2_
+° ඬ⃟📥 _${usedPrefix}мотоцыклы_
+° ඬ⃟📥 _${usedPrefix}машины_
+° ඬ⃟📥 _${usedPrefix}кофе_
+° ඬ⃟📥 _${usedPrefix}рофили_
 ° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}тикток *<ссылка>*_
 ° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
