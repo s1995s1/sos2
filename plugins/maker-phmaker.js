@@ -384,7 +384,7 @@ if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ¿𝙲𝙾𝙼𝙾 𝚄𝚂
 ° ඬ⃟💫 ${usedPrefix + command} traffic-lights
 ° ඬ⃟💫 ${usedPrefix + command} train-station-poster
 ° ඬ⃟💫 ${usedPrefix + command} train_station
-° ඬ⃟💫 ${usedPrefix + command} tram
+° ඬ⃟💫 ${usedPrefix + command} 1
 ° ඬ⃟💫 ${usedPrefix + command} travellers-sketch
 ° ඬ⃟💫 ${usedPrefix + command} triangular
 ° ඬ⃟💫 ${usedPrefix + command} truck-advert
