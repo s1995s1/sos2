@@ -15,49 +15,49 @@ astro = 'papel'
 }
 if (text == astro) {
 global.db.data.users[m.sender].exp += 500
-m.reply(`🔰 Empate!\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +500 XP*`)
+m.reply(`🔰 Empate!\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +500 XP*`)
 } else if (text == 'papel') {
 if (astro == 'piedra') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +1000 XP*`)
+m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n❌ Premio -300 XP*`)
+m.reply(`☠️ Вы проиграли! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n❌ Premio -300 XP*`)
 }
 } else if (text == 'tijera') {
 if (astro == 'papel') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +1000 XP*`)
+m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n❌ Premio -300 XP*`)
+m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n❌ Premio -300 XP*`)
 }
 } else if (text == 'tijera') {
 if (astro == 'papel') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +1000 XP*`)
+m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n❌ Premio -300 XP*`)
+m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n❌ Premio -300 XP*`)
 }
 } else if (text == 'papel') {
 if (astro == 'piedra') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +1000 XP*`)
+m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n❌ Premio -300 XP*`)
+m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n❌ Premio -300 XP*`)
 }
 } else if (text == 'piedra') {
 if (astro == 'tijera') {
 global.db.data.users[m.sender].exp += 1000
-m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n🎁 Premio +1000 XP*`)
+m.reply(`🥳 Tú ganas! 🎉\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n🎁 Premio +1000 XP*`)
 } else {
 global.db.data.users[m.sender].exp -= 300
-m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 El Bot: ${astro}\n❌ Premio -300 XP*`)
+m.reply(`☠️ Tú pierdes! ❌\n\n*👉🏻 Tu: ${text}\n👉🏻 Бот: ${astro}\n❌ Premio -300 XP*`)
 }
 }}
 handler.help = ['ppt']
 handler.tags = ['games']
-handler.command = /^(ppt)$/i
+handler.command = /^(игра)$/i
 export default handler
