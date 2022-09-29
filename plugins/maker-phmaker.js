@@ -428,7 +428,7 @@ if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ¿𝙲𝙾𝙼𝙾 𝚄𝚂
 ° ඬ⃟💫 ${usedPrefix + command} wayback
 ° ඬ⃟💫 ${usedPrefix + command} weave
 ° ඬ⃟💫 ${usedPrefix + command} wedding-day
-° ඬ⃟💫 ${usedPrefix + command} wet
+° ඬ⃟💫 ${usedPrefix + command} тень
 ° ඬ⃟💫 ${usedPrefix + command} wild-brush
 ° ඬ⃟💫 ${usedPrefix + command} wine-label
 ° ඬ⃟💫 ${usedPrefix + command} winter-princess
@@ -439,7 +439,7 @@ if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ¿𝙲𝙾𝙼𝙾 𝚄𝚂
 ° ඬ⃟💫 ${usedPrefix + command} woven-sketch
 ° ඬ⃟💫 ${usedPrefix + command} xmas_tree
 ° ඬ⃟💫 ${usedPrefix + command} yellow_wall`)
-m.reply('*[❗] ʀᴇᴀʟɪᴢᴀɴᴅᴏ ᴅɪsᴇɴ̃ᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*')
+m.reply('*[❗] Ожидайте приобразовую...*')
 let img = await q.download?.()
 let url = await uploadImage(img)
 let images = `https://violetics.pw/api/photomaker/${encodeURIComponent(text)}?apikey=beta&image=${encodeURIComponent(url)}`
