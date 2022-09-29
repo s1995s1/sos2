@@ -60,7 +60,7 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}желания_
 ° ඬ⃟🎖️ _${usedPrefix}альтрон*<текст>*_
 ° ඬ⃟🎖️ _${usedPrefix}код *<текст>*_
-° ඬ⃟🎖️ _${usedPrefix}verdad_
+° ඬ⃟🎖️ _${usedPrefix}сполер *<текст>*_
 ° ඬ⃟🎖️ _${usedPrefix}reto_
 ° ඬ⃟🎖️ _${usedPrefix}cancion_
 ° ඬ⃟🎖️ _${usedPrefix}pista_

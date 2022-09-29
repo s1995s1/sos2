@@ -11,20 +11,20 @@ let estado =`
 ╭─[ *АЛЬТРОН - 𝐁𝐨𝐭* ]
 │ *➤ ПРИВЕТ${name}*
 │
-│ *ミ🤖 𝙴𝚂𝚃𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 🤖彡*
-│ *=> 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅*
-│ *=> 𝙱𝙾𝚃 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 ✅*
-│ *=> 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
+│ *ミ🤖 СТАТУС БОТА 🤖彡*
+│ *=> АКТИВНЫЙ ✅*
+│ *=> БОТ ОБЩЕГО ПОЛЬЗОВАНИЯ ✅*
+│ *=> АКТИВНОЕ ВРЕМЯ: ${uptime}*
 ╰───────────────
 `.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, '', 'СЩЗДАТЕЛЬ', null, null, [
-['МЕНЮ', '/menu']
+conn.sendHydrated(m.chat, estado, wm, picture, '', 'СОЗДАТЕЛЬ', null, null, [
+['МЕНЮ', '/#меню']
 ], m)}
 
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|status|estate|state|stado|stats)$/i
+handler.command = /^(estado|status|estate|статус|state|stado|stats)$/i
 export default handler
 
 function clockString(ms) {
