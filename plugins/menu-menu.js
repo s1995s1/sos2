@@ -36,9 +36,9 @@ ${readMore}
 
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
 
-° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}скрин *<текст>*_
+° ඬ⃟🎖️ _${usedPrefix}сим_
+° ඬ⃟🎖️ _${usedPrefix}пиксель_
 ° ඬ⃟🎖️ _${usedPrefix}рога_
 ° ඬ⃟🎖️ _${usedPrefix}дурак *<имя / @номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}умный *<имя / @номер>*_
