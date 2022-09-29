@@ -39,17 +39,17 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
 ° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}дурак *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}умный *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}любит *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}любит1 *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}дура *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}правда *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}какашка *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}русский *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}лучший *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}якрасивая *<имя / @номер>*_
+° ඬ⃟🎖️ _${usedPrefix}хитрый *<имя / @номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}pregunta *<texto>*_
 ° ඬ⃟🎖️ _${usedPrefix}suitpvp *<@tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
