@@ -32,7 +32,7 @@ let res = await axios("https://meme-api.herokuapp.com/gimme/wallpaper")
 await conn.reply(m.chat, global.wait, m)
 let json = res.data
 let url = json.url
-conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, url, [['Gracias💖', `/bot gracias`]], fgif, { mentions: [who] })}
+conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, url, [['Спасибо💖', `/bot gracias`]], fgif, { mentions: [who] })}
 if (command == 'кофе') {
 let haha = await conn.getFile(`https://coffee.alexflipnote.dev/random`)
 await conn.reply(m.chat, global.wait, m)
@@ -65,26 +65,26 @@ if (command == 'planeta') {
 let haha = await conn.getFile(`https://api-reysekha.herokuapp.com/api/wallpaper/tatasurya?apikey=APIKEY`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
-if (command == 'randomprofile') {
+if (command == 'профили') {
 let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/profil?apikey=${apikey}`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
-if (command == 'wpaesthetic2') {
+if (command == 'обои2') {
 let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/aesthetic?apikey=${apikey}`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
-if (command == 'wpvehiculo') {
+if (command == 'машины') {
 let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/mobil?apikey=${apikey}`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
-if (command == 'wallhp') {
+if (command == 'обои') {
 let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/wallhp?apikey=${apikey}`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
-if (command == 'wpmoto') {
+if (command == 'мотоцыклы') {
 let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/motor?apikey=${apikey}`)
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
 }
-handler.command = ['ухх', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'кофе', 'pentol', 'caricatura', 'ciberespacio', 'technology', 'doraemon', 'hacker', 'planeta', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'wpmoto']
+handler.command = ['обои', 'мотоцыклы', 'машины', 'обои2', 'кофе', 'профили', 'caricatura', 'ciberespacio', 'technology', 'doraemon', 'hacker', 'planeta', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'wpmoto']
 export default handler
