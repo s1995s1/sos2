@@ -86,5 +86,5 @@ let haha = await conn.getFile(`https://zenzapis.xyz/randomimage/motor?apikey=${a
 await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha.data, [['🔄 СЛЕДУЮЩАЯ 🔄', `/${command}`]], fgif, { mentions: [who] })}
 }
-handler.command = ['wpmontaña', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'coffee', 'pentol', 'caricatura', 'ciberespacio', 'technology', 'doraemon', 'hacker', 'planeta', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'wpmoto']
+handler.command = ['ухх', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'кофе', 'pentol', 'caricatura', 'ciberespacio', 'technology', 'doraemon', 'hacker', 'planeta', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'wpmoto']
 export default handler
