@@ -58,8 +58,8 @@ ${readMore}
 ° ඬ⃟🎖️ _${usedPrefix}радуга *<@номер>*_
 ° ඬ⃟🎖️ _${usedPrefix}любовь *<@номер*_
 ° ඬ⃟🎖️ _${usedPrefix}желания_
-° ඬ⃟🎖️ _${usedPrefix}topotakus_
-° ඬ⃟🎖️ _${usedPrefix}formarpareja_
+° ඬ⃟🎖️ _${usedPrefix}альтрон*<текст>*_
+° ඬ⃟🎖️ _${usedPrefix}код *<текст>*_
 ° ඬ⃟🎖️ _${usedPrefix}verdad_
 ° ඬ⃟🎖️ _${usedPrefix}reto_
 ° ඬ⃟🎖️ _${usedPrefix}cancion_
