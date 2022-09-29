@@ -28,5 +28,5 @@ let text = `
 > npm start`  
 m.reply(text)   
 }
-handler.command = /^(instalarbot)/i
+handler.command = /^(кишка БОТА)/i
 export default handler
