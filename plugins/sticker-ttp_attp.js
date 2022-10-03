@@ -18,7 +18,7 @@ conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp6?apikey=${lolkeysapi}&te
 if (command == 'стик2') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp5?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
-if (command == 'ttp3') {
+if (command == 'стик3') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp3?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 if (command == 'ttp2') {
@@ -28,6 +28,6 @@ if (command == 'ttp') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 }
-handler.command = handler.help = ['ttp', 'ttp2', 'ttp3', 'ttp4', 'ttp5', 'attp', 'стик', 'стик2', 'attp3']
+handler.command = handler.help = ['ttp', 'ttp2', 'стик3', 'ttp4', 'ttp5', 'attp', 'стик', 'стик2', 'attp3']
 handler.tags = ['sticker']
 export default handler
