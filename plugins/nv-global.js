@@ -3,7 +3,7 @@ handler.all = async function (m) {
 let chat = global.db.data.chats[m.chat]
 
 if (/^hola$/i.test(m.text) && chat.audios && !chat.isBanned) {
-let vn = './media/Hola.mp3'
+let vn = './media/.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
 
@@ -12,8 +12,8 @@ let vn = './media/dylan1.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(araara|ara ara)/gi)) {    
-let vn = './media/Ara.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Скучаю|скучаю)/gi)) {    
+let vn = './media/скучаю.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
