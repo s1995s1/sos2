@@ -21,13 +21,13 @@ conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp5?apikey=${lolkeysapi}&te
 if (command == 'не работает') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp3?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
-if (command == 'стик3') {
+if (command == 'не работает') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp2?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 if (command == 'ttp') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 }
-handler.command = handler.help = ['ttp', 'ttp2', 'стик3', 'ttp4', 'ttp5', 'attp', 'стик', 'стик2', 'attp3']
+handler.command = handler.help = ['attp', 'стик', 'стик2']
 handler.tags = ['sticker']
 export default handler
