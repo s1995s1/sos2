@@ -14,6 +14,6 @@ m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙴𝙽𝚅𝙸
 }
 handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(объявление|bc)(group|grup|gc)$/i
+handler.command = /^(объявление|bc)(group|групы|gc)$/i
 handler.rowner = true
 export default handler
