@@ -102,21 +102,7 @@ ${readMore}
 ° ඬ⃟📥 _${usedPrefix}тикток *<ссылка>*_
 ° ඬ⃟📥 _${usedPrefix}плей *<название песни>*_
 
-*<КОМАНДЫ ДЛЯ АДМИНА>* 
-
-° ඬ⃟💎 _${usedPrefix}добавить *<номер>*_
-° ඬ⃟💎 _${usedPrefix}снести *<@ноиер>*_
-° ඬ⃟💎 _${usedPrefix}внимание_
-° ඬ⃟💎 _${usedPrefix}админы_
-° ඬ⃟💎 _${usedPrefix}группа открыть/закрыть_
-° ඬ⃟💎 _${usedPrefix}инфогруппы_
-° ඬ⃟💎 _${usedPrefix}ссылка_
-° ඬ⃟💎 _${usedPrefix}описание_ *<текст>*_
-° ඬ⃟💎 _${usedPrefix}название *<текст>*_
-° ඬ⃟💎 _${usedPrefix}приветствие *<текст>*__
-° ඬ⃟💎 _${usedPrefix}прощание *<текст>*_
-
-*<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
+*<КОМАНДЫ +𝟙𝟠/>*
 
 ° ඬ⃟🔞 _${usedPrefix}перень_
 ° ඬ⃟🔞 _${usedPrefix}девушка_
@@ -130,43 +116,53 @@ ${readMore}
 ° ඬ⃟🔞 _${usedPrefix}imagenlesbians_
 ° ඬ⃟🔞 _${usedPrefix}panties_
 
-*<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
+*<ПОИСКОВИК/>*
 
 ° ඬ⃟🔍 _${usedPrefix}гугл *<текст>*_
 ° ඬ⃟🔍 _${usedPrefix}википедия *<текст>*_
 
-*<𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊/>*
+*<СТИКЕРЫ/>*
 
 ° ඬ⃟👽 _${usedPrefix}стикер *<гифка/картинка/видео>*_
 ° ඬ⃟👽 _${usedPrefix}преоброзовать *<стикер>*_
 ° ඬ⃟👽 _${usedPrefix}attp *<текст>*_
 
 
-*<𝕆𝕎ℕ𝔼ℝ 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝔻𝕆ℝ𝔼𝕊/>*
+*<КОМАНДЫ ДЛЯ АДМИНА/>*
 
 ° ඬ⃟👑 > *<символ>*
 ° ඬ⃟👑 _${usedPrefix}вызов_
+° ඬ⃟👑 _${usedPrefix}внимание_
 ° ඬ⃟👑 _${usedPrefix}призраки_
 ° ඬ⃟👑 _${usedPrefix}удалить_
-° ඬ⃟👑 _${usedPrefix}включить *restrict*_
-° ඬ⃟👑 _${usedPrefix}выключить *restrict*_
-° ඬ⃟👑 _${usedPrefix}включить *autoread*_
-° ඬ⃟👑 _${usedPrefix}выключить *autoread*_
-° ඬ⃟👑 _${usedPrefix}включить *public*_
-° ඬ⃟👑 _${usedPrefix}выключить *public*_
-° ඬ⃟👑 _${usedPrefix}включить *pconly*_
-° ඬ⃟👑 _${usedPrefix}выключить *pconly*_
-° ඬ⃟👑 _${usedPrefix}включить *gconly*_
-° ඬ⃟👑 _${usedPrefix}выключить *gconly*_
-° ඬ⃟👑 _${usedPrefix}включить *anticall*_
-° ඬ⃟👑 _${usedPrefix}выключить *anticall*_
-° ඬ⃟👑 _${usedPrefix}включить *antiprivado*_
-° ඬ⃟👑 _${usedPrefix}выключить *antiprivado*_
-° ඬ⃟👑 _${usedPrefix}бан_
-° ඬ⃟👑 _${usedPrefix}банчат_
-° ඬ⃟👑 _${usedPrefix}чатактив_
+° ඬ⃟👑 _${usedPrefix}добавить *<номер>*_
+° ඬ⃟👑 _${usedPrefix}снести *<@ноиер>*_
+° ඬ⃟👑 _${usedPrefix}админы_
+° ඬ⃟👑 _${usedPrefix}группа открыть/закрыть_
+° ඬ⃟👑 _${usedPrefix}инфогруппы_
+° ඬ⃟👑 _${usedPrefix}ссылка_
+° ඬ⃟👑 _${usedPrefix}описание_ *<текст>*_
+° ඬ⃟👑 _${usedPrefix}название *<текст>*_
+° ඬ⃟👑 _${usedPrefix}приветствие *<текст>*_
+° ඬ⃟👑 _${usedPrefix}прощание *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}датьадмина *<@номер>*_
 ° ඬ⃟👑 _${usedPrefix}снятьадмина *<@номер>*_
+° ඬ⃟👑 _${usedPrefix}включить *антиссылка*_
+° ඬ⃟👑 _${usedPrefix}выключить *антиссылка*_
+° ඬ⃟👑 _${usedPrefix}включить *антиссылка2*_
+° ඬ⃟👑 _${usedPrefix}выключить *антиссылка2*_
+° ඬ⃟👑 _${usedPrefix}включить *приветствие*_
+° ඬ⃟👑 _${usedPrefix}выключить *приветствие*_
+° ඬ⃟👑 _${usedPrefix}включить *аудио*_
+° ඬ⃟👑 _${usedPrefix}выключить *аудио*_
+
+
+*<КОМАНДЫ ДЛЯ ВЛАДЕЛЬЦА БОТА/>*
+
+° ඬ⃟👑 _${usedPrefix}бан_
+° ඬ⃟👑 _${usedPrefix}удалитьбан_
+° ඬ⃟👑 _${usedPrefix}банчат_
+° ඬ⃟👑 _${usedPrefix}чатактив_
 ° ඬ⃟👑 _${usedPrefix}объявление *<текст>*_
 ° ඬ⃟👑 _${usedPrefix}обновить_
 ° ඬ⃟👑 _${usedPrefix}датьпремиум *<@номер>*_
