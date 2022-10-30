@@ -8,7 +8,7 @@ conn.sendButton(id, `*╔══❰ ПРЕСС-РЕЛИЗ ❱══╗*\n*║*\n*
 contextInfo: { externalAdReply: {
 title: 'Бот группы Альтрон',
 body: 'Альтрон ﹣ ʙᴏᴛ', 
-sourceUrl: `https://github.com`, 
+sourceUrl: ``, 
 thumbnail: fs.readFileSync('./Menu2.jpg') }}})}
 m.reply(`*[❗ИНФО❗] СООБЩЕНИЕ ОТПРАВЛЕННО В ${groups.length} ГРУПП*\n\n*ПРИМЕЧАНИЕ: ЭТА КОМАНДА МОЖЕТ ИМЕТЬ ОШИБКИ И МОЖЕТ ОТПРАВИТЬСЯ НЕ ВО ВСЕ ГРУППЫ*`)
 }
