@@ -11,14 +11,6 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]}
 
 const asupan = [
-"https://youtu.be/QHLajqN45QE?t=6",
 "",
 "",
-
-
-
-
-
-
-
 ]
