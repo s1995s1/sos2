@@ -11,9 +11,9 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]}
 
 const asupan = [
-"https://cdn2.embed-player.space/21/11/16/1098605.mp4",
-"https://hot0.semyana.website/cached/828379.mp4",
-"https://hot.embed-player.space/cached/1096462.mp4",
-"https://cdn2.embed-player.space/19/09/26/736731.mp4",
-"https://cdn.embed-player.space/15/07/14/Dtr9iHiemU.mp4",
+"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/LY4FhY6B",
+"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/yZp12KDQ",
+"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/aFhl0KzA",
+"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/3dhj2AZQ",
+"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/3F5RCYbK",
 ]
