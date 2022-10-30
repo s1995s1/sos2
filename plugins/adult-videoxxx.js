@@ -22,4 +22,9 @@ const asupan = [
 "https://hot.embed-player.space/cached/1103714.mp4",
 "https://hot4.embed-player.space/cached/4771.mp4",
 "https://hot0.embed-player.space/cached/1104163.mp4",
+"https://cdn2.embed-player.space/18/12/04/532575.mp4",
+"https://hot0.embed-player.space/cached/478795.mp4",
+"https://cdn.embed-player.space/17/09/12/493129.mp4",
+"https://cdn3.embed-player.space/22/03/27/1101162.mp4",
+"https://hot.embed-player.space/cached/1103677.mp4",
 ]

@@ -11,8 +11,22 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]}
 
 const asupan = [
-"https://cdn2.embed-player.space/18/12/04/532575.mp4",
-"https://hot0.embed-player.space/cached/478795.mp4",
-"https://cdn.embed-player.space/17/09/12/493129.mp4",
-"https://cdn3.embed-player.space/22/03/27/1101162.mp4",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-1.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-2.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-3.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-4.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-5.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-6.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-7.gif",
+"https://otnosheniya-kiv.ru/wp-content/uploads/collection-sex-gifs-8.gif",
+"",
+"",
+"",
+
+
+
+
+
+
+
 ]
