@@ -11,9 +11,16 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]}
 
 const asupan = [
-"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/LY4FhY6B",
-"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/yZp12KDQ",
-"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/aFhl0KzA",
-"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/3dhj2AZQ",
-"https://mega.nz/folder/XMhSkLDJ#9GQrXb05YTJWh0lEtLJ1zw/file/3F5RCYbK",
+"https://cdn2.embed-player.space/21/11/16/1098605.mp4",
+"https://hot0.embed-player.space/cached/1101912.mp4",
+"https://cdn2.embed-player.space/22/08/07/1103436.mp4",
+"https://hot.embed-player.space/cached/436630.mp4",
+"https://hot.embed-player.space/cached/1089383.mp4",
+"https://cdn3.embed-player.space/22/09/23/1104031.mp4",
+"https://hot5.embed-player.space/cached/1095954.mp4",
+"https://hot.embed-player.space/cached/1098203.mp4",
+"https://hot.embed-player.space/cached/1103714.mp4",
+"https://hot4.embed-player.space/cached/4771.mp4",
+"https://hot0.embed-player.space/cached/1104163.mp4",
+"https://cdn2.embed-player.space/22/08/07/1103436.mp4",
 ]
