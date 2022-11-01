@@ -10,17 +10,5 @@ handler.command = /^(девушка2)$/i
 export default handler
 
 global.packgirl = [
-  "https://disk.yandex.ru/i/wni8F73l6NlCGw",
-  "https://disk.yandex.ru/i/KfgL_Iqg7wdQCg",
-  "https://disk.yandex.ru/i/k0FodOnTtYSHMg",
-  "https://disk.yandex.ru/i/CI7whKqGDGiclQ",
-  "https://disk.yandex.ru/i/U_jmcG1DmKlhLg",
-  "https://disk.yandex.ru/i/_6SqZ5-YEko6Zw",
-  "https://disk.yandex.ru/i/SSF2wqHbTntvmQ",
-  "https://disk.yandex.ru/i/Npaz1vqr5BS6vA",
-  "https://disk.yandex.ru/i/-82mLMs3Za4Z6A",
-  "https://disk.yandex.ru/i/ms_r7XHHrZ3rqg",
-  "https://disk.yandex.ru/i/iI2_1M7Dn2rayg",
-  "https://disk.yandex.ru/i/mc3UL-hFKSAVsw",
-
+  "https://disk.yandex.ru/i/wni8F73l6NlCGw.jpg",
   ]
