@@ -11,4 +11,5 @@ export default handler
 
 global.packgirl = [
   "https://disk.yandex.ru/i/wni8F73l6NlCGw.jpg",
+  "https://mega.nz/folder/epsQxZAK#dk8tfsDgmmusJEZ1_9NWtA/file/vxM02ZQI",
   ]
