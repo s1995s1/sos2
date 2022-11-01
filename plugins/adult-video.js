@@ -11,11 +11,8 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]}
 
 const asupan = [
-"https://disk.yandex.ru/i/wni8F73l6NlCGw",
-"https://disk.yandex.ru/i/KfgL_Iqg7wdQCg",
-"https://disk.yandex.ru/i/k0FodOnTtYSHMg",
-"https://disk.yandex.ru/i/CI7whKqGDGiclQ",
-"https://disk.yandex.ru/i/U_jmcG1DmKlhLg",
-"https://disk.yandex.ru/i/_6SqZ5-YEko6Zw",
-"https://disk.yandex.ru/i/SSF2wqHbTntvmQ",
+"",
+"",
+"",
+"",
 ]
