@@ -67,9 +67,11 @@ footer: `┏━━━━━━━━━━━━━┓
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиарабики*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}включить *обморочный*_
 ┣ ඬ⃟ℹ️ _${usedPrefix}выключить *обморочный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антиадмин*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *интиадмин*_
 ┗━━━━━━━━━━━━━┛`,
 title: null,
-buttonText: "𝐒𝐄𝐋𝐄𝐂𝐂𝐈𝐎𝐍𝐄 𝐀𝐐𝐔𝐢",
+buttonText: "СТРОКА КОМАНД БЛЯ ГРУППЫ",
 sections }
 
 let isEnable = /true|включить|(turn)?on|1/i.test(command)
