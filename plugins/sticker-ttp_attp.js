@@ -6,7 +6,7 @@ if (command == 'attp') {
 let teksb = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
 conn.sendFile(m.chat, global.API('xteam', '/attp', { file: '', text: teksb }), 'sticker.webp', '', m, false, { asSticker: true })}
 
-if (command == 'attp2') {
+if (command == 'стик3') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/attp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 if (command == 'стик') {
@@ -28,6 +28,6 @@ if (command == 'ttp') {
 conn.sendFile(m.chat, `https://api.lolhuman.xyz/api/ttp?apikey=${lolkeysapi}&text=${teks}`, 'sticker.webp', '', m, { asSticker: true })}
     
 }
-handler.command = handler.help = ['attp', 'стик', 'стик2']
+handler.command = handler.help = ['attp', 'стик', 'стик2', 'стик3' ]
 handler.tags = ['sticker']
 export default handler
