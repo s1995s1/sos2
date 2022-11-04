@@ -20,8 +20,11 @@ rows: [
 {title: "💬 | ЧАСТНЫЙ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} частный`},
 {title: "🤬 | АНТИТОЛСИЧНЫЙ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антитоксичный`},
 {title: "🕸️ | АНТИТРАБА", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антитраба`},
-{title: "👎🏻 | АНТИАРАБИКИ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антиарабики`},  
+{title: "👎🏻 | АНТИАРАБИКИ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антиарабики`}, 
+{title: "🤖 | МОДЕ БОТ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} модебот`}, 
+{title: "👑 | ТОЛЬКО АДМИН", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} толькоадмин`},    
 ]}, ]
+
 //let name = await conn.getName(m.sender)
 const listMessage = {
 text: ' ',
@@ -162,6 +165,16 @@ if (!(isAdmin || isOwner)) {
 global.dfail('owner' , m, conn)
 throw false
 }}
+chat.modohorny = isEnable          
+break
+case 'толькоадмин':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.modoadmin = isEnable          
+break    
 chat.autosticker = isEnable          
 break
 case 'аудио':
@@ -245,6 +258,16 @@ if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
+bot.antiPrivate = isEnable
+break
+case 'модебот':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.modejadibot = isEnable
+break  
 chat.antiToxic = isEnable
 break
 case 'антитраба':
