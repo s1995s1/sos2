@@ -5,7 +5,8 @@ import path, { join } from 'path'
 import { fileURLToPath, pathToFileURL } from 'url'
 import { platform } from 'process'
 import * as ws from 'ws';
-import { readdirSync, statSync, unlinkSync, existsSync, readFileSync, watch } from 'fs';
+import { readdirSync, statSync, unlinkSync, existsSync, readFileSync, rmSync } from 'fs';
+import watch from 'glob-fs'
 import yargs from 'yargs';
 import { spawn } from 'child_process';
 import lodash from 'lodash';
@@ -75,12 +76,20 @@ browser: ['TheMystic-Bot','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
+/* Solucion mensajes en espera */
+//global.conn = makeWASocket({ ...connectionOptions, ...opts.connectionOptions,
+//getMessage: async (key) => (
+//opts.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) ||
+//opts.store.loadMessage(/** @type {string} */(key.id)) || {}
+//).message || { conversation: 'Please send messages again' },
+//})
+
 conn.isInit = false
 
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp'], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "jadibts"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
 }, 30 * 1000)}
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
@@ -89,6 +98,43 @@ function clearTmp() {
 const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
 tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
+//const ignoreDir = (filePath) => filePath.includes('creds.js');
+/* Y ese fue el momazo mas bueno del mundo
+   Aunque no dudara tan solo un segundo
+   Mas no me arrepiento de haberme reido
+   Por que la grasa es un sentimiento
+   Y ese fue el momazo mas bueno del mundo
+   Aunque no dudara tan solo un segundo
+   que me arrepiento de ser un grasoso
+    Por que la grasa es un sentimiento
+    -El waza 👻👻👻👻 (Aiden)
+
+*/
+readdirSync("./jadibts").forEach(file => {
+    const btprs = function (folder) {
+        console.log(folder)
+        let status = false
+        Object.keys(global.conns).forEach((key) => {
+            if (global.conns[key].uniqid == folder) status = true
+        });
+        return status
+    }
+    let lrp = btprs(file)
+    console.log(lrp)
+    if (!lrp) {rmSync("./jadibts/" + file, { recursive: true, force: true })}
+    else if (lrp){
+        try {
+    readdirSync("./jadibts/" + file).forEach(file2 => {
+        if (file2 !== "creds.json") {
+            unlinkSync("./jadibts/" + file + "/" + file2)
+        } 
+    })
+    } catch {}}})
+    
+//const ignoreDir2 = (filePath) => filePath.includes('creds.js');    
+readdirSync("./MysticSession").forEach(file => {
+    if (file !== 'creds.json') {
+        unlinkSync("./MysticSession/" + file, { recursive: true, force: true })}})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
@@ -136,10 +182,10 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ ПРИВЕТ* \n*║*\n*╟❧ ОЗНАКОМСЯ С ПРАВИЛАМИ ГРУППЫ:*\n*╟❧* @desc\n*║*\n*╟❧ ДОБРО ПОЖАЛОВАТЬ!!*\n*╚══════════════*'
-conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ ЧАО КАКАО МЫ И ДРУГИХ НАЙДЕМ 👋🏻* \n*╟❧ ДО ИГРАЛСЯ ХУЙ НА СКРИПКЕ*\n*╚══════════════*'
-conn.spromote = '*@user ТЕПЕРЬ ТЫ АДМИН ГРУППЫ!!*'
-conn.sdemote = '*@user ТЫ БОЛЬШЕ НЕ АДМИН ГРУППЫ!!*'
+conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n*╟❧* @desc\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*'
+conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ 𝙷𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 👋🏻* \n*╚══════════════*'
+conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*'
+conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
 conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
 conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*'

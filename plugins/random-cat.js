@@ -4,7 +4,7 @@ try {
 let res = await fetch('https://cataas.com/cat')
 let img = await res.buffer()
 let caption = `
-_Альтрон - Bot_
+_©The Mystic - Bot_
 `.trim()
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 } catch (e) {
@@ -13,6 +13,6 @@ throw '*Error!*'
 }}
 handler.help = ['cat']
 handler.tags = ['random']
-handler.command = /^котейка$/i
+handler.command = /^cat$/i
 handler.fail = null
 export default handler
