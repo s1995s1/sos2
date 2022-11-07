@@ -207,10 +207,10 @@ let vn = './media/девочка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(6)/gi)) {    
-let vn = './media/6.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
-   
-return !0 }
-export default handler
+if (!chat.isBanned && chat.audios && m.text.match(/(shitpost)/gi)) {    
+    let vn = './media/shitpost.mp3'
+    this.sendPresenceUpdate('recording', m.chat)   
+    this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+       
+    return !0 }
+    export default handler
