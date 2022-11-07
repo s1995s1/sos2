@@ -57,18 +57,18 @@ let vn = './media/chica lgante.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(giagnosticadocongay|diagnosticado con gay|diagnosticado gay|te diagnóstico con gay|diagnóstico gay|te diagnostico con gay|te diagnóstico con gay|te diagnosticó con gay|te diagnostico con gay)/gi)) {    
-let vn = './media/DiagnosticadoConGay.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(бот ты здесь|Бот ты здесь|бот ты тут|Бот ты тут)/gi)) {    
+let vn = './media/храп.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(es puto|eeesss putoo|es putoo|esputoo)/gi)) {    
-let vn = './media/Es putoo.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(https:)/gi)) {    
+let vn = './media/ссылка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(feliz cumpleaños|felizcumpleaños|happy birthday)/gi)) {    
-let vn = './media/Feliz cumple.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(удалю|Удалю|Удалите|удалите)/gi)) {    
+let vn = './media/чистка.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
