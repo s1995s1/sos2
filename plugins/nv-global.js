@@ -52,7 +52,7 @@ let vn = './media/Buenos-dias-2.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(chica lgante|Chica lgante|Chicalgante|chicalgante|chical gante|Chical gante)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(Chica lgante|Chicalgante|chicalgante|chical gante|Chical gante)/gi)) {    
 let vn = './media/chica lgante.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -147,7 +147,7 @@ let vn = './media/секс.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (!chat.isBanned && chat.audios && m.text.match(/(Ржу|ржу)/gi)) {    
+if (!chat.isBanned && chat.audios && m.text.match(/(пидор|Пидор)/gi)) {    
 let vn = './media/ржу.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
