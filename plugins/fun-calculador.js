@@ -12,6 +12,12 @@ _*${text.toUpperCase()}* *УМНЫЙ 🤓 НА* *${(500).getRandom()}%*
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})} 
+if (command == 'развод') {
+conn.reply(m.chat, `
+ _*${text.toUpperCase()}* *ВЫ ДОЛЖНЫ РАЗВЕСТИСЬ 🤓 ВАША ЛЮБОВЬ СОСТОИТ ИЗ* *${(500).getRandom()}%* *ВВОБЩЕ ДО ПИЗДЫ ЕБИТЕСЬ САМИ*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})} 
 if (command == 'любит') {
 conn.reply(m.chat, `
 _*${text.toUpperCase()}* *ОН ВАС 😍 ЛЮБИТ НА* *${(500).getRandom()}%* *ПОДТВЕРЖДЕННО*_
@@ -69,5 +75,5 @@ mentions: m.mentionedJid
 }
 handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['calculator']
-handler.command = /^дурак|умный|любит|дура|любит1|правда|какашка|русский|лучший|якрасивая|хитрый/i
+handler.command = /^дурак|умный|любит|дура|любит1|правда|какашка|русский|лучший|якрасивая|развод|хитрый/i
 export default handler
