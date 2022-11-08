@@ -14,7 +14,7 @@ mentions: m.mentionedJid
 } : {})} 
 if (command == 'развод') {
 conn.reply(m.chat, `
- _*${text.toUpperCase()}* *ВЫ ДОЛЖНЫ РАЗВЕСТИСЬ 🤓 ВАША ЛЮБОВЬ СОСТОИТ ИЗ* *${(500).getRandom()}%* *ВВОБЩЕ ДО ПИЗДЫ ЕБИТЕСЬ САМИ*_
+ _*${text.toUpperCase()}* *ВЫ ДОЛЖНЫ РАЗВЕСТИСЬ 💔💔 ВАША ЛЮБОВЬ СОСТОИТ ИЗ💔💔* *${(500).getRandom()}%* *ВВОБЩЕ ДО ПИЗДЫ ЕБИТЕСЬ САМИ🖕🖕🖕*_
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})} 
