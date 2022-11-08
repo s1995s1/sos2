@@ -20,7 +20,7 @@ rows: [
 {title: "💬 | ЧАСТНЫЙ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} частный`},
 {title: "🤬 | АНТИ ТОКСИЧНЫЙ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антитоксичный`},
 {title: "🕸️ | АНТИТРАБА", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антитраба`},
-{title: "👎🏻 | АНТИ ИНДУС", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антиарабики`}, 
+{title: "👎🏻 | АНТИ ИНДУС", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} антииндус`}, 
 {title: "🤖 | МОДЕ БОТ", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} модебот`}, 
 {title: "👑 | ТОЛЬКО АДМИН", description: "ВКЛЮЧИТЬ ИЛИ ОТКЛЮЧИТЬ", rowId: `${usedPrefix + command} толькоадмин`},    
 ]}, ]
@@ -280,7 +280,7 @@ throw false
 }}
 chat.antiTraba = isEnable
 break
-case 'антиарабики':
+case 'антииндус':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
