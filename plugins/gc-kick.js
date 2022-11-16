@@ -7,7 +7,6 @@ let owr = m.chat.split`-`[0]
 await conn.groupParticipantsUpdate(m.chat, [user], 'remove')}
 handler.command = /^(снести|echar|hechar|sacar)$/i
 handler.admin = true
-handler.rowner = true
 handler.group = true
 handler.botAdmin = true
 export default handler
