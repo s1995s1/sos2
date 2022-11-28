@@ -101,6 +101,11 @@ if (!chat.isBanned && chat.audios && m.text.match(/(стирка|Стирка|с
 let vn = './media/люблю.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+if (!chat.isBanned && chat.audios && m.text.match(/(не понял|Не понял)/gi)) {    
+let vn = './media/привет.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
 if (!chat.isBanned && chat.audios && m.text.match(/(Ты кто|ты кто)/gi)) {    
 let vn = './media/пол.mp3'
